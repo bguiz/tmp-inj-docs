@@ -6,7 +6,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: false
     env:
       SSH_USER: ${{ secrets.DEVNET_SSH_USER }}
       SSH_KEY: ${{ secrets.DEVNET_SSH_KEY }}
