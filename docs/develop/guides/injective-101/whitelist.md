@@ -15,7 +15,7 @@ Contract upload on Injective requires governance approval. This structure has be
 
 This governance process is time-consuming for validators and the community. Injective builders additionally face a 4-day wait to roll out features, affecting developer experience and user growth.
 
-As of the [Altaris chain upgrade](../../../nodes/Validators/mainnet/canonical-chain-upgrade/canonical-1.13.0.md), it is now possible to request whitelisting your address for contract uploads.
+As of the [Altaris chain upgrade](../../../nodes/validators/mainnet/canonical_chain_upgrade/canonical-1.13.2.md), it is now possible to request whitelisting your address for contract uploads.
 
 # Submission Guidelines
 
@@ -31,7 +31,9 @@ In order to be considered for a whitelist approval, it is strongly recommended t
 Users that meet these criteria will have a greater chance at receiving whitelist permissions:
 
 1. The project has completed Injective Foundation KYC/KYB and the team members' identities are known to the community.
+
 - Exception: Anonymous developers with proven credibility and successful apps in other ecosystems.
+
 2. The project has been live on mainnet for at least 1 month and has achieved significant TVL/usage.
 
 # Operational Guidelines
