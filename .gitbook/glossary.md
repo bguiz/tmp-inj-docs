@@ -1,8 +1,12 @@
+---
+description: >-
+  Pocket size cheat sheet for Injective. Use this glossary to learn about terms
+  specific to Injective.
+---
+
 # Glossary
 
-Use this glossary to learn about terms specific to Injective.
-
-### Active set
+Active set
 
 The validators that participate in consensus and receive rewards.
 
