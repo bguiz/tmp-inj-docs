@@ -1,8 +1,12 @@
+---
+description: >-
+  As a developer, you may be interested in having a private/dedicated node or
+  indexing solutions powering your dApp.
+---
+
 # Private Nodes
 
-As a developer, you may be interested in having a private/dedicated node or indexing solutions powering your dApp.&#x20;
-
-Here is a list of companies offering private Injective infrastructure services. For more information, click on their websites below
+Here is a list of external providers offering private Injective infrastructure services. For more information, click on their websites below
 
 * [AllNodes](https://www.allnodes.com/inj)
 * [NewMetric](https://app.newmetric.xyz/)
