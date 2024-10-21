@@ -49,6 +49,7 @@
 ## Developers
 
 * [Exchange Developers](developers/exchange-developers/README.md)
+  * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
   * [Provider Oracle](developers/exchange-developers/provider-oracle.md)
 * [Cosmwasm Developers](developers/cosmwasm-developers/README.md)
   * [Your First Smart Contract](developers/cosmwasm-developers/your-first-smart-contract.md)
@@ -60,6 +61,9 @@
     * [Creating UIs](developers/cosmwasm-developers/guides/creating-uis.md)
   * [CW20 Adapter](developers/cosmwasm-developers/page-1.md)
   * [Injective Test Tube](developers/cosmwasm-developers/injective-test-tube.md)
+* [Guides](developers/guides/README.md)
+  * [Testnet Proposals](developers/guides/testnet-proposals.md)
+  * [Convert addresses](developers/guides/convert-addresses.md)
 * [Modules](developers/modules/README.md)
   * [Injective](developers/modules/injective/README.md)
     * [Auction](developers/modules/injective/auction/README.md)
