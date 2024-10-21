@@ -35,17 +35,8 @@
   * [Injective CW SDK](https://github.com/InjectiveLabs/cw-injective)
   * [The Graph](https://docs.substreams.dev/documentation/how-to-guides/injective)
   * [Cosmosvisor](toolkits/cosmosvisor.md)
-
-## Nodes
-
-* [Getting Started](nodes/getting-started/README.md)
-  * [Running a node](nodes/getting-started/running-a-node/README.md)
-    * [1. Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
-  * [Interact with a node](nodes/getting-started/interact-with-a-node.md)
-* [Validators](nodes/validators.md)
-* [Public Endpoints](nodes/public-endpoints.md)
-* [Private Nodes](nodes/private-nodes.md)
-* [Injective Indexer Setup](https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a)
+* [References](references.md)
+* [Glossary](glossary.md)
 
 ## Developers
 
@@ -97,15 +88,21 @@
     * [Genutils](developers/modules/core/genutils.md)
 * [Documentation](https://docs.ts.injective.network)
 
+## Nodes
+
+* [Getting Started](nodes/getting-started/README.md)
+  * [Running a node](nodes/getting-started/running-a-node/README.md)
+    * [1. Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
+  * [Interact with a node](nodes/getting-started/interact-with-a-node.md)
+* [Validators](nodes/validators.md)
+* [Public Endpoints](nodes/public-endpoints.md)
+* [Private Nodes](nodes/private-nodes.md)
+* [Injective Indexer Setup](https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a)
+
 ## Traders
 
 * [Documentation](https://docs.trading.injective.network)
 * [API Reference](https://api.injective.exchange/)
-
-## Other
-
-* [References](other/references.md)
-* [Glossary](other/glossary.md)
 
 ## Useful Links
 
