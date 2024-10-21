@@ -45,6 +45,7 @@
 * [Validators](nodes/validators.md)
 * [Public Endpoints](nodes/public-endpoints.md)
 * [Private Nodes](nodes/private-nodes.md)
+* [Injective Indexer Setup](https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a)
 
 ## Developers
 
@@ -98,7 +99,6 @@
 
 ## Traders
 
-* [Traders](traders/traders.md)
 * [Documentation](https://docs.trading.injective.network)
 * [API Reference](https://api.injective.exchange/)
 
@@ -109,7 +109,6 @@
 
 ## Useful Links
 
-* [Injective Indexer Setup](https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a)
 * [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
 * [Injective Hub](https://hub.injective.network)
 * [Injective Explorer](https://explorer.injective.network)

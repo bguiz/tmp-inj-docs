@@ -24,5 +24,5 @@ Start building on Injective[\
 ](https://docs.unichain.org/docs/getting-started/setting-up-a-wallet)
 ---------------------------------------------------------------------
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center">Getting Started</td><td>test</td><td><a href="getting-started/">getting-started</a></td></tr><tr><td></td><td align="center">Are you a developer?</td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td align="center">Are you a node operator or validator?</td><td></td><td></td></tr><tr><td></td><td align="center">Are you a trader?</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center">Getting Started</td><td>test</td><td><a href="nodes/getting-started/">getting-started</a></td></tr><tr><td></td><td align="center">Are you a developer?</td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td align="center">Are you a node operator or validator?</td><td></td><td></td></tr><tr><td></td><td align="center">Are you a trader?</td><td></td><td></td></tr></tbody></table>
 

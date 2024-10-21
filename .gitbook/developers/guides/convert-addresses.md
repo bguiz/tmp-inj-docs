@@ -53,3 +53,7 @@ config();
   );
 })();
 ```
+
+{% hint style="info" %}
+More examples can be found on the [TypeScript docs](https://docs.ts.injective.network/wallet/wallet-accounts)
+{% endhint %}

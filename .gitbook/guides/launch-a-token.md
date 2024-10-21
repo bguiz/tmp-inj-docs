@@ -35,7 +35,7 @@ You can learn more about Launching a token on the [TypeScript Documentation](htt
 #### Using Injective CLI
 
 {% hint style="info" %}
-You have to have `injectived` installed locally before proceeding with this tutorial. You cal learn more about it on the [getting-started](../nodes/getting-started/ "mention")page in the Nodes section.&#x20;
+You have to have `injectived` installed locally before proceeding with this tutorial. You cal learn more about it on the [getting-started](../getting-started/ "mention")page in the Nodes section.&#x20;
 {% endhint %}
 
 Once you have `injectived` installed and a key added, you can use the CLI to launch your token:
