@@ -16,4 +16,4 @@ Besides Messages, every transaction has a context. The context includes `fees`, 
 
 ### Transaction Flow <a href="#transaction-flow" id="transaction-flow"></a>
 
-Every transaction we want to broadcast to Injective has the same flow. The flow consists of three steps: preparing, signing and broadcasting the transaction.
+Every transaction we want to broadcast to Injective has the same flow. The flow consists of three steps: preparing, signing, and broadcasting the transaction. When the transaction is included in a block, the state change that was specified using the Message is applied on Injective.&#x20;
