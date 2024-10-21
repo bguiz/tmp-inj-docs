@@ -1,3 +1,9 @@
+---
+description: >-
+  Brief summary about Injective and overview of its countless possibilities that
+  make it the best choice for onboarding developers.
+---
+
 # About Injective
 
 Injective is a lightning-fast, interoperable, layer-one blockchain optimized for building premier Web3 financial applications. Injective provides developers with robust plug-and-play modules such as a fully decentralized orderbook, binary options, real-world asset (RWA) module, and more, allowing developers to build a diverse array of sophisticated applications.
