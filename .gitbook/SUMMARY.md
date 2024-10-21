@@ -44,6 +44,7 @@
 * [Exchange Developers](developers/exchange-developers/README.md)
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
   * [Provider Oracle](developers/exchange-developers/provider-oracle.md)
+* [EVM Developers](developers/evm-developers.md)
 * [Cosmwasm Developers](developers/cosmwasm-developers/README.md)
   * [Your First Smart Contract](developers/cosmwasm-developers/your-first-smart-contract.md)
   * [Guides](developers/cosmwasm-developers/guides/README.md)
