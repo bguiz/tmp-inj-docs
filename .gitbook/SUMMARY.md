@@ -92,10 +92,17 @@
 ## Nodes
 
 * [Getting Started](nodes/getting-started/README.md)
+  * [Interact with a node](nodes/getting-started/interact-with-a-node.md)
   * [Running a node](nodes/getting-started/running-a-node/README.md)
     * [Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
-  * [Interact with a node](nodes/getting-started/interact-with-a-node.md)
+    * [Join a network](nodes/getting-started/running-a-node/join-a-network.md)
+    * [Upgrade your node](nodes/getting-started/running-a-node/upgrade-your-node.md)
 * [Validators](nodes/validators/README.md)
+  * [Mainnet](nodes/validators/mainnet/README.md)
+    * [Peggo](nodes/validators/mainnet/peggo.md)
+    * [Canonical Chain Upgrades](nodes/validators/mainnet/canonical-chain-upgrades.md)
+  * [Testnet](nodes/validators/testnet/README.md)
+    * [Testnet Peggo](nodes/validators/testnet/testnet-peggo.md)
   * [Cosmosvisor](nodes/validators/cosmosvisor.md)
 * [Public Endpoints](nodes/public-endpoints.md)
 * [Private Nodes](nodes/private-nodes.md)
