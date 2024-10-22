@@ -28,7 +28,7 @@
   * [injectived](toolkits/injectived/README.md)
     * [Install injectived](toolkits/injectived/install-injectived.md)
     * [Using injectived](toolkits/injectived/using-injectived.md)
-    * [Advanced](toolkits/injectived/advanced.md)
+    * [Commands](toolkits/injectived/advanced.md)
   * [Injective TS SDK](https://docs.ts.injective.network)
   * [Injective Go SDK](https://github.com/InjectiveLabs/sdk-go/)
   * [Injective Python SDK](https://github.com/InjectiveLabs/sdk-python)

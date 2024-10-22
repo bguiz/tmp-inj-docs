@@ -3,7 +3,7 @@
 The easiest way to install `injectived` and Injective core is by downloading a pre-built binary for your operating system. Download the most recent Injective binaries from [the official releases repo](https://github.com/InjectiveLabs/injective-chain-releases).
 
 ```bash
-wget wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.13.2-1723753267/linux-amd64.zip
+wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.13.2-1723753267/linux-amd64.zip
 ```
 
 This zip file will contain three binaries and a virtual machine:
