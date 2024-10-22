@@ -1,2 +1,0 @@
-# Canonical Chain Upgrades
-
