@@ -39,7 +39,10 @@
 
 ## Developers
 
-* [Getting Started](developers/getting-started.md)
+* [Getting Started](developers/getting-started/README.md)
+  * [Guides](developers/getting-started/guides/README.md)
+    * [Testnet Proposals](developers/getting-started/guides/testnet-proposals.md)
+    * [Convert addresses](developers/getting-started/guides/convert-addresses.md)
 * [Exchange Developers](developers/exchange-developers/README.md)
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
   * [Provider Oracle](developers/exchange-developers/provider-oracle.md)
@@ -54,10 +57,6 @@
     * [Creating UIs](developers/cosmwasm-developers/guides/creating-uis.md)
   * [CW20 Adapter](developers/cosmwasm-developers/page-1.md)
   * [Injective Test Tube](developers/cosmwasm-developers/injective-test-tube.md)
-* [Guides](developers/guides/README.md)
-  * [Testnet Proposals](developers/guides/testnet-proposals.md)
-  * [Convert addresses](developers/guides/convert-addresses.md)
-  * [Testnet Faucet](https://testnet.faucet.injective.network)
 * [Modules](developers/modules/README.md)
   * [Injective](developers/modules/injective/README.md)
     * [Auction](developers/modules/injective/auction/README.md)
@@ -88,13 +87,13 @@
     * [Upgrade](developers/modules/core/upgrade/README.md)
     * [Circuit](developers/modules/core/circuit/README.md)
     * [Genutils](developers/modules/core/genutils.md)
-* [dApp Documentation](https://docs.ts.injective.network)
+* [Documentation](https://docs.ts.injective.network)
 
 ## Nodes
 
 * [Getting Started](nodes/getting-started/README.md)
   * [Running a node](nodes/getting-started/running-a-node/README.md)
-    * [1. Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
+    * [Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
   * [Interact with a node](nodes/getting-started/interact-with-a-node.md)
 * [Validators](nodes/validators/README.md)
   * [Cosmosvisor](nodes/validators/cosmosvisor.md)
@@ -115,3 +114,4 @@
 * [Injective Explorer](https://explorer.injective.network)
 * [Chain API Reference](https://sentry.lcd.injective.network/swagger/#/)
 * [Indexer API Reference](https://api.injective.network/swagger/#/)
+* [Testnet Faucet](https://testnet.faucet.injective.network)
