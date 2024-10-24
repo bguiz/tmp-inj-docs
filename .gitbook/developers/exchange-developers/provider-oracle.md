@@ -4,7 +4,7 @@
 Prerequisite reading [Injective Oracle Module](../modules/injective/oracle/)
 {% endhint %}
 
-The goal of this section is to provide users a guide on how to launch and maintain an oracle provider on Injective. These oracles can be used for various purposes, like Perpetual Markets, Expiry Futures Markets, [Binary Options markets](https://docs.injective.network/develop/modules/injective/exchange/binary\_options\_markets), etc.
+The goal of this section is to provide users a guide on how to launch and maintain an oracle provider on Injective. These oracles can be used for various purposes, like Perpetual Markets, Expiry Futures Markets, [Binary Options markets](../modules/injective/exchange/02\_binary\_options\_markets.md), etc.
 
 First, what is an oracle provider? It's an oracle **TYPE** that allows external parties to relay price feed to the Injective chain. These external parties are called providers. A provider identifies each external party and all of the price feeds provided on the chain are stored under that particular provider. This allows custom price feed to be created on Injective which can power creative and advanced markets being launched on Injective.
 
