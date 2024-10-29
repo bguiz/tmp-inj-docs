@@ -153,7 +153,7 @@
     * [Upgrade](developers/modules/core/upgrade/README.md)
     * [Circuit](developers/modules/core/circuit/README.md)
     * [Genutils](developers/modules/core/genutils.md)
-* [Documentation](https://docs.ts.injective.network)
+* [dApps Documentation](https://docs.ts.injective.network)
 
 ## Nodes
 
