@@ -23,3 +23,10 @@ Once the proposal and deposit is submitted, the proposal will go through a four-
 ### Voting Outcome
 
 If a proposal passes, Injective contributors will begin to work together to put into effect the new request. If 33.4% of the total vote is `NoWithVeto`, quorum is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded.
+
+### Get Started
+
+* For more details on the governance proposal process, read Injective's [blog](https://blog.injective.com/en/injective-governance-proposal-procedure/).
+* To participate in blockchain governance, join the [Injective Discord](https://discord.com/invite/NK4qdbv) or the [Injective Governance Forum](https://gov.injective.network).
+* Visit the [Injective Hub](https://hub.injective.network/governance) to view Injective proposals and participate in voting.
+

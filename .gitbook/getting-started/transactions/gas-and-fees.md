@@ -18,7 +18,7 @@ A fee is calculated and charged to the user during a message execution. This fee
 fee = gas * gas price
 ```
 
-Gas is used to make sure that operations do not require an excess amount of computational power to complete and to deter bad-acting users from spamming the network.
+Gas is used to make sure that operations do not require an excess amount of computational power to complete, and to deter bad-acting users from spamming the network.
 
 :::tip minimum gas price The minimum gas price set by validators is currently 160,000,000inj. To find the amount paid in INJ, multiply the gas price by the gas amount and divide by 1e18 (INJ has 18 decimals).
 
