@@ -2,7 +2,7 @@
 
 ## Governance
 
-Injective is a community-run blockchain and users who have staked INJ can participate in governance as it relates to the blockchain. Proposals can be submitted to make revisions to Injective programs, tech upgrades, or any other Injective related changes that impact the entire Injective ecosystem.
+Injective is a community-run blockchain, and users who have staked INJ can participate in governance as it relates to the blockchain. Proposals can be submitted to make revisions to Injective programs, tech upgrades, or any other Injective related changes that impact the entire Injective ecosystem.
 
 Within Injective Hub, new proposals are submitted through the governance portal and voted on by the entire community.
 

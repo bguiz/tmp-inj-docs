@@ -4,7 +4,7 @@ description: Learn how to create a wallet on Injective using different approache
 
 # Create a wallet
 
-Creating a wallet on Injective is as simply as sending some funds to your Injective address. In this document we'll outline how to create a wallet using some popular wallet solutions (Metamask, Ledger, etc), but also how to create and fund a wallet using `injectived` in a local CLI environment.&#x20;
+Creating a wallet on Injective is as simply as sending some funds to your Injective address. In this document we'll outline how to create a wallet using some popular wallet solutions (Metamask, Ledger, etc.), but also how to create and fund a wallet using `injectived` in a local CLI environment.&#x20;
 
 ### Browser Wallets&#x20;
 

@@ -28,7 +28,6 @@ Modules work like building blocks that can be combined to expand the blockchain�
 * **Superior Performance:** Injective delivers the speed and efficiency required for commercial scalability, achieving 25,000+ TPS, with sub-second block times (650 ms) and instant transaction finality—all while averaging just $0.0003 per transaction.&#x20;
 * **Highly Interoperable:** Injective is natively interoperable across 23+ sovereign blockchain networks, while also being IBC-enabled. It supports cross-chain transactions across Ethereum, IBC-enabled chains like Cosmos Hub, and Wormhole-integrated chains, such as Solana and Avalanche.
 * **Integrated VM Environment**: Injective’s architecture natively integrates EVM and WASM into a unified and cohesive execution layer. This setup simplifies development workflows and significantly expands developers' ability to create dynamic and versatile applications.
-* **Comprehensive Token Capability:** Since Injective supports cross-chain transactions with Ethereum and all IBC-enabled chains, tokens launched on Injective can be exposed to multiple networks by default.
 * I**ntuitive Developer Experience:** Utilize flexible and expressive development environments powered by Rust, Golang, and Solidity.
 
 Start building on Injective[\

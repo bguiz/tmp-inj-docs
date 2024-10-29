@@ -63,8 +63,8 @@ Find developer support on Discord or Telegram
 
 ### Public Endpoints
 
-For a list of public endpoints visit [public-endpoints.md](nodes/public-endpoints.md "mention")
+For a list of public endpoints, visit [public-endpoints.md](nodes/public-endpoints.md "mention")
 
 ### Private / Dedicated Node Services
 
-For a full list of private node services see [private-nodes.md](nodes/private-nodes.md "mention")
+For a full list of private node services, see [private-nodes.md](nodes/private-nodes.md "mention")

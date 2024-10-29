@@ -14,15 +14,15 @@ Once the briding process is completed, a token will be created on Injective whic
 
 You can also create a new token on Injective using the `tokenFactory` module. There are multiple ways on how to achieve this.&#x20;
 
-### Using the InjectiveHub <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
+### Using InjectiveHub <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
 The [InjectiveHub](https://hub.injective.network/token-factory/) web app provides you the ability to create and manage tokens seamlessly, creating a market on Injective's [native orderbook](https://docs.injective.network/develop/modules/injective/exchange), etc.
 
-### Using the TokenStation[​](https://docs.injective.network/develop/guides/token-launch/#3-via-tokenstation) <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
+### Using TokenStation[​](https://docs.injective.network/develop/guides/token-launch/#3-via-tokenstation) <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
 The [TokenStation](https://www.tokenstation.app/) web app provides you the ability to create and manage tokens seamlessly, creating a market on Injective's [native orderbook](../developers/modules/injective/exchange/), launching an airdrop, and much more.
 
-### Using the DojoSwap[​](https://docs.injective.network/develop/guides/token-launch/#4-via-dojoswap) <a href="#id-4-via-dojoswap" id="id-4-via-dojoswap"></a>
+### Using DojoSwap[​](https://docs.injective.network/develop/guides/token-launch/#4-via-dojoswap) <a href="#id-4-via-dojoswap" id="id-4-via-dojoswap"></a>
 
 Similar to above, you can utilize [DojoSwap's Market Creation module](https://docs.dojo.trading/introduction/market-creation) to create, manage, and list your token, along with several other useful features.
 

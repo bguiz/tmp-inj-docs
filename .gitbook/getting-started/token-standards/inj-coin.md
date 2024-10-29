@@ -26,7 +26,7 @@ A validator’s staked INJ is subject to slashing in the event of malicious beha
 
 Holders of INJ may also participate in staking without necessarily having to operate a node to earn a share of validator rewards. To do so, users delegate INJ to validator(s), which can be done through supported browser wallets, or directly through the Injective Hub. In return for locking up INJ, users earn a share of the validator’s INJ rewards, less the fee charged by the selected validator (commission), distributed pro rata. A user’s staked INJ is also subject to slashing in the event the validator delegated to incurs a slashing event. This ensures that both validators and delegators are aligned in contributing to the overall security of the network.
 
-Beyond securing the Injective chain, INJ also extends its security serviceability to the broader ecosystem through Electro Chains. These Injective-based rollups offer a myriad of technical advantages, such as supporting multiple virtual ma- chines as seen with inEVM.5 Since these rollups settle to Injective, INJ powers the foundational security layer for these networks. This interconnected security framework underscores the pivotal role of INJ in maintaining the integrity and robustness of not only the Injective network, but also the diverse ecosystem of Electro Chains.
+Beyond securing the Injective chain, INJ also extends its security serviceability to the broader ecosystem through Electro Chains. These Injective-based rollups offer a myriad of technical advantages, such as supporting multiple virtual machines, as seen with inEVM. Since these rollups settle to Injective, INJ powers the foundational security layer for these networks. This interconnected security framework underscores the pivotal role of INJ in maintaining the integrity and robustness of not only the Injective network, but also the diverse ecosystem of Electro Chains.
 
 #### 2. Governance
 
@@ -34,7 +34,7 @@ INJ is utilized for community led governance across all parameters of the chain.
 
 For governance, INJ is used for proposal creation and token-weighted voting on active proposals. As a spam deterrent, Injective requires a minimum deposit, made in INJ, for the proposal to move on to the voting stage. This deposit threshold can either be met entirely by the proposer, or cumulatively by other users contributing INJ to the proposal deposit. If the minimum deposit amount is not reached by the time the maximum deposit period elapses, the proposal will be automatically rejected, and the deposit(s) burned. Additionally, if the proposal does not pass upon voting period expiry, the proposal deposit is burned.
 
-Proposal voting occurs during a preset voting period, which is set via gover- nance and invariably applied to all governance votes. During the voting process, only staked INJ is eligible to participate in voting. Hence, only validators and delegators can vote on active proposals. Voting power is token-weighted, meaning that 1 INJ equals 1 vote. Delegators are not required to actively participate in governance to maintain their status. However, they have the option to vote directly on proposals. If a delegator does not vote, their voting power will automatically be inherited by the validator to whom they have delegated, for that specific voting event.
+Proposal voting occurs during a preset voting period, which is set via governance and invariably applied to all governance votes. During the voting process, only staked INJ is eligible to participate in voting. Hence, only validators and delegators can vote on active proposals. Voting power is token-weighted, meaning that 1 INJ equals 1 vote. Delegators are not required to actively participate in governance to maintain their status. However, they have the option to vote directly on proposals. If a delegator does not vote, their voting power will automatically be inherited by the validator to whom they have delegated, for that specific voting event.
 
 INJ is used to govern all aspects of the chain, including:
 
@@ -55,11 +55,11 @@ INJ is used as the default asset to facilitate the purchase and sale of goods an
 
 #### 4. Exchange dApps Incentives
 
-The exchange protocol implements a global minimum trading fee of $r\_m=0.1%$ for makers and $r\_t=0.2%$ for takers. As an incentive mechanism to encourage exchange dApps to source trading activity on the exchange protocol, exchange dApps that originate orders into the shared orderbook are rewarded with $\beta = 40%$ of the trading fees arising from all orders that they source.
+The exchange protocol implements a global minimum trading fee of 0.1% for makers and 0.2% for takers. As an incentive mechanism to encourage exchange dApps to source trading activity on the exchange protocol, exchange dApps that originate orders into the shared orderbook are rewarded with 40% of the trading fees arising from all orders that they source.
 
 #### 5. Exchange Fee Value Accrual
 
-The remaining $60%$ of the exchange fee will undergo an on-chain buy-back-and-burn event where the aggregate exchange fee basket is auctioned off to the highest bidder in exchange for INJ. The INJ proceeds of this auction are then burned, thus deflating the total INJ supply.
+The remaining 60% of the exchange fee will undergo an on-chain buy-back-and-burn event where the aggregate exchange fee basket is auctioned off to the highest bidder in exchange for INJ. The INJ proceeds of this auction are then burned, thus deflating the total INJ supply.
 
 More details on the auction mechanism can be found here.
 

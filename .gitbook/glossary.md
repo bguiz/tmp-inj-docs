@@ -6,7 +6,7 @@ description: >-
 
 # Glossary
 
-Active set
+### Active set
 
 The validators that participate in consensus and receive rewards.
 
