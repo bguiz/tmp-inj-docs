@@ -4,7 +4,7 @@ description: Brief overview of Injective and it's unique features for the genera
 
 # Getting Started
 
-Welcome to your journey of exploring Injective. Before asking questions, try to use the search functionality on the docs. Our goal is to make the documentation self-sufficient so onboarding is easy and everyone can learn more about Injective easily.&#x20;
+Welcome to your journey of exploring Injective! Before asking questions, please try using the search functionality in the docs. Our goal is to make the documentation self-sufficient, ensuring that onboarding is smooth and everyone can easily learn more about Injective.
 
 Should you have some questions or feedback, you can reach out to Discord or Telegram:
 

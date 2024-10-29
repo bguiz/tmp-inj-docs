@@ -23,7 +23,7 @@ The exchange [EndBlocker](https://docs.cosmos.network/main/build/building-module
       * `EventCancelDerivativeOrder`
 * Stage 3: Process all limit orders in parallel - spot and derivative limit orders that are matching
   * Limit orders are executed in a frequent batch auction mode to ensure fair matching prices, see below for details.
-  * Note that vanilla limit orders may be invalidated in the EndBlocker due to subsequently incoming oracle updates and reduce-only limit orders may be invalidated in the EndBlocker due to subsequently incoming orders which flip a position.
+  * Note that vanilla limit orders may be invalidated in the EndBlocker due to subsequently incoming oracle updates, and reduce-only limit orders may be invalidated in the EndBlocker due to subsequently incoming orders which flip a position.
 * Stage 4: Persist limit order matching execution + new limit orders to store
   * Spot Markets
     * Persist Spot Matching execution data
@@ -48,9 +48,12 @@ The exchange [EndBlocker](https://docs.cosmos.network/main/build/building-module
 The goal of FBA is to prevent any [Front-Running](https://www.investopedia.com/terms/f/frontrunning.asp). This is achieved by calculating a single clearing price for all matched orders in a given block.
 
 1. Market orders are filled first against the resting orderbook at the time of the beginning of the block. While the resting orders are filled at their respective order prices, the market orders are all filled at a uniform clearing price with the same mechanism as limit orders. For an example for the market order matching in FBA fashion, look at the API docs [here](https://api.injective.exchange/#examples-market-order-matching).
-2. Likewise limit orders are filled at a uniform clearing price. New limit orders are combined with the resting orderbook and orders are matched as long as there is still negative spread. The clearing price is either
+2.  Likewise, limit orders are filled at a uniform clearing price. New limit orders are combined with the resting orderbook and orders are matched as long as there is still negative spread. The clearing price is either:\
 
-a. the best buy/sell order in case the last matched order crosses the spread in that direction, the, b. the mark price in case of derivative markets and the mark price is between the last matched orders or c. the mid price.
+
+    a. the best buy/sell order in case the last matched order crosses the spread in that direction,\
+    b. the mark price in case of derivative markets and the mark price is between the last matched orders, or\
+    c. the mid-price.
 
 For an example for the limit order matching in FBA fashion, look at the API docs [here](https://api.injective.exchange/#examples-limit-order-matching).
 
@@ -65,8 +68,8 @@ For an example for the limit order matching in FBA fashion, look at the API docs
   * Trade reward points are based on the discounted trading fee.
 * Calculate fee refunds (or charges). There are several reasons why an order might get a fee refund after matching:
   1. It's a limit order which is not matched or only partially matched which means it will become a resting limit order and switch from a taker to maker fee. The refund is `UnmatchedQuantity * (TakerFeeRate - MakerFeeRate)`. Note that for negative maker fees, we refund the `UnmatchedQuantity * TakerFeeRate` instead.
-  2. Fee discounts are applied. We refund the difference between the original fee paid and the fee paid after the discount.
+  2. Fee discounts are applied. We refund the difference between the original fee paid, and the fee paid after the discount.
   3. The order is matched at a better price resulting in a different fee.
-     * For buy orders a better price means a lower price and thus a lower fee. We refund the fee price delta.
-     * For sell orders a better price means a higher price and thus a higher fee. We charge the fee price delta.
+     * For buy orders, a better price means a lower price and thus a lower fee. We refund the fee price delta.
+     * For sell orders, a better price means a higher price and thus a higher fee. We charge the fee price delta.
   4. You can find the respective code with an example [here](https://github.com/InjectiveLabs/injective-core/blob/80dbc4e9558847ff0354be5d19a4d8b0bba7da96/injective-chain/modules/exchange/keeper/derivative\_orders\_processor.go#L502). Please check the master branch for the latest chain code.

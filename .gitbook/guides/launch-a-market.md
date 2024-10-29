@@ -4,7 +4,7 @@
 The prerequisite for launching a market is to [launch-a-token.md](launch-a-token.md "mention")
 {% endhint %}
 
-Launching a trading pair on Injective is quick, easy, and best of all it's permissionless!&#x20;
+Launching a trading pair on Injective is quick, easy, and best of all, permissionless!&#x20;
 
 The following tutorial assumes the pair is listed with an ERC-20 token bridged from Ethereum as the base asset, paired with INJ as the quote asset.&#x20;
 
@@ -34,10 +34,10 @@ For an Injective-native token, skip the bridging portion and head straight to st
 
 ![List on Injective](<../.gitbook/assets/Docs - New Proposal.png>)
 
-7. Choose "instant spot market launch" from the first dropdown, and specify a ticker. In this example, let's use PEPE/INJ. Now choose the base token from the dropdown. However, beware, several tokens might exist under the same ticker. Always match the correct token address. In this case, as the token was bridged using the Peggy bridge, the address will be peggy followed by the ERC-20 contract address.
+7. Choose "instant spot market launch" from the first dropdown, and specify a ticker. In this example, let's use PEPE/INJ. Now pick the base token from the dropdown. However, beware, several tokens might exist under the same ticker. Always match the correct token address. In this case, as the token was bridged using the Peggy bridge, the address will be peggy followed by the ERC-20 contract address.
 
 ![Specify Ticker](<../.gitbook/assets/Docs - Select Ticker.png>)
 
-8. Now choose the correct quote denom, in this case, inj. (Note, if you wish to pair the token with USDT, make sure to select the "correct" USDT address, which is peggy followed by the ERC-20 contract address for USDT.) Finally, specify a minimum price tick size and minimum quantity tick size. Because PEPE/INJ would trade at a fraction of a penny, the minimum ticks are set accordingly.
+8. Now select the correct quote denom, in this case, inj. (Note, if you wish to pair the token with USDT, make sure to select the "correct" USDT address, which is peggy followed by the ERC-20 contract address for USDT.) Finally, specify a minimum price tick size and minimum quantity tick size. Because PEPE/INJ would trade at a fraction of a penny, the minimum ticks are set accordingly.
 
 ![Select Quote Denom](<../.gitbook/assets/Docs - Quote Denom.png>)

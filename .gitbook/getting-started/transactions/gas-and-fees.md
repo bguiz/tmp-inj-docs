@@ -21,9 +21,9 @@ fee = gas * gas price
 Gas is used to make sure that operations do not require an excess amount of computational power to complete, and to deter bad-acting users from spamming the network.
 
 {% hint style="info" %}
-Minimum gas price The minimum gas price set by validators is currently `160,000,000inj`. To find the amount paid in `inj`, multiply the gas price by the gas amount and divide by 1e18 (INJ has 18 decimals).
+**Minimum gas price:** The minimum gas price set by validators is currently `160,000,000inj`. To find the amount paid in `inj`, multiply the gas price by the gas amount and divide by 1e18 (INJ has 18 decimals).
 
-For example: if `gasWanted` is 104,519, then `gasFees` = 160,000,000 \* 104,519 / 1e18 = 0.000016723`inj`
+**For example:** if `gasWanted` is 104,519, then `gasFees` = 160,000,000 \* 104,519 / 1e18 = 0.000016723`inj`
 {% endhint %}
 
 ### Cosmos SDK `Gas`
@@ -39,7 +39,7 @@ In Cosmos, there are types of operations that are not triggered by transactions 
 
 #### `BeginBlock` and `EndBlock`
 
-These operations are defined by the Tendermint Core's Application Blockchain Interface (ABCI) and are defined by each Cosmos SDK module. As their name suggest, they are executed at the beginning and at the end of each block processing respectively (i.e pre and post transaction execution).
+These operations are defined by the Tendermint Core's Application Blockchain Interface (ABCI) and are defined by each Cosmos SDK module. As their name suggest, they are executed at the beginning and at the end of each block processing respectively (i.e., pre- and post-transaction execution).
 
 #### `AnteHandler`
 

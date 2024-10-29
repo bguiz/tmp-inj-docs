@@ -51,7 +51,7 @@ This helps get you started by providing the basic boilerplate and structure for 
 ### State
 
 {% hint style="info" %}
-You can learn more about CosmWasm [State on their documentation](https://github.com/CosmWasm/docs/blob/archive/dev-academy/develop-smart-contract/01-intro.md#contract-state)&#x20;
+You can learn more about CosmWasm State on their [documentation](https://book.cosmwasm.com/basics/state.html).
 {% endhint %}
 
 `State` handles the state of the database where smart contract data is stored and accessed.
@@ -82,7 +82,7 @@ Injective smart contracts have the ability to keep persistent state through Inje
 
 Data can only be persisted as raw bytes, so any notion of structure or data type must be expressed as a pair of serializing and deserializing functions. For instance, objects must be stored as bytes, so you must supply both the function that encodes the object into bytes to save it on the blockchain, as well as the function that decodes the bytes back into data types that your contract logic can understand. The choice of byte representation is up to you, so long as it provides a clean, bi-directional mapping.
 
-Fortunately, the CosmWasm team has provided utility crates such as [`cosmwasm_storage`](https://crates.io/crates/cosmwasm-storage), which provides convenient high-level abstractions for data containers such as a "singleton" and "bucket", which automatically provide serialization and deserialization for commonly-used types such as structs and Rust numbers. For a more efficient storage mechanism, the team has also provided the [`cw-storage-plus`](https://docs.cosmwasm.com/docs/smart-contracts/state/cw-plus/) crate.
+Fortunately, CosmWasm provides utility crates, such as [`cosmwasm_storage`](https://crates.io/crates/cosmwasm-storage), which provides convenient high-level abstractions for data containers such as a "singleton" and "bucket", which automatically provide serialization and deserialization for commonly-used types, such as structs and Rust numbers. Additionally, the[`cw-storage-plus`](https://docs.cosmwasm.com/docs/smart-contracts/state/cw-plus/) crate can be used for a more efficient storage mechanism.
 
 Notice how the `State` struct holds both `count` and `owner`. In addition, the `derive` attribute is applied to auto-implement some useful traits:
 
@@ -163,7 +163,7 @@ pub fn instantiate(
 ### ExecuteMsg
 
 {% hint style="info" %}
-&#x20;You can learn more about CosmWasm [ExecuteMsg on their documentation](https://github.com/CosmWasm/docs/blob/archive/tutorials/simple-option/develop.md#executemsg-executemsg)
+&#x20;You can learn more about CosmWasm ExecuteMsg in their [documentation](https://book.cosmwasm.com/basics/execute.html).
 {% endhint %}
 
 The `ExecuteMsg` is a JSON message passed to the `execute()` function through a `MsgExecuteContract`. Unlike the `InstantiateMsg`, the `ExecuteMsg` can exist as several different types of messages to account for the different types of functions that a smart contract can expose to a user. The [`execute()` function](https://github.com/InjectiveLabs/cw-counter/blob/ea3b781447a87f052e4b8308d5c73a30481ed61f/src/contract.rs#L35) demultiplexes these different types of messages to its appropriate message handler logic.
@@ -724,7 +724,9 @@ In addition to defining custom smart contract logic, CosmWasm also allows contra
 
 The `BankMsg::Send` message allows the contract to transfer tokens to another address. This can be useful in various scenarios, such as distributing rewards or returning funds to users.
 
-:::note If you want to send funds and execute a function on another contract at the same time, don't use BankMsg::Send. Instead, use WasmMsg::Execute and set the respective funds field. :::
+{% hint style="info" %}
+**Note:** If you want to send funds and execute a function on another contract at the same time, don't use BankMsg::Send. Instead, use WasmMsg::Execute and set the respective funds field.
+{% endhint %}
 
 ### Constructing the Message
 

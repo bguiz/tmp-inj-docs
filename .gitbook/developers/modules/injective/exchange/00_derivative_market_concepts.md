@@ -201,10 +201,10 @@ Handler and EndBlocker Execution of the market order are conceptually identical 
 
 ### Reduce-Only Orders (Selling Positions)
 
-### Limit Buy Reduce-Only Order
+#### Limit Buy Reduce-Only Order
 
 A limit buy reduce-only order seeks to reduce existing long exposure by a specified `Quantity` ETH (**base currency**). The payout for closing a position will have **subtracted fees**.
 
-### Limit Sell Reduce-Only Order
+#### Limit Sell Reduce-Only Order
 
 A limit sell reduce-only order seeks to reduce existing short exposure by a specified `Quantity` ETH (**base currency**). The payout for closing a position will have **subtracted fees**.

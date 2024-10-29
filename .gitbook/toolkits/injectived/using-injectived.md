@@ -43,7 +43,7 @@ pagination:
 
 ### Configuring `injectived`
 
-`injectived` enables you to interact with the node that runs on the Injective network, whether you run it yourself or not. To configure `injectived`, edit the the `config.toml` file in the `~/.injective/config/` directory.
+`injectived` enables you to interact with the node that runs on the Injective network, whether you run it yourself or not. To configure `injectived`, edit the `config.toml` file in the `~/.injective/config/` directory.
 
 ### Querying Blockchain State
 
@@ -102,7 +102,7 @@ The CLI bundles all the necessary steps into a simple-to-use user experience. Ho
 
 #### Generating a Transaction
 
-Generating a transaction can simply be done by appending the `--generate-only` flag on any `tx` command, e.g.:
+Generating a transaction can simply be done by appending the `--generate-only` flag on any `tx` command, e.g.,
 
 ```bash
 injectived tx bank send $MY_VALIDATOR_ADDRESS $RECIPIENT 1000inj --chain-id=injective-1 --generate-only
@@ -123,7 +123,7 @@ This command will decode the unsigned transaction and sign it with `SIGN_MODE_DI
 Some useful flags to consider in the `tx sign` command:
 
 * `--sign-mode`: you may use `amino-json` to sign the transaction using `SIGN_MODE_LEGACY_AMINO_JSON`,
-* `--offline`: sign in offline mode. This means that the `tx sign` command doesn't connect to the node to retrieve the signer's account number and sequence, both needed for signing. In this case, you must manually supply the `--account-number` and `--sequence` flags. This is useful for offline signing, i.e. signing in a secure environment which doesn't have access to the internet.
+* `--offline`: sign in offline mode. This means that the `tx sign` command doesn't connect to the node to retrieve the signer's account number and sequence, both needed for signing. In this case, you must manually supply the `--account-number` and `--sequence` flags. This is useful for offline signing, i.e., signing in a secure environment which doesn't have access to the internet.
 
 #### **Signing with Multiple Signers**
 

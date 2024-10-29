@@ -2,9 +2,11 @@
 
 This section describes the commands available from `injectived`, the command line interface that connects a running `injectived` process (node).
 
-:::tip Several `injectived` commands require subcommands, arguments, or flags to operate. To view this information, run the `injectived` command with the `--help` or `-h` flag. See `query` or `tx` for usage examples of the help flag.
+{% hint style="info" %}
+Several `injectived` commands require subcommands, arguments, or flags to operate. To view this information, run the `injectived` command with the `--help` or `-h` flag. See `query` or `tx` for usage examples of the help flag.
 
-For the `chain-id` argument, `injective-1` should be used for mainnet, and `injective-888` should be used for testnet. :::
+For the `chain-id` argument, `injective-1` should be used for mainnet, and `injective-888` should be used for testnet.&#x20;
+{% endhint %}
 
 ### `add-genesis-account`
 
@@ -24,7 +26,7 @@ injectived add-genesis-account acc1 100000000000inj
 
 ### `collect-gentxs`
 
-Collects genesis transactions and outputs them to `genesis.json`. For more information on `genesis.json`, see the Join Testnet or Join Mainnet guide.
+Collects genesis transactions and outputs them to `genesis.json`. For more information on `genesis.json`, see the Join Testnet or Join Mainnet guide [here](../../nodes/getting-started/running-a-node/join-a-network.md).
 
 **Syntax**
 
@@ -48,7 +50,7 @@ injectived debug [subcommand]
 
 * **`addr`**: Convert an address between hex and bech32
 * **`pubkey`**: Decode a pubkey from proto JSON
-* **`raw-bytes`**: Convert raw bytes output (e.g. \[72 101 108 108 111 44 32 112 108 97 121 103 114 111 117 110 100]) to hex
+* **`raw-bytes`**: Convert raw bytes output (e.g., \[72 101 108 108 111 44 32 112 108 97 121 103 114 111 117 110 100]) to hex
 
 ### `export`
 
@@ -64,8 +66,9 @@ injectived export
 
 Adds a genesis transaction to `genesis.json`. For more information on `genesis.json`, see the Join Testnet or Join Mainnet guide.
 
-:::note The `gentx` command has many flags available. Run the `gentx` command with `--help` or `-h` to view all flags.\
-:::
+{% hint style="info" %}
+**Note:** The `gentx` command has many flags available. Run the `gentx` command with `--help` or `-h` to view all flags.
+{% endhint %}
 
 **Syntax**
 
@@ -194,7 +197,7 @@ injectived query [subcommand]
 * **`peggy`**: Querying commands for the `peggy` module
 * **`slashing`**: Querying commands for the `slashing` module
 * **`staking`**: Querying commands for the `staking` module
-* **`tendermint-validator-set`**: Get the full tendermint validator set at given height
+* **`tendermint-validator-set`**: Get the full Tendermint validator set at given height
 * **`tokenfactory`**: Querying commands for the `tokenfactory` module
 * **`tx`**: Query for a transaction by hash, account sequence, or combination or comma-separated signatures in a committed block
 * **`txs`**: Query for paginated transactions that match a set of events
@@ -204,7 +207,7 @@ injectived query [subcommand]
 
 ### `rollback`
 
-A state rollback is performed to recover from an incorrect application state transition, when Tendermint has persisted an incorrect app hash and is thus unable to make progress. Rollback overwrites a state at height _n_ with the state at height _n - 1_. The application also roll back to height _n - 1_. No blocks are removed, so upon restarting Tendermint the transactions in block _n_ will be re-executed against the application.
+A state rollback is performed to recover from an incorrect application state transition, when Tendermint has persisted an incorrect app hash and is thus unable to make progress. Rollback overwrites a state at height _n_ with the state at height _n - 1_. The application also rolls back to height _n - 1_. No blocks are removed, so upon restarting Tendermint the transactions in block _n_ will be re-executed against the application.
 
 **Syntax**
 
@@ -261,11 +264,11 @@ injectived tendermint [subcommand]
 ```
 
 * **`reset-state`**: Remove all the data and WAL
-* **`show-address`**: Shows this node's tendermint validator consensus address
+* **`show-address`**: Shows this node's Tendermint validator consensus address
 * **`show-node-id`**: Show this node's ID
-* **`show-validator`**: Show this node's tendermint validator info
+* **`show-validator`**: Show this node's Tendermint validator info
 * **`unsafe-reset-all`**: Remove all the data and WAL, reset this node's validator to genesis state
-* **`version`** Show tendermint library versions
+* **`version`** Show Tendermint library versions
 
 ### `testnet`
 

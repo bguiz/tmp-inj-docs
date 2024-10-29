@@ -27,18 +27,18 @@ Developer tools and resources to get you building on Injective
 
 Tools and resources developed by ecosystem developers and partners
 
-| **Resource**                                                                                       | **Description**                                                                                                                                  |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Desig](https://desig.io/)                                                                         | Multi-party computation (MPC) multisig solution                                                                                                  |
-| [DiscoverINJ](https://alpha.discoverinj.com/console)                                               | UI smart contract query / execute                                                                                                                |
-| [The Graph](https://substreams.streamingfast.io/intro-injective)                                   | Substreams for extracting data from the Injective blockchain.                                                                                    |
-| [NewMetric](https://app.newmetric.xyz/)                                                            | Custom, high-performance RPC nodes                                                                                                               |
-| [Notifi](https://injective.com/notifications/)                                                     | Receive notifications for the latest chain updates, ecosystem developments, market insights, and more via Notifi                                 |
-| [Pyth](https://docs.pyth.network/home)                                                             | Price feed oracles and market data                                                                                                               |
-| [Starship](https://docs.cosmology.zone/starship)                                                   | Unified development environment that allows Cosmos developers to spin up a fully simulated mini-cosmos ecosystem and write end-to-end test cases |
-| [SubQuery](https://github.com/subquery/cosmos-subql-starter/tree/main/Injective/injective-starter) | Open-source data indexer providing custom APIs                                                                                                   |
-| [Synternet](https://docs.synternet.com/build/data-layer/developer-portal/subscribe-to-streams)     | Subscribe or publish real-time live data stream                                                                                                  |
-| [Wormhole](https://docs.wormhole.com/wormhole)                                                     | Cross-chain messaging protocol                                                                                                                   |
+| **Resource**                                                                                       | **Description**                                                                                                                           |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Desig](https://desig.io/)                                                                         | Multi-party computation (MPC) multisig solution                                                                                           |
+| [DiscoverINJ](https://alpha.discoverinj.com/console)                                               | UI smart contract query / execute                                                                                                         |
+| [The Graph](https://substreams.streamingfast.io/intro-injective)                                   | Substreams for extracting data from the Injective blockchain.                                                                             |
+| [NewMetric](https://app.newmetric.xyz/)                                                            | Custom, high-performance RPC nodes                                                                                                        |
+| [Notifi](https://injective.com/notifications/)                                                     | Receive notifications for the latest chain updates, ecosystem developments, market insights, and more via Notifi                          |
+| [Pyth](https://docs.pyth.network/home)                                                             | Price feed oracles and market data                                                                                                        |
+| [Starship](https://docs.cosmology.zone/starship)                                                   | Unified development environment that allows developers to spin up a fully simulated mini-cosmos ecosystem and write end-to-end test cases |
+| [SubQuery](https://github.com/subquery/cosmos-subql-starter/tree/main/Injective/injective-starter) | Open-source data indexer providing custom APIs                                                                                            |
+| [Synternet](https://docs.synternet.com/build/data-layer/developer-portal/subscribe-to-streams)     | Subscribe or publish real-time live data stream                                                                                           |
+| [Wormhole](https://docs.wormhole.com/wormhole)                                                     | Cross-chain messaging protocol                                                                                                            |
 
 ### Helpful Repos
 

@@ -8,7 +8,7 @@ The `dev` branch depends on currently private repos, but you can use published v
 
 To demonstrate how `injective-test-tube` works, let us use a simple example contract: [cw-whitelist](https://github.com/CosmWasm/cw-plus/tree/main/contracts/cw1-whitelist) from `cw-plus`.
 
-Here is how to setup the test:
+Here is how to set up the test:
 
 ```rust
 use cosmwasm_std::Coin;
@@ -231,7 +231,7 @@ In your contract code, if you want to debug, you can use [`deps.api.debug(..)`](
 
 ### Using Module Wrapper
 
-In some cases, you might want to interact directly with appchain logic to setup the environment or query appchain's state. Module wrappers provides convenient functions to interact with the appchain's module.
+In some cases, you might want to interact directly with appchain logic to set up the environment or query appchain's state. Module wrappers provide convenient functions to interact with the appchain's module.
 
 Let's try to interact with `Exchange` module:
 
@@ -314,7 +314,7 @@ let expected_response = QuerySpotMarketsResponse {
 assert_eq!(spot_markets, expected_response);
 ```
 
-Additional examples can be found in the [modules](https://github.com/InjectiveLabs/test-tube/tree/dev/packages/injective-test-tube/src/module)) directory.
+Additional examples can be found in the [modules](https://github.com/InjectiveLabs/test-tube/tree/dev/packages/injective-test-tube/src/module) directory.
 
 ### Versioning
 

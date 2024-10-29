@@ -11,7 +11,7 @@ This zip file will contain three binaries and a virtual machine:
 * **`injectived`** - Injective daemon
 * **`peggo`** - Injective ERC-20 bridge relayer daemon
 * **`injective-exchange`** - the Injective Exchange daemon
-* **`libwasmvm.x86_64.so`** - the wasm virtual machine which is needed to execute smart contracts.
+* **`libwasmvm.x86_64.so`** - the wasm virtual machine, which is needed to execute smart contracts.
 
 Unzip and add `injectived`, to your `/usr/bin`. Also add `libwasmvm.x86_64.so` to user library path `/usr/lib`.
 

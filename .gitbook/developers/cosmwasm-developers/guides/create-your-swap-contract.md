@@ -4,7 +4,7 @@ The [swap contract](https://github.com/InjectiveLabs/swap-contract) allows an in
 
 ### Getting started
 
-Anyone can instantiate an instance of the swap contract. There is version of this contract uploaded on Injective mainnet already, and can be found [here](https://explorer.injective.network/code/67/).
+Anyone can instantiate an instance of the swap contract. There is a version of this contract uploaded on Injective mainnet already, and can be found [here](https://explorer.injective.network/code/67/).
 
 Before instantiating the contract, as the contract owner, you have three questions to answer:
 
@@ -14,13 +14,13 @@ Since orders placed by the swap contract are orders in the Injective Exchange Mo
 
 #### 2. What tokens should this contract support?
 
-Every token available in the contract must have a route defined. Route refers to which markets `token A` will go through in order to get `token B`. For example, if you would like to support swapping between ATOM and INJ, then you would have to set route by providing the contract the market IDs of ATOM/USDT and INJ/USDT, so that the it knows the route of swapping between ATOM and INJ would be ATOM ⇔ USDT ⇔ INJ.
+Every token available in the contract must have a route defined. Route refers to which markets `token A` will go through in order to get `token B`. For example, if you would like to support swapping between ATOM and INJ, then you would have to set route by providing the contract the market IDs of ATOM/USDT and INJ/USDT, so that it knows the route of swapping between ATOM and INJ would be ATOM ⇔ USDT ⇔ INJ.
 
 At this moment, the contract can only support markets quoted in USDT.
 
 #### 3. How much buffer should be provided to this contract?
 
-As the contract owner, you also have to provide funds to the contract which will be used when the swap happens. The buffer is used by the contract when it place orders. If the user wants to swap a big amount or swap in an illiquid market, then more buffer is required. An error will occur when the contract buffer cannot satisfy the user's input amount.
+As the contract owner, you also have to provide funds to the contract which will be used when the swap happens. The buffer is used by the contract when it places orders. If the user wants to swap a big amount or swap in an illiquid market, then more buffer is required. An error will occur when the contract buffer cannot satisfy the user's input amount.
 
 At this moment, the buffer should only be USDT.
 

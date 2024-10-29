@@ -51,7 +51,7 @@ docker run --rm -v "$(pwd)":/code \
 cosmwasm/workspace-optimizer:0.12.12
 ```
 
-Alternatively for Apple silicon devices (M1, M2, etc.) please use:
+Alternatively for Apple Silicon devices (M1, M2, etc.) please use:
 
 ```bash
 docker run --rm -v "$(pwd)":/code \
@@ -347,7 +347,7 @@ yes 12345678 | injectived tx wasm instantiate $CODE_ID $INIT --label="Albcoin To
 
 Now the address of the instantiated contract can be obtained on [http://localhost:10337/swagger/#/Query/ContractsByCode](http://localhost:10337/swagger/#/Query/ContractsByCode)
 
-And the contract info meta data can be obtained on [http://localhost:10337/swagger/#/Query/ContractInfo](http://localhost:10337/swagger/#/Query/ContractInfo) or by CLI query
+And the contract info metadata can be obtained on [http://localhost:10337/swagger/#/Query/ContractInfo](http://localhost:10337/swagger/#/Query/ContractInfo) or by CLI query
 
 ```bash
 CONTRACT=$(injectived query wasm list-contract-by-code $CODE_ID --output json | jq -r '.contracts[-1]')

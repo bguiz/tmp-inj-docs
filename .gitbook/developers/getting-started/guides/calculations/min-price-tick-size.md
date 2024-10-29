@@ -4,7 +4,9 @@
 
 The minimum market price tick size dictates the smallest increment by which an order price can increase or decrease. For instance, if a market has a minimum price tick size of **0.001**, an order submitted with a price of **0.0011** would be rejected because it does not align with the allowed increments.
 
+{% hint style="info" %}
 **Note:** The formulas for calculating the price tick size differ between spot and derivative markets.
+{% endhint %}
 
 ### Spot Market
 
@@ -34,4 +36,4 @@ To convert back to a human-readable format:
 
 $$\text{humanReadableFormat} = \text{value} \times 10^{-\text{quoteDecimals}}$$
 
-Also be sure to check out our [typescript docs](https://docs.ts.injective.network/calculations/min-price-tick-size).
+Also, be sure to check out our [typescript docs](https://docs.ts.injective.network/calculations/min-price-tick-size).

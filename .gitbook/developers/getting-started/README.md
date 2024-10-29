@@ -6,12 +6,12 @@ description: >-
 
 # Getting Started
 
-Injective is the only blockchain specifically designed for cross-chain trading, derivatives, DeFi and Web3 applications. Injective is poised to become the premier destination for DeFi ecosystem builders globally. It already has one of the fastest-growing exchange applications of all time, which promotes further confidence among developers looking to deploy on Injective.
+Injective is the only blockchain specifically designed for cross-chain trading, derivatives, DeFi, and Web3 applications. Injective is poised to become the premier destination for DeFi ecosystem builders globally. It already has one of the fastest-growing exchange applications of all time, which promotes further confidence among developers looking to deploy on Injective.
 
 * **Built for DeFi:** Create novel DeFi applications with fast block times, zero gas fees and instant transaction finality.
-* **Order book Infrastructure**: Native decentralized order book infrastructure that can support all financial primitives (spot, perpetuals, expiry contracts, indices, etc.
+* **Order book Infrastructure**: Native decentralized order book infrastructure that can support all financial primitives (spot, perpetuals, expiry contracts, indices, etc.)
 * **Ethereum compatibility:** Leverage Injective's native Ethereum compatibility in your applications while scaling transactions to be 1000X faster and cheaper than Ethereum.
-* **Unprecedented interoperability:** Explore limitless possibilities for cross-chain interoperability across Ethereum, Cosmos and 10+ prominent layer one protocols.
+* **Unprecedented interoperability:** Explore limitless possibilities for cross-chain interoperability across Ethereum, Cosmos and 23+ prominent layer-one networks.
 * **MEV Resistant**: Complete MEV resistance due to the Injective Chain’s frequent batch auction consensus mechanism.
 * **Fully customizable:** Ship your products with the ability to swiftly modify any parameter to fit your DeFi and Web3 use case.
 * **Dual Smart Contract Layer**: Deploy dApps on CosmWasm or EVM to suit your needs.

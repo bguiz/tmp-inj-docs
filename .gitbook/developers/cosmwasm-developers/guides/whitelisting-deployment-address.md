@@ -5,8 +5,8 @@ Contract upload on Injective mainnet requires governance approval. You can read 
 This structure has been put in place for multiple reasons:
 
 1. Historically, the community has discovered vulnerabilities in CosmWasm whereby certain contracts could cause a chain halt. Thus, requiring approval will be inherently more secure until the language matures and stabilizes over time.
-2. Governance prevents un-audited and bogus contracts from being deployed into the network ensuring that hacks and scams will occur at a lesser degree.
-3. This results in a more curated experience for ecosystem users since the blockchain does not fill up with unwanted transactions and contracts.
+2. Governance prevents unaudited and bogus contracts from being deployed into the network, ensuring that hacks and scams will occur at a lesser degree.
+3. This results in a more curated experience for ecosystem users, since the blockchain does not fill up with unwanted transactions and contracts.
 
 This governance process is time-consuming for validators and the community. Injective builders additionally face a 4-day wait to roll out features, affecting developer experience and user growth.
 

@@ -3,12 +3,11 @@ sidebar_position: 4
 title: Governance Proposals
 ---
 
-# Governance Proposals
+# Proposals
 
 ## GrantProviderPrivilegeProposal
 
 Oracle provider privileges can be granted to your account through a `GrantBandOraclePrivilegeProposal`. After the governance proposal is passed, you will be able to relay price feeds using your provider.
-
 
 ```protobuf
 // Grant Privileges
@@ -26,7 +25,7 @@ message GrantProviderPrivilegeProposal {
 }
 ```
 
-You can submit your proposal according to the example: 
+You can submit your proposal according to the example:
 
 ```bash
 injectived tx oracle grant-provider-privilege-proposal YOUR_PROVIDER \
@@ -41,14 +40,11 @@ injectived tx oracle grant-provider-privilege-proposal YOUR_PROVIDER \
   --deposit="40000000000000000000inj"
 ```
 
-
-To successfully pass the proposal for **testnet**, `YOUR_DEPOSIT` should be slightly less than `min_deposit` 
-value (for example, `40000000000000000000inj`). After that you should contact the Injective dev team. Dev team will 
-top up your deposit to `min_deposit` and vote for your proposal.
+To successfully pass the proposal for **testnet**, `YOUR_DEPOSIT` should be slightly less than `min_deposit` value (for example, `40000000000000000000inj`). After that, you should contact the Injective dev team. Dev team will top up your deposit to `min_deposit` and vote for your proposal.
 
 ## RevokeProviderPrivilegeProposal
 
-Oracle provider privileges can be revoked from your account through a `RevokeProviderPrivilegeProposal`. 
+Oracle provider privileges can be revoked from your account through a `RevokeProviderPrivilegeProposal`.
 
 ```protobuf
 // Revoke Privileges
@@ -151,9 +147,7 @@ message AuthorizeBandOracleRequestProposal {
 
 ## UpdateBandOracleRequestProposal
 
-This proposal is used for deleting a request or updating the request.
-When `DeleteRequestId` is not zero, it deletes the request with the id and finish its execution.
-When `DeleteRequestId` is zero, it update the request with id `UpdateOracleRequest.RequestId` to UpdateOracleRequest.
+This proposal is used for deleting a request or updating the request. When `DeleteRequestId` is not zero, it deletes the request with the id and finish its execution. When `DeleteRequestId` is zero, it updates the request with id `UpdateOracleRequest.RequestId` to UpdateOracleRequest.
 
 ```protobuf
 message UpdateBandOracleRequestProposal {
@@ -169,8 +163,7 @@ message UpdateBandOracleRequestProposal {
 
 ## EnableBandIBCProposal
 
-This proposal is to enable IBC connection between Band chain and Injective chain.
-When the proposal is approved, it updates the BandIBCParams into newer one configured on the proposal.
+This proposal is to enable IBC connection between Band chain and Injective chain. When the proposal is approved, it updates the BandIBCParams into the newer one configured on the proposal.
 
 ```protobuf
 message EnableBandIBCProposal {
@@ -184,7 +177,7 @@ message EnableBandIBCProposal {
 }
 ```
 
-The details of `BandIBCParams`, can be checked at **[State](./01_state.md)**
+The details of `BandIBCParams`, can be checked at [**State**](01\_state.md)
 
 ## GrantStorkPublisherPrivilegeProposal
 

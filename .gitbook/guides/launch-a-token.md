@@ -1,14 +1,14 @@
-# Launch a token
+# Launch a Token
 
 Within this document, we'll explain how to launch a token on Injective.&#x20;
 
-There are two options on how to launch a token on Injective
+There are two options for launching a token on Injective: bridging an existing token or creating a new token.
 
 ## Bridging  <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
 The easiest way to launch a token on Injective is by bridging your existing assets from one of the supported networks that Injective is interoperable with. There are guides in the [bridge](bridge/ "mention")sections that you can reference to bridge assets from other networks to Injective.&#x20;
 
-Once the briding process is completed, a token will be created on Injective which you can then use to [launch-a-market.md](launch-a-market.md "mention").&#x20;
+Once the bridging process is completed, a token will be created on Injective, which you can then use to [launch-a-market.md](launch-a-market.md "mention").&#x20;
 
 ## Creating new token
 
@@ -52,7 +52,7 @@ Tokens are namespaced by the creator address to be permissionless and avoid name
 
 2. **Submit token metadata**
 
-To get your token visible on Injective dApps, you have to submit it's metadata.&#x20;
+To get your token visible on Injective dApps, you have to submit its metadata.&#x20;
 
 ```bash
 injectived tx tokenfactory set-denom-metadata "My Token Description" 'factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak' AKK AKCoin AK '' '' '[
