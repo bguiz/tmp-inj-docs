@@ -10,18 +10,18 @@ description: Important references and links for the Injective Ecosystem
 
 Developer tools and resources to get you building on Injective
 
-| **Resource**                                                                                  | **Description**                                                                                                                |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Cosmovisor                                                                                    | Small process manager around Cosmos SDK binaries that monitors the governance module                                           |
-| [Injective 101](https://injective.notion.site/Injective-101-589dedc4c9c04531aae503dbb235d443) | One-stop-shop for Injective resources                                                                                          |
-| Injectived                                                                                    | Command-line interface and node daemon that connects to Injective                                                              |
-| [Injective Explorer](https://explorer.injective.network/)                                     | Analytics platform that enables anyone to search addresses, trades, tokens, transactions, and other activities on Injective    |
-| Injective Local                                                                               | Injective testnet and ecosystem containerized with Docker and orchestrated with a simple docker-compose file.                  |
-| [Injective REST API](https://lcd.injective.network/swagger/)                                  | Swagger API explorer                                                                                                           |
-| Injective TypeScript SDK                                                                      | TypeScript monorepo that contains packages which can be used to interact with Injective from a Node.js or browser environments |
-| [Injective Python and Go SDK](https://api.injective.exchange/)                                | Detailed API documentation for interacting with Injective via P                                                                |
-| [Real-time Status (Mainnet)](https://status.injective.network/)                               | Real-time status of the endpoints and of the Injective network                                                                 |
-| [Real-time Status (Testnet)](https://testnet.status.injective.network)                        | Real-time status of the endpoints and of the Injective testnet network                                                         |
+| **Resource**                                                                                  | **Description**                                                                                                             |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [Injective 101](https://injective.notion.site/Injective-101-589dedc4c9c04531aae503dbb235d443) | One-stop-shop for Injective resources                                                                                       |
+| [Injectived](toolkits/injectived/)                                                            | Command-line interface and node daemon that connects to Injective                                                           |
+| [Injective Explorer](https://explorer.injective.network/)                                     | Analytics platform that enables anyone to search addresses, trades, tokens, transactions, and other activities on Injective |
+| [Injective Local](https://github.com/InjectiveLabs/injective-local)                           | Injective testnet and ecosystem containerized with Docker and orchestrated with a simple docker-compose file.               |
+| [Injective REST API](https://lcd.injective.network/swagger/)                                  | Swagger API explorer                                                                                                        |
+| [Injective TypeScript SDK](https://docs.ts.injective.network)                                 | Build dApps on Injectuve using TypeScript                                                                                   |
+| [Injective API Reference](https://api.injective.exchange)                                     | Detailed API documentation for interacting with Injective for traders                                                       |
+| [Real-time Status (Mainnet)](https://status.injective.network/)                               | Real-time status of the endpoints and of the Injective network                                                              |
+| [Real-time Status (Testnet)](https://testnet.status.injective.network)                        | Real-time status of the endpoints and of the Injective testnet network                                                      |
+| [Cosmovisor](nodes/validators/cosmosvisor.md)                                                 | Small process manager around Cosmos SDK binaries that monitors the governance module                                        |
 
 ### Ecosystem Tools and Resources
 
