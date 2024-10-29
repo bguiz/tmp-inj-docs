@@ -26,7 +26,7 @@ Update the `PEGGO_COSMOS_FROM` to your validator key name (or account address) a
 
 Keyring path must be pointing to homedir of your injectived node, if you want reuse the keys from there.
 
-Learn more about Cosmos Keyring setup [here](https://docs.cosmos.network/v0.46/run-node/keyring.html).
+Learn more about Keyring setup [here](https://docs.cosmos.network/v0.46/run-node/keyring.html).
 
 ### **2. Cosmos Private Key (Unsafe)**
 

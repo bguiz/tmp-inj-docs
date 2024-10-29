@@ -3,11 +3,11 @@
 The Injective Wallet allows you to monitor your assets on Injective. Assets can be native tokens on Injective, as well as bridged assets from Ethereum, Solana, Polygon and various IBC-enabled chains.[\
 ](https://docs.injective.network/learn/injective-hub/)
 
-There are a variety of different wallets that are supported on Injective. Users can choose to submit transactions on Injective using either their Ethereum native wallets or their Cosmos native wallets.
+There are a variety of different wallets that are supported on Injective. Users can choose to submit transactions on Injective using either their Ethereum or Cosmos native wallets.
 
 ### Overview
 
-Injective's `Account` type uses Ethereum's ECDSA secp256k1 curve for keys. Simply put, Injective's Account is native (compatible) with Ethereum accounts, allowing Ethereum native wallets such as MetaMask to interact with Injective. Popular Cosmos wallets have also integrated with Injective. See below for a list of available Cosmos wallets.
+Injective's `Account` type uses Ethereum's ECDSA secp256k1 curve for keys. Simply put, Injective's Account is native (compatible) with Ethereum accounts, allowing Ethereum native wallets such as MetaMask to interact with Injective. Popular Cosmos wallets (such as Keplr, Leap, etc) have also integrated with Injective.&#x20;
 
 #### Ethereum-Based Wallets
 
