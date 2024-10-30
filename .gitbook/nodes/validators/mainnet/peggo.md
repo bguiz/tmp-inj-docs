@@ -59,7 +59,9 @@ PEGGO_STATSD_MOCKING=false
 PEGGO_STATSD_DISABLED=true
 ```
 
-IMPORTANT NOTE: if you're running your own `injectived` (Injective node) and `geth` (Ethereum node) processes, ensure that they are in sync with the latest state. Outdated nodes can skew the business logic of `peggo` to display "false alarm" logs sometimes.
+{% hint style="info" %}
+**IMPORTANT NOTE:** if you're running your own `injectived` (Injective node) and `geth` (Ethereum node) processes, ensure that they are in sync with the latest state. Outdated nodes can skew the business logic of `peggo` to display "false alarm" logs sometimes.
+{% endhint %}
 
 ## Step 1: Configuring .env
 
@@ -84,7 +86,7 @@ Peggo supports two options to provide signing key credentials - using the Geth k
 
 You can find instructions for securely creating a new Ethereum account using a keystore in the Geth Documentation [here](https://geth.ethereum.org/docs/interface/managing-your-accounts).
 
-For convience, an example is provided below.
+For convenience, an example is provided below.
 
 ```bash
 geth account new --datadir=/home/ec2-user/.peggo/data/
@@ -130,7 +132,7 @@ Then ensure that your Ethereum address has enough ETH.
 
 Your peggo orchestrator can either:
 
-* Use an explicitly delegated account key specific for sending validator specific Peggy transactions (i.e. `ValsetConfirm`, `BatchConfirm`, and `SendToCosmos` transactions) or
+* Use an explicitly delegated account key specific for sending validator specific Peggy transactions (i.e., `ValsetConfirm`, `BatchConfirm`, and `SendToCosmos` transactions) or
 * Simply use your validator's account key ("your Validator is your Orchestrator")
 
 For isolation purposes, we recommend creating a delegated Cosmos key to send Injective transactions instead of using your validator account key.
@@ -143,7 +145,7 @@ injectived keys add $ORCHESTRATOR_KEY_NAME
 
 Then ensure that your orchestrator inj address has INJ balance in it, so peggo orchestrator can send messages to Injective.
 
-To obtain your orchestrators's inj address, run
+To obtain your orchestrator's inj address, run
 
 ```bash
 injectived keys list $ORCHESTRATOR_KEY_NAME
@@ -179,7 +181,7 @@ If you are using a delegated account key configuration as recommended above, thi
 
 Please note that the default keyring backend is `file` and that as such peggo will try to locate keys on disk by default.
 
-To use the default injectived key configuration, you should set the keyring path to the home directory of your injectived node, e.g. `~/.injectived`.
+To use the default injectived key configuration, you should set the keyring path to the home directory of your injectived node, e.g., `~/.injectived`.
 
 You can also read more about the Cosmos Keyring setup [here](https://docs.cosmos.network/main/run-node/keyring.html).
 
@@ -223,7 +225,9 @@ injectived tx peggy set-orchestrator-address inj10m247khat0esnl0x66vu9mhlanfftnv
 
 You can verify successful registration by checking for your Validator's mapped Ethereum address on https://lcd.injective.network/peggy/v1/valset/current.
 
-NOTE: Once you've registered your Orchestrator with the `set-orchestrator-address` message, you **CANNOT** register again. Once this step is complete, your `Validator` is bound to the provided Ethereum address (as well the Delegated address you may have provided). In other words, your peggo must always run with the addresses you provided for registration.
+{% hint style="info" %}
+**NOTE:** Once you've registered your Orchestrator with the `set-orchestrator-address` message, you **CANNOT** register again. Once this step is complete, your `Validator` is bound to the provided Ethereum address (as well the Delegated address you may have provided). In other words, your peggo must always run with the addresses you provided for registration.
+{% endhint %}
 
 ### Step 3: Start the Relayer
 

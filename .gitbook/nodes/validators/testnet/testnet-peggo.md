@@ -71,7 +71,7 @@ Path of the secret key file: /home/ec2-user/.peggo/data/keystore/UTC--2021-03-23
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
 
-Now you can set env variables like this:
+Now, you can set env variables like this:
 
 ```ini
 PEGGO_ETH_KEYSTORE_DIR=/home/ec2-user/.peggo/data/keystore
@@ -124,7 +124,7 @@ Add `peggo.service` file with below content under `/etc/systemd/system/peggo.ser
   WantedBy=multi-user.target
 ```
 
-Then run the following commands to configure Environment variables, start and stop the peggo relayer.
+Then, run the following commands to configure Environment variables, start and stop the peggo relayer.
 
 ```bash
 sudo systemctl start peggo
@@ -145,9 +145,9 @@ journalctl -f -u peggo
 This is an advanced DevOps topic, consult with your sysadmin.
 {% endhint %}
 
-Learn more about Cosmos Keyring setup [here](https://docs.cosmos.network/v0.46/run-node/keyring.html). Once you've launched your node, the default keyring will have the validator operator key stored on disk in the encrypted form. Usually the keyring is located within node's homedir, i.e. `~/.injectived/keyring-file`.
+Learn more about Cosmos Keyring setup [here](https://docs.cosmos.network/v0.46/run-node/keyring.html). Once you've launched your node, the default keyring will have the validator operator key stored on disk in the encrypted form. Usually, the keyring is located within node's homedir, i.e. `~/.injectived/keyring-file`.
 
-Some sections of the Injective Staking documentation will guide you through using this key for governance purposes, i.e. submitting transactions and setting up an Ethereum bridge. In order to protect the keys from unauthorized access, even when the keyring passphrase is leaked via configs, you can set OS permissions to allow disk access to `injectived` / `peggo` processes only.
+Some sections of the Injective Staking documentation will guide you through using this key for governance purposes, i.e., submitting transactions and setting up an Ethereum bridge. In order to protect the keys from unauthorized access, even when the keyring passphrase is leaked via configs, you can set OS permissions to allow disk access to `injectived` / `peggo` processes only.
 
 In Linux systems like Debian, Ubuntu and RHEL, this can be achieved using POSIX Access Control Lists (ACLs). Before beginning to work with ACLs, the file system must be mounted with ACLs turned on. There are some official guides for each distro:
 
@@ -175,38 +175,38 @@ Peggo also requires access to your validator's delegated Injective Chain account
 
 Your peggo relayer can either
 
-* Use an explicitly delegated account key specific for sending validator specific Peggy transactions (i.e. `ValsetConfirm`, `BatchConfirm`, and `SendToCosmos` transactions) or
+* Use an explicitly delegated account key specific for sending validator specific Peggy transactions (i.e. `ValsetConfirm`, `BatchConfirm`, and `SendToCosmos` transactions), or
 * Simply use your validator's account key.
 
 For isolation purposes, we recommend creating a delegated Cosmos key to send Injective transactions instead of using your validator account key.
 
-To create a new key, run
+To create a new key, run:
 
 ```bash
 injectived keys add $ORCHESTRATOR_KEY_NAME
 ```
 
-Then ensure that your orchestrator inj address has INJ balance.
+Then, ensure that your orchestrator inj address has INJ balance.
 
-To obtain your orchestrators's inj address, run
+To obtain your orchestrators's inj address, run:
 
 ```bash
 injectived keys list $ORCHESTRATOR_KEY_NAME
 ```
 
-You can transfer INJ from your validator account to orchestrator address using this command
+You can transfer INJ from your validator account to orchestrator address using this command:
 
 ```bash
 injectived tx bank send $VALIDATOR_KEY_NAME  $ORCHESTRATOR_INJ_ADDRESS <amount-in-inj> --chain-id=injective-888 --keyring-backend=file --yes --node=tcp://localhost:26657 --gas-prices=500000000inj
 ```
 
-Example
+Example:
 
 ```bash
 injectived tx bank send genesis inj1u3eyz8nkvym0p42h79aqgf37gckf7szreacy9e 20000000000000000000inj --chain-id=injective-888  --keyring-backend=file --yes --node=tcp://localhost:26657 --gas-prices=500000000inj
 ```
 
-You can then verify that your orchestrator account has INJ balances by running
+You can then verify that your orchestrator account has INJ balances by running:
 
 ```bash
 injectived q bank balances $ORCHESTRATOR_INJ_ADDRESS
@@ -214,15 +214,15 @@ injectived q bank balances $ORCHESTRATOR_INJ_ADDRESS
 
 ### **Managing Cosmos account keys for `peggo`**
 
-Peggo supports two options to provide Cosmos signing key credentials - using the Cosmos keyring (recommended) or by providing a plaintext private key.
+Peggo supports two options to provide Cosmos signing key credentials - using the Cosmos keyring (recommended), or by providing a plaintext private key.
 
 #### **Option 1. Cosmos Keyring**
 
 In the `.env` file, first specify the `PEGGO_COSMOS_FROM` and `PEGGO_COSMOS_FROM_PASSPHRASE` corresponding to your peggo account signing key.
 
-If you are using a delegated account key configuration as recommended above, this will be your `$ORCHESTRATOR_KEY_NAME` and passphrase respectively. Otherwise, this should be your `$VALIDATOR_KEY_NAME` and associated validator passphrase.
+If you are using a delegated account key configuration as recommended above, this will be your `$ORCHESTRATOR_KEY_NAME` and passphrase, respectively. Otherwise, this should be your `$VALIDATOR_KEY_NAME` and associated validator passphrase.
 
-Please note that the default keyring backend is `file` and that as such peggo will try to locate keys on disk by default.
+Please note that the default keyring backend is `file` and that, as such, peggo will try to locate keys on disk by default.
 
 To use the default injectived key configuration, you should set the keyring path to the home directory of your injectived node, e.g. `~/.injectived`.
 
@@ -234,13 +234,13 @@ In the `.env` file, specify the `PEGGO_COSMOS_PK` corresponding to your peggo ac
 
 If you are using a delegated account key configuration as recommended above, this will be your orchestrator account's private key. Otherwise, this should be your validator's account private key.
 
-To obtain your orchestrator's Cosmos private key (if applicable), run
+To obtain your orchestrator's Cosmos private key (if applicable), run:
 
 ```bash
 injectived keys unsafe-export-eth-key $ORCHESTRATOR_KEY_NAME
 ```
 
-To obtain your validator's Cosmos private key (if applicable), run
+To obtain your validator's Cosmos private key (if applicable), run:
 
 ```bash
 injectived keys unsafe-export-eth-key $VALIDATOR_KEY_NAME
@@ -250,7 +250,7 @@ Again, this method is less secure and is not recommended.
 
 ### **Managing Ethereum keys for `peggo`**
 
-Peggo supports two options to provide signing key credentials - using the Geth keystore (recommended) or by providing a plaintext Ethereum private key.
+Peggo supports two options to provide signing key credentials - using the Geth keystore (recommended), or by providing a plaintext Ethereum private key.
 
 #### **Option 1. Geth Keystore**
 
@@ -294,13 +294,13 @@ PEGGO_ETH_FROM=0x9782dc957DaE6aDc394294954B27e2118D05176C
 PEGGO_ETH_PASSPHRASE=12345678
 ```
 
-Then ensure that your Ethereum address has enough ETH.
+Then, ensure that your Ethereum address has enough ETH.
 
 #### **Option 2. Ethereum Private Key (Unsafe)**
 
 Simply update the `PEGGO_ETH_PK` with a new Ethereum Private Key from a new account.
 
-Then ensure that your Ethereum address has ETH.
+Then, ensure that your Ethereum address has ETH.
 
 ## Step 2: Register Your Orchestrator and Ethereum Address
 
@@ -351,7 +351,7 @@ Add `peggo.service` file with below content under `/etc/systemd/system/peggo.ser
   WantedBy=multi-user.target
 ```
 
-Then run the following commands to configure Environment variables, start and stop the peggo relayer.
+Then, run the following commands to configure Environment variables, start and stop the peggo relayer:
 
 ```bash
 sudo systemctl start peggo
@@ -372,9 +372,9 @@ journalctl -f -u peggo
 This is an advanced DevOps topic, consult with your sysadmin.
 {% endhint %}
 
-Learn more about Cosmos Keyring setup [here](https://docs.cosmos.network/master/run-node/keyring.html). Once you've launched your node, the default keyring will have the validator operator key stored on disk in the encrypted form. Usually the keyring is located within node's homedir, i.e. `~/.injectived/keyring-file`.
+Learn more about Cosmos Keyring setup [here](https://docs.cosmos.network/master/run-node/keyring.html). Once you've launched your node, the default keyring will have the validator operator key stored on disk in the encrypted form. Usually, the keyring is located within node's homedir, i.e. `~/.injectived/keyring-file`.
 
-Some sections of the Injective Staking documentation will guide you through using this key for governance purposes, i.e. submitting transactions and setting up an Ethereum bridge. In order to protect the keys from unauthorized access, even when the keyring passphrase is leaked via configs, you can set OS permissions to allow disk access to `injectived` / `peggo` processes only.
+Some sections of the Injective Staking documentation will guide you through using this key for governance purposes, i.e., submitting transactions and setting up an Ethereum bridge. In order to protect the keys from unauthorized access, even when the keyring passphrase is leaked via configs, you can set OS permissions to allow disk access to `injectived` / `peggo` processes only.
 
 In Linux systems like Debian, Ubuntu and RHEL, this can be achieved using POSIX Access Control Lists (ACLs). Before beginning to work with ACLs, the file system must be mounted with ACLs turned on. There are some official guides for each distro:
 

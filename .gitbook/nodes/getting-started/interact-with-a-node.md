@@ -10,18 +10,18 @@ For more details on how to use `injectived`, go to Using `injectived`.
 
 ## Using gRPC
 
-The Protobuf ecosystem developed tools for different use cases, including code-generation from `*.proto` files into various languages. These tools allow clients to be built easily. Often, the client connection (i.e. the transport) can be plugged and replaced very easily. Let's explore a popular transport method, gRPC.
+The Protobuf ecosystem developed tools for different use cases, including code-generation from `*.proto` files into various languages. These tools allow clients to be built easily. Often, the client connection (i.e., the transport) can be plugged and replaced very easily. Let's explore a popular transport method, gRPC.
 
 Since the code generation library largely depends on your own tech stack, we will only present two alternatives:
 
 * `grpcurl` for generic debugging and testing
-* programmatically via Go, Python, or TS
+* Programmatically via Go, Python, or TS
 
 ### grpcurl
 
-[grpcurl](https://github.com/fullstorydev/grpcurl) is like `curl` but for gRPC. It is also available as a Go library, but we will use it only as a CLI command for debugging and testing purposes. Follow the instructions in the previous link to install it.
+[grpcurl](https://github.com/fullstorydev/grpcurl) is like `curl`, but for gRPC. It is also available as a Go library, but we will use it only as a CLI command for debugging and testing purposes. Follow the instructions in the previous link to install it.
 
-Assuming you have a local node running (either a localnet, or connected a live network), you should be able to run the following command to list the Protobuf services available (you can replace `localhost:9000` by the gRPC server endpoint of another node, which is configured under the `grpc.address` field inside `app.toml`:
+Assuming you have a local node running (either a localnet, or connected a live network), you should be able to run the following command to list the Protobuf services available. You can replace `localhost:9000` by the gRPC server endpoint of another node, which is configured under the `grpc.address` field inside `app.toml`:
 
 ```bash
 grpcurl -plaintext localhost:9090 list
@@ -29,7 +29,7 @@ grpcurl -plaintext localhost:9090 list
 
 You should see a list of gRPC services, like `cosmos.bank.v1beta1.Query`. This is called reflection, which is a Protobuf endpoint returning a description of all available endpoints. Each of these represents a different Protobuf service, and each service exposes multiple RPC methods you can query against.
 
-In order to get a description of the service you can run the following command:
+In order to get a description of the service, you can run the following command:
 
 ```bash
 # Service we want to inspect
@@ -167,7 +167,7 @@ curl \
 
 Make sure to replace `localhost:1317` with the REST endpoint of your node, configured under the `api.address` field.
 
-The list of all available REST endpoints is available as a Swagger specification file, it can be viewed at `localhost:1317/swagger`. Make sure that the `api.swagger` field is set to true in your `app.toml` file.
+The list of all available REST endpoints is available as a Swagger specification file; it can be viewed at `localhost:1317/swagger`. Make sure that the `api.swagger` field is set to true in your `app.toml` file.
 
 #### Query for historical state using REST
 
@@ -185,7 +185,7 @@ Assuming the state at that block has not yet been pruned by the node, this query
 
 ## Cross-Origin Resource Sharing (CORS)
 
-[CORS policies](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) are not enabled by default to help with security. If you would like to use the rest-server in a public environment we recommend you provide a reverse proxy, this can be done with [nginx](https://www.nginx.com/). For testing and development purposes there is an `enabled-unsafe-cors` field inside `app.toml`.
+[CORS policies](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) are not enabled by default to help with security. If you would like to use the rest-server in a public environment we recommend you provide a reverse proxy, this can be done with [nginx](https://www.nginx.com/). For testing and development purposes, there is an `enabled-unsafe-cors` field inside `app.toml`.
 
 ## Sending Transactions
 

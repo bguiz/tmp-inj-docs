@@ -56,7 +56,7 @@ injectived q bank balances <my-validator-inj-address>
 
 ### Step 3: Create your validator account
 
-Obtain your node's tendermint validator Bech32 encoded PubKey consensus address.
+Obtain your node's Tendermint validator Bech32 encoded PubKey consensus address.
 
 ```bash
 VALIDATOR_PUBKEY=$(injectived tendermint show-validator)
@@ -123,7 +123,7 @@ If you see your validator in the list of validators, then congratulations, you h
 
 ### Step 4: (Optional) Delegate Additional INJ to your Validator
 
-To gain a deeper empirical understanding of user experience that your future delegators will experience, you can complete the remaining steps in the [Staking Guide](https://medium.com/injective-labs/injective-hub-guide-9a14f09f6a7d).
+To gain a deeper empirical understanding of the user experience that your future delegators will experience, you can complete the remaining steps in the [Staking Guide](https://medium.com/injective-labs/injective-hub-guide-9a14f09f6a7d).
 
 These steps will allow you to experience the delegation flow using MetaMask Transactions. 🦊
 
@@ -135,4 +135,4 @@ injectived tx staking delegate [validator-addr] [amount] --from $VALIDATOR_KEY_N
 
 ### Next Steps
 
-Next, proceed to setup your Ethereum Bridge Relayer. This is a necessary step in order to prevent your validator from being slashed. You should do this immediately after setting up your validator.
+Next, proceed to set up your Ethereum Bridge Relayer. This is a necessary step in order to prevent your validator from being slashed. You should do this immediately after setting up your validator.

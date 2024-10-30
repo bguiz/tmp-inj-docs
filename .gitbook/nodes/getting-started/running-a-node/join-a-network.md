@@ -1,6 +1,6 @@
 # Join a network
 
-This guide will walk you through the process of setting up a standalone network locally as well as running a node on Mainnet or Testnet.&#x20;
+This guide will walk you through the process of setting up a standalone network locally, as well as running a node on Mainnet or Testnet.&#x20;
 
 You can also find the hardware requirements for each network in the respective tabs.&#x20;
 

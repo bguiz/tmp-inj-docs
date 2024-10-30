@@ -57,7 +57,7 @@ injectived q bank balances <my-validator-inj-address>
 
 ### Step 4: Create your validator account
 
-Obtain your node's tendermint validator Bech32 encoded PubKey consensus address.
+Obtain your node's Tendermint validator Bech32 encoded PubKey consensus address.
 
 ```bash
 VALIDATOR_PUBKEY=$(injectived tendermint show-validator)
@@ -146,4 +146,4 @@ That's it! Once you've connected your validator identity with Keybase, the Injec
 
 #### Next Steps
 
-Next, proceed to setup your [Ethereum Bridge Relayer](peggo.md). This is a necessary step to prevent your validator from being slashed. You should do this immediately after setting up your validator.
+Next, proceed to set up your [Ethereum Bridge Relayer](peggo.md). This is a necessary step to prevent your validator from being slashed. You should do this immediately after setting up your validator.
