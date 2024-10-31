@@ -1,14 +1,6 @@
 # Canonical Chain Upgrades
 
-November 8th, 2021
-
-The following document describes the necessary steps involved that validators and full node operators must take in order to upgrade from the Injective Canary Chain to the Canonical Chain. The upgrade will take place via an on-chain software upgrade proposal passed by Injective governance. If passed, this proposal would commit the Injective Mainnet to halting the Canary Chain injectived application binary at approximately 14:00 UTC on November 8th, 2021, and starting the application binary for the Injective Canonical Chain.
-
-Injective Canary Chain to the Canonical Chain upgrade follows [proposal #65](https://hub.injective.network/proposals/65)
-
-Following a chain upgrade timeline, as a first step, proceed to Canonical chain release [10002-rc1](canonical-10002-rc1.md) upgrade.
-
-## The History of Canonical Chain Upgrades
+### History of Canonical Chain Upgrades
 
 ***
 
@@ -34,8 +26,6 @@ Released Artifacts: [Injective Chain 10002-rc2 release](https://github.com/Injec
 
 Following [proposal #70](https://hub.injective.network/proposals/70)
 
-***
-
 ### Version 10003-rc1
 
 Thursday, December 30th, 2021
@@ -45,8 +35,6 @@ Block number: [6,159,200](https://explorer.injective.network/block/6159200)
 Released Artifacts: [Mainnet-10003-rc1-1640627705](https://github.com/InjectiveLabs/injective-chain-releases/releases/tag/v1.1.1-1640627705)
 
 Following [proposal #93](https://hub.injective.network/proposals/93)
-
-***
 
 ### Version 10004-rc1
 
