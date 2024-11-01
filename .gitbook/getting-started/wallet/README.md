@@ -17,21 +17,13 @@ As explained above, Ethereum-based wallets can be used to interact with Injectiv
 
 <figure><img src="../../.gitbook/assets/SVG_MetaMask_Horizontal_White.svg" alt="" width="225"><figcaption><p><a href="https://metamask.io/">MetaMask</a></p></figcaption></figure>
 
- 
-
-<figure><img src="../../.gitbook/assets/trezor-main-logo-white-rgb.svg" alt="" width="188"><figcaption><p><a href="https://trezor.io/">Trezor</a></p></figcaption></figure>
-
 </div>
-
-<div align="center">
 
 <figure><img src="../../.gitbook/assets/White -Ledger logo.svg" alt="" width="142"><figcaption><p><a href="https://www.ledger.com/">Ledger</a></p></figcaption></figure>
 
- 
+<figure><img src="../../.gitbook/assets/trezor-main-logo-white-rgb.svg" alt="" width="188"><figcaption><p><a href="https://trezor.io/">Trezor</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/torus-logo-blue-3.svg" alt="" width="155"><figcaption><p><a href="https://tor.us/index.html">Torus</a></p></figcaption></figure>
-
-</div>
 
 The process of signing transactions on Injective using an Ethereum-native wallet consists of:
 
@@ -47,15 +39,9 @@ Injective supports the leading wallets compatible with Cosmos and IBC, including
 
 <figure><img src="../../.gitbook/assets/cosmostation-logo-01.png" alt="" width="375"><figcaption><p><a href="https://cosmostation.io/">Cosmostation</a></p></figcaption></figure>
 
-<div>
-
 <figure><img src="../../.gitbook/assets/Keplr_logo_ver.1.3_2 Light.png" alt="" width="188"><figcaption><p><a href="https://www.keplr.app/">Keplr</a></p></figcaption></figure>
 
- 
-
-<figure><img src="../../.gitbook/assets/6614b644f965e11764db3535_leap.svg" alt="" width="238"><figcaption><p><a href="https://www.leapwallet.io/">Leap</a></p></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/Logo _ Dark.svg" alt=""><figcaption><p><a href="https://www.leapwallet.io/">Leap</a></p></figcaption></figure>
 
 #### Injective-Native Wallets
 

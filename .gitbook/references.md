@@ -58,8 +58,8 @@ Helpful repositories for developing on and integrating Injective
 
 Find developer support on Discord or Telegram
 
-1. Join the [Injective Discord server](https://discord.gg/injective) and find the relevant channel.
-2. Join the [Injective Developer Telegram channel](https://t.me/+8Y\_0HOFLhnRlZDU9).
+1. Join the [Injective Discord server](https://discord.gg/injective) and find the relevant channel
+2. Join the [Injective Developer Telegram channel](https://t.me/+qorn-J06fzA0YTZl)
 
 ### Public Endpoints
 
