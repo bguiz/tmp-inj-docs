@@ -1,6 +1,6 @@
 # Upgrade to v1.10
 
-**Friday March 17th 2023**
+Friday, March 17th, 2023
 
 Following [proposal 207](https://hub.injective.network/proposals/207/) This indicates that the upgrade procedure should be performed on block number **28864000**
 

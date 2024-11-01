@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Upgrade to v1.13.2
 
-Thursday, August 20th, 2024
+Tuesday, August 20th, 2024
 
 Following [proposal 424](https://hub.injective.network/proposal/424/) This indicates that the upgrade procedure should be performed on block number **82830000**
 

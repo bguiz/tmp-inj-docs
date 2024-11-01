@@ -1,6 +1,6 @@
 # Upgrade to v1.12.1
 
-**Thursday January 22 2024**
+Monday, January 22nd, 2024
 
 This is a **non-consensus breaking release**, node operators can upgrade in their earliest convenience.
 
