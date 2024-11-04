@@ -22,10 +22,10 @@ type MsgPrivilegedExecuteContract struct {
 
 **Fields description**
 
-* `Sender` describes the creator of this msg.
-* `Funds` defines the user's bank coins used to fund the execution (e.g., 100inj).
-* `ContractAddress` defines the contract address to execute.
-* `Data` defines the call data used when executing the contract, see further details below.
+- `Sender` describes the creator of this msg.
+- `Funds` defines the user's bank coins used to fund the execution (e.g. 100inj).
+- `ContractAddress` defines the contract address to execute.
+- `Data` defines the call data used when executing the contract, see further details below.
 
 **Contract Interface**
 
@@ -39,9 +39,9 @@ InjectiveExec {
 }
 ```
 
-* The `origin` field is the address of the user who sent the privileged action. You don't have to set this field yourself, it will be set by the exchange module.
-* The `name` field is the name of the privileged action. You can define these to be whatever you want.
-* The `args` field is the arguments of the privileged action. You can define these to be whatever you want.
+- The `origin` field is the address of the user who sent the privileged action. You don't have to set this field yourself, it will be set by the exchange module.
+- The `name` field is the name of the privileged action. You can define these to be whatever you want.
+- The `args` field is the arguments of the privileged action. You can define these to be whatever you want.
 
 A complete definition of the Data string in Golang is:
 
@@ -93,9 +93,9 @@ response = response.set_data(to_binary(&privileged_action)?);
 
 **PositionTransfer**
 
-The position transfer allows a contract to transfer a derivative position from its own subaccount to a user's subaccount. The position may not be liquidable. Solely, the receiver pays a taker trading fee deducted from his balances.
+The position transfer allows a contract to transfer a derivative position from its own subaccount to a user's subaccount. The position may not be liquidable. Solely the receiver pays a taker trading fee deducted from his balances.
 
-Currently, only transfers from the contract's subaccount to a user's subaccount are supported.
+Currently only transfers from the contract's subaccount to a user's subaccount are supported.
 
 ```go
 type PositionTransfer struct {
