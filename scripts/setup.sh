@@ -3,8 +3,8 @@ injective_core_branch=dev
 cosmos_sdk_branch=v0.50.x-inj
 BUILD_DIR=./temp
 STUB_DIR=./scripts/stub
-CORE_DIR=./docs/develop/modules/core
-INJECTIVE_DIR=./docs/develop/modules/injective
+CORE_DIR=./.gitbook/developers/modules/core
+INJECTIVE_DIR=./.gitbook/developers/modules/injective
 
 mkdir -p $BUILD_DIR
 rm -rf $CORE_DIR
@@ -32,10 +32,8 @@ for D in ./$BUILD_DIR/injective-core/injective-chain/modules/*; do
   fi
 done
 
-cp $STUB_DIR/core_category.json.stub $CORE_DIR/_category_.json
-cp $STUB_DIR/core_index.mdx.stub $CORE_DIR/index.mdx
-cp $STUB_DIR/injective_category.json.stub $INJECTIVE_DIR/_category_.json
-cp $STUB_DIR/injective_index.mdx.stub $INJECTIVE_DIR/index.mdx
+cp $STUB_DIR/core.modules.md.stub $CORE_DIR/README.md
+cp $STUB_DIR/injective.modules.md.stub $INJECTIVE_DIR/README.md
 
 ## 1. Manually replace wrong import paths
 ## authz
