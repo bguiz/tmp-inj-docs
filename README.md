@@ -6,24 +6,22 @@
 
 ## 📚 Getting Started
 
-1. Clone the repository and install dependencies
+1. Clone the repository and create your branch
 
 ```bash
 $ git clone git@github.com:InjectiveLabs/injective-docs.git
 $ cd injective-docs
-$ yarn
 ```
 
-2. Regenerate documentation based on the desired branches for `injective-core` and `cosmos-sdk` 
-   _Note: you can change the branches/tags in the `scripts/setup.sh` file_
+2. Update your content in the `.gitbook` folder. _Note: `.gitbook/development/modules` should not be done as it's automatically pulled from the `inejctive-core` repo_
+
+3. Regenerate documentation based on the desired branches for `injective-core` and `cosmos-sdk`. _Note: you can change the branches/tags in the `scripts/setup.sh` file_
 
 ```bash
 $ yarn generate
 ```
 
-3. Change any `.md` file within the `.gitbook` folder,
-
-4. Push the `dev` branch to the docs and make a PR to `master` to reflect the changes on the main page.
+4. Push your branch to the docs and make a PR to `master` to reflect the changes on the main page.
 
 ## 🔓 License
 
