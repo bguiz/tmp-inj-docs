@@ -14,48 +14,16 @@ $ cd injective-docs
 $ yarn
 ```
 
-2. Regenerate documentation based on the desired branches for `injective-core` and `cosmos-sdk`
+2. Regenerate documentation based on the desired branches for `injective-core` and `cosmos-sdk` 
    _Note: you can change the branches/tags in the `scripts/setup.sh` file_
 
 ```bash
 $ yarn generate
 ```
 
-You can now either run the documentation locally OR build it for deployment and deploy it to the desired hosting service.
+3. Change any `.md` file within the `.gitbook` folder,
 
-## 📚 Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## 📚 Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## 📚 Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
----
+4. Push the `dev` branch to the docs and make a PR to `master` to reflect the changes on the main page.
 
 ## 🔓 License
 
