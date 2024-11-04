@@ -13,17 +13,10 @@ Injective's `Account` type uses Ethereum's ECDSA secp256k1 curve for keys. Simpl
 
 As explained above, Ethereum-based wallets can be used to interact with Injective. Right now, the most popular Ethereum-based wallets are supported on Injective. These include:
 
-<div align="center" data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/SVG_MetaMask_Horizontal_White.svg" alt="" width="225"><figcaption><p><a href="https://metamask.io/">MetaMask</a></p></figcaption></figure>
-
-</div>
-
-<figure><img src="../../.gitbook/assets/White -Ledger logo.svg" alt="" width="142"><figcaption><p><a href="https://www.ledger.com/">Ledger</a></p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/trezor-main-logo-white-rgb.svg" alt="" width="188"><figcaption><p><a href="https://trezor.io/">Trezor</a></p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/torus-logo-blue-3.svg" alt="" width="155"><figcaption><p><a href="https://tor.us/index.html">Torus</a></p></figcaption></figure>
+1. [MetaMask](https://metamask.io/)
+2. [Ledger](https://www.ledger.com/)
+3. [Trezor](https://trezor.io/)
+4. [Torus](https://tor.us/index.html)
 
 The process of signing transactions on Injective using an Ethereum-native wallet consists of:
 
@@ -37,28 +30,17 @@ This process is abstracted away from the end-user. If you've previously used an 
 
 Injective supports the leading wallets compatible with Cosmos and IBC, including:
 
-<figure><img src="../../.gitbook/assets/cosmostation-logo-01.png" alt="" width="375"><figcaption><p><a href="https://cosmostation.io/">Cosmostation</a></p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Keplr_logo_ver.1.3_2 Light.png" alt="" width="188"><figcaption><p><a href="https://www.keplr.app/">Keplr</a></p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Logo _ Dark.svg" alt=""><figcaption><p><a href="https://www.leapwallet.io/">Leap</a></p></figcaption></figure>
+1. [Cosmostation](https://cosmostation.io/)
+2. [Keplr](https://www.keplr.app/)
+3. [Leap](https://www.leapwallet.io/)
 
 #### Injective-Native Wallets
 
 Currently, [Ninji Wallet](https://ninji.xyz/) is the only Injective-native wallet. Such a wallet is built to synergize specifically with the greater Injective ecosystem.
 
-<figure><img src="../../.gitbook/assets/NINJI-LOGO_NINJI-FULL-WHITECOLOUR.svg" alt="" width="188"><figcaption><p><a href="https://ninji.xyz/">Ninji</a></p></figcaption></figure>
-
 #### CEX-Based Wallets
 
 There are also several wallets developed by centralized exchanges (CEXs) that now support Injective. If you are an active user of these CEXs, using their wallets can provide a more seamless web3 experience. Currently, CEX-based wallets that support Injective are:
 
-<div>
-
-<figure><img src="../../.gitbook/assets/bitget wallet.svg" alt="" width="188"><figcaption><p><a href="https://web3.bitget.com/">Bitget</a></p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/0_YiPfP8pxHtcyVuWy (2).png" alt="" width="177"><figcaption><p><a href="https://www.okx.com/web3">OKX</a></p></figcaption></figure>
-
-</div>
+1. [Bitget Wallet](https://web3.bitget.com/en/)
+2. [OKX Wallet](https://www.okx.com/web3)
