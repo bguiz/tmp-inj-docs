@@ -1,7 +1,7 @@
 ---
 description: >-
-  Injective is a high-performance, interoperable layer-one blockchain designed
-  for building premier Web3 financial applications.
+  Injective is a high-performance, interoperable layer-one blockchain for
+  building premier Web3 financial applications.
 ---
 
 # About Injective
