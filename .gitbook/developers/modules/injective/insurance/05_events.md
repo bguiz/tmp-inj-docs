@@ -11,29 +11,16 @@ The insurance module emits the following events:
 
 ### MsgCreateInsuranceFund
 
-| Type                                                 | Attribute Key | Attribute Value |
-| ---------------------------------------------------- | ------------- | --------------- |
-| injective.insurance.v1beta1.EventInsuranceFundUpdate | fund          | {fundJSON}      |
+<table><thead><tr><th width="254">Type</th><th>Attribute Key</th><th>Attribute Value</th></tr></thead><tbody><tr><td>injective.insurance.v1beta1.EventInsuranceFundUpdate</td><td>fund</td><td>{fundJSON}</td></tr></tbody></table>
 
 ### MsgUnderwrite
 
-| Type                                                 | Attribute Key | Attribute Value |
-| ---------------------------------------------------- | ------------- | --------------- |
-| injective.insurance.v1beta1.EventInsuranceFundUpdate | fund          | {fundJSON}      |
+<table><thead><tr><th width="253">Type</th><th>Attribute Key</th><th>Attribute Value</th></tr></thead><tbody><tr><td>injective.insurance.v1beta1.EventInsuranceFundUpdate</td><td>fund</td><td>{fundJSON}</td></tr></tbody></table>
 
 ### MsgRequestRedemption
 
-| Type                                               | Attribute Key | Attribute Value |
-| -------------------------------------------------- | ------------- | --------------- |
-| injective.insurance.v1beta1.EventRequestRedemption | schedule      | {scheduleJSON}  |
-
-
+<table><thead><tr><th width="252">Type</th><th>Attribute Key</th><th>Attribute Value</th></tr></thead><tbody><tr><td>injective.insurance.v1beta1.EventRequestRedemption</td><td>schedule</td><td>{scheduleJSON}</td></tr></tbody></table>
 
 ## EndBlocker
 
-| Type                                                 | Attribute Key | Attribute Value |
-| ---------------------------------------------------- | ------------- | --------------- |
-| injective.insurance.v1beta1.EventInsuranceFundUpdate | fund          | {fundJSON}      |
-| injective.insurance.v1beta1.EventWithdrawRedemption  | schedule      | {scheduleJSON}  |
-| injective.insurance.v1beta1.EventWithdrawRedemption  | redeem_coin   | {redeemCoin}    |
-
+<table><thead><tr><th width="253">Type</th><th>Attribute Key</th><th>Attribute Value</th></tr></thead><tbody><tr><td>injective.insurance.v1beta1.EventInsuranceFundUpdate</td><td>fund</td><td>{fundJSON}</td></tr><tr><td>injective.insurance.v1beta1.EventWithdrawRedemption</td><td>schedule</td><td>{scheduleJSON}</td></tr><tr><td>injective.insurance.v1beta1.EventWithdrawRedemption</td><td>redeem_coin</td><td>{redeemCoin}</td></tr></tbody></table>
