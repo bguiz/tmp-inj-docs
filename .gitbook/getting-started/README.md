@@ -17,5 +17,5 @@ Welcome to your journey of exploring Injective! Before asking questions, please 
 Should you have some questions or feedback, you can reach out to Discord or Telegram:
 
 * Join the [Injective Discord server](https://discord.gg/injective) and find the relevant channel.
-* Join the [Injective Developer Telegram channel](https://t.me/+8Y\_0HOFLhnRlZDU9).
+* Join the [Injective Developer Telegram channel](https://t.me/+8Y_0HOFLhnRlZDU9).
 

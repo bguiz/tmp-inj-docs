@@ -56,7 +56,7 @@ In the event that the upgrade does not succeed, validators and operators must re
 
 ## Notes for Validators
 
-Validator operators should configure the **timeout\_commit** in **config.toml** to `300ms`.
+Validator operators should configure the **timeout_commit** in **config.toml** to `300ms`.
 
 1.  Verify you are currently running the correct version (`ca447cf8`) of `injectived`:
 

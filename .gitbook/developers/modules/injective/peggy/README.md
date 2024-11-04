@@ -8,14 +8,14 @@ This decentralized bridge is secured and operated by the validators of the Injec
 
 ## Contents
 
-1. [**Definitions**](01\_definitions.md)
-2. [**Workflow**](02\_workflow.md)
-3. [**State**](03\_state.md)
-4. [**Messages**](04\_messages.md)
-5. [**Slashing**](05\_slashing.md)
-6. [**End-Block**](06\_end\_block.md)
-7. [**Events**](07\_events.md)
-8. [**Parameters**](08\_params.md)
+1. [**Definitions**](01_definitions.md)
+2. [**Workflow**](02_workflow.md)
+3. [**State**](03_state.md)
+4. [**Messages**](04_messages.md)
+5. [**Slashing**](05_slashing.md)
+6. [**End-Block**](06_end_block.md)
+7. [**Events**](07_events.md)
+8. [**Parameters**](08_params.md)
 
 ### Components
 

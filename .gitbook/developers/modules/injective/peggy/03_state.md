@@ -9,7 +9,7 @@ This doc lists all the data Peggy module reads/writes to its state as KV pairs
 
 ### Module Params
 
-Params is a module-wide configuration structure that stores parameters and defines overall functioning of the peggy module. Detailed specification for each parameter can be found in the [Parameters section](08\_params.md).
+Params is a module-wide configuration structure that stores parameters and defines overall functioning of the peggy module. Detailed specification for each parameter can be found in the [Parameters section](08_params.md).
 
 | key           | Value         | Type           | Encoding         |
 | ------------- | ------------- | -------------- | ---------------- |
@@ -80,7 +80,7 @@ Nonce of the latest validator set. Updated on each new validator set.
 
 ### Valset Confirmation
 
-`Singer` confirmation for a particular validator set. See [oracle messages](04\_messages.md#ValsetConfirm).
+`Singer` confirmation for a particular validator set. See [oracle messages](04_messages.md#ValsetConfirm).
 
 | Key                                         | Value                  | Type                     | Encoding         |
 | ------------------------------------------- | ---------------------- | ------------------------ | ---------------- |
@@ -88,7 +88,7 @@ Nonce of the latest validator set. Updated on each new validator set.
 
 ### Batch Confirmation
 
-`Singer` confirmation for a particular token batch. See [oracle messages](04\_messages.md#ConfirmBatch).
+`Singer` confirmation for a particular token batch. See [oracle messages](04_messages.md#ConfirmBatch).
 
 | Key                                                                 | Value                        | Type                    | Encoding         |
 | ------------------------------------------------------------------- | ---------------------------- | ----------------------- | ---------------- |

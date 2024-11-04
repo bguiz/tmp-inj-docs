@@ -30,7 +30,7 @@ Binary options markets are tightly coupled to the Provider Oracle type, which al
 
 The main goal of the oracle is to post the final outcome of the event. This final price settles the market at that exact price. This price is expected to be equal to be 0 or 1 most of the time, reflective of the binary outcome.
 
-Moreover, the market could be settled at any price within the (0, 1) price band. In case the _settlement\_price_ posted by oracle is between 0 or 1, all positions will be closed at the _settlement\_price_ (e.g., 0.42). If the oracle price exceeds 1, the settlement price will be rounded down to 1.
+Moreover, the market could be settled at any price within the (0, 1) price band. In case the _settlement_price_ posted by oracle is between 0 or 1, all positions will be closed at the _settlement_price_ (e.g., 0.42). If the oracle price exceeds 1, the settlement price will be rounded down to 1.
 
 Oracle can also post the final price of **-1**, which is the flag price that triggers refunding of all positions in the current market and demolishes the market. If there is no oracle update ever prior to settlement, then an oracle price of -1 will be used by default to trigger the refunds of all positions.
 
@@ -79,7 +79,7 @@ The nature of the status transitions for binary options markets are as follows:
 
 ### Market Settlement
 
-The settlement price options are explained above in the [oracle](02\_binary\_options\_markets.md#oracle) section.
+The settlement price options are explained above in the [oracle](02_binary_options_markets.md#oracle) section.
 
 Settling a market can be achieved using one of these two options:
 

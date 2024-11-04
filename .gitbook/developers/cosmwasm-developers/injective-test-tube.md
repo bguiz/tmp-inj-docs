@@ -227,7 +227,7 @@ assert!(admin_list.mutable);
 
 ### Debugging
 
-In your contract code, if you want to debug, you can use [`deps.api.debug(..)`](https://docs.rs/cosmwasm-std/latest/cosmwasm\_std/trait.Api.html#tymethod.debug) which will print the debug message to stdout. `wasmd` disabled this by default but `InjectiveTestApp` allows stdout emission so that you can debug your smart contract while running tests.
+In your contract code, if you want to debug, you can use [`deps.api.debug(..)`](https://docs.rs/cosmwasm-std/latest/cosmwasm_std/trait.Api.html#tymethod.debug) which will print the debug message to stdout. `wasmd` disabled this by default but `InjectiveTestApp` allows stdout emission so that you can debug your smart contract while running tests.
 
 ### Using Module Wrapper
 

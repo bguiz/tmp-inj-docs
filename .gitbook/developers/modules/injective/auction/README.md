@@ -6,8 +6,8 @@ The `auction` module periodically obtains a basket of tokens accumulated from tr
 
 ## Contents
 
-1. [**State**](01\_state.md)
-2. [**Messages**](02\_messages.md)
-3. [**End Block**](03\_end\_block.md)
-4. [**Events**](04\_events.md)
-5. [**Params**](05\_params.md)
+1. [**State**](01_state.md)
+2. [**Messages**](02_messages.md)
+3. [**End Block**](03_end_block.md)
+4. [**Events**](04_events.md)
+5. [**Params**](05_params.md)

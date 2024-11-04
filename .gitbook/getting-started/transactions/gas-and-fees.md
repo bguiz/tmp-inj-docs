@@ -43,4 +43,4 @@ These operations are defined by the Tendermint Core's Application Blockchain Int
 
 #### `AnteHandler`
 
-The Cosmos SDK [`AnteHandler`](https://docs.cosmos.network/v0.45/modules/auth/03\_antehandlers.html) performs basic checks prior to transaction execution. These checks are usually signature verification, transaction field validation, transaction fees, etc.
+The Cosmos SDK [`AnteHandler`](https://docs.cosmos.network/v0.45/modules/auth/03_antehandlers.html) performs basic checks prior to transaction execution. These checks are usually signature verification, transaction field validation, transaction fees, etc.

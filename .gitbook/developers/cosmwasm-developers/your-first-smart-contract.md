@@ -27,7 +27,7 @@ cargo install cargo-generate
 
 ### CosmWasm Contract Basics
 
-A smart contract can be considered an instance of a [singleton object](https://en.wikipedia.org/wiki/Singleton\_pattern) whose internal state is persisted on the blockchain. Users can trigger state changes by sending the smart contract JSON messages, and users can also query its state by sending a request formatted as a JSON message. These JSON messages are different than Injective blockchain messages such as `MsgSend` and `MsgExecuteContract`.
+A smart contract can be considered an instance of a [singleton object](https://en.wikipedia.org/wiki/Singleton_pattern) whose internal state is persisted on the blockchain. Users can trigger state changes by sending the smart contract JSON messages, and users can also query its state by sending a request formatted as a JSON message. These JSON messages are different than Injective blockchain messages such as `MsgSend` and `MsgExecuteContract`.
 
 As a smart contract writer, your job is to define 3 functions that compose your smart contract's interface:
 
@@ -608,7 +608,7 @@ Now that we have the code on Injective, it is time to instantiate the contract t
 Reminder On CosmWasm, the upload of a contract's code and the instantiation of a contract are regarded as separate events
 {% endhint %}
 
-To instantiate the contract, run the following CLI command with the code\_id you got in the previous step, along with the [JSON encoded initialization arguments](https://github.com/InjectiveLabs/cw-counter/blob/ea3b781447a87f052e4b8308d5c73a30481ed61f/schema/cw-counter.json#L7) and a label (a human-readable name for this contract in lists).
+To instantiate the contract, run the following CLI command with the code_id you got in the previous step, along with the [JSON encoded initialization arguments](https://github.com/InjectiveLabs/cw-counter/blob/ea3b781447a87f052e4b8308d5c73a30481ed61f/schema/cw-counter.json#L7) and a label (a human-readable name for this contract in lists).
 
 ```bash
 INIT='{"count":99}'

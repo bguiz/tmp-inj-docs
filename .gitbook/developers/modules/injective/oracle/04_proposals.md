@@ -177,7 +177,7 @@ message EnableBandIBCProposal {
 }
 ```
 
-The details of `BandIBCParams`, can be checked at [**State**](01\_state.md)
+The details of `BandIBCParams`, can be checked at [**State**](01_state.md)
 
 ## GrantStorkPublisherPrivilegeProposal
 

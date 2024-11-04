@@ -56,7 +56,7 @@ In the event that the upgrade does not succeed, validators and operators must re
 
 ## Notes for Validators
 
-Validator operators should configure the **timeout\_commit** in **config.toml** to `300ms`.
+Validator operators should configure the **timeout_commit** in **config.toml** to `300ms`.
 
 You must remove the wasm cache before upgrading to the new version (rm -rf .injectived/wasm/wasm/cache/).
 

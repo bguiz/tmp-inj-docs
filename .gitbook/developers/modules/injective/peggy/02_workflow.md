@@ -47,8 +47,8 @@ The peggo orchestrators observe this event and decide if a Cosmos asset has been
 
 The `peggo orchestrator` process consists of 4 subprocesses running concurrently at exact intervals (loops). These are:
 
-* `Signer`, which signs new `Validator Set` updates and `Token Batches` with the `Operator`'s Ethereum keys and submits using [messages](04\_messages.md#Ethereum-Signer-messages).
-* `Oracle`, which observes Ethereum events and sends them as [claims](04\_messages.md#Oracle-messages) to Injective.
+* `Signer`, which signs new `Validator Set` updates and `Token Batches` with the `Operator`'s Ethereum keys and submits using [messages](04_messages.md#Ethereum-Signer-messages).
+* `Oracle`, which observes Ethereum events and sends them as [claims](04_messages.md#Oracle-messages) to Injective.
 * `Relayer`, which submits confirmed `Validator Set` updates and `Token Batches` to the `Peggy Contract` on Ethereum.
 * `Batch Creator`, which observes (new) withdrawals on Injective and decides which of these to batch according to their type and the configured `PEGGO_MIN_BATCH_FEE_USD` value.
 
@@ -64,7 +64,7 @@ On the receiving end, all pooled withdrawals matching the token type in the requ
 
 The responsibility of Signer is to provide confirmations that an `Operator (Orchestrator)` is partaking in bridge activity. Failure to provide these confirmations results in slashing penalties for the orchestrator's `Validator`. In other words, this process **must be running at all times** for a `Validator` node.
 
-Any payload moving in the Injective->Ethereum pipeline (`Validator Set` updates/`Token Batches`) requires `Validator` signatures to be successfully relayed to Ethereum. Certain calls on `Peggy Contract` accept an array of signatures to be checked against the `Validator Set` in the contract itself. `Orchestrators` make these signatures with their `Delegate Ethereum address`: this is an Ethereum address decided by the `Operator` upon initial setup ([SetOrchestratorAddress](04\_messages.md#setorchestratoraddresses)). This address then represents that validator on the Ethereum blockchain, and will be added as a signing member of the multisig with a weighted voting power as close as possible to the Injective Chain voting power.
+Any payload moving in the Injective->Ethereum pipeline (`Validator Set` updates/`Token Batches`) requires `Validator` signatures to be successfully relayed to Ethereum. Certain calls on `Peggy Contract` accept an array of signatures to be checked against the `Validator Set` in the contract itself. `Orchestrators` make these signatures with their `Delegate Ethereum address`: this is an Ethereum address decided by the `Operator` upon initial setup ([SetOrchestratorAddress](04_messages.md#setorchestratoraddresses)). This address then represents that validator on the Ethereum blockchain, and will be added as a signing member of the multisig with a weighted voting power as close as possible to the Injective Chain voting power.
 
 Whenever `Signer` finds that there is a unconfirmed valset update (token batch) present within the `Peggy Module`, it issues a `MsgConfirmValset` (`MsgConfirmBatch`) as proof that the operating `Validator` is active in bridge activity.
 
@@ -74,7 +74,7 @@ Monitors the Ethereum network for new events involving the `Peggy Contract`.
 
 Every event emitted by the contract has a unique event nonce. This nonce value is crucial in coordinating `Orchestrators` to properly observe contract activity and make sure Injective acknowledges them via `Claims`. Multiple claims of the same nonce make up an `Attestation` and when the majority (2/3) of orchestrators have observed an event its particular logic gets executed on Injective.
 
-If 2/3 of the validators can not agree on a single `Attestation`, the oracle is halted. This means no new events will be relayed from Ethereum until some of the validators change their votes. There is no slashing condition for this, with reasoning outlined in the [slashing spec](05\_slashing.md)
+If 2/3 of the validators can not agree on a single `Attestation`, the oracle is halted. This means no new events will be relayed from Ethereum until some of the validators change their votes. There is no slashing condition for this, with reasoning outlined in the [slashing spec](05_slashing.md)
 
 There are 4 types of events emitted from Peggy.sol:
 
@@ -125,7 +125,7 @@ A validator set is a series of Ethereum addresses with attached normalized power
 3. **Updating the Valset on the Peggy contract:** After a 2/3+ 1 majority of validators have submitted their confirmations for a given Valset, `Relayer` submits the new Valset data to the Peggy contract by calling `updateValset`. The Peggy contract then validates the data, updates the valset checkpoint, transfers valset rewards to sender, and emits a `ValsetUpdatedEvent`.
 4. **Acknowledging the `ValsetUpdatedEvent` on Injective:** `Oracle` witnesses the `ValsetUpdatedEvent` on Ethereum, and sends a `MsgValsetUpdatedClaim`, which informs the `Peggy module` that the Valset has been updated on Ethereum.
 5. **Pruning Valsets on Injective:** Once a 2/3 majority of validators send their claim for a given `ValsetUpdateEvent`, all the previous valsets are pruned from the `Peggy module` state.
-6. **Validator Slashing:** Validators are subject to slashing after a configured window of time (`SignedValsetsWindow`) for not providing confirmations. Read more [valset slashing](05\_slashing.md)
+6. **Validator Slashing:** Validators are subject to slashing after a configured window of time (`SignedValsetsWindow`) for not providing confirmations. Read more [valset slashing](05_slashing.md)
 
 ***
 
@@ -156,7 +156,7 @@ ERC-20 tokens are transferred from Ethereum to Injective through the following m
 4. **Submit Batch to Peggy Contract:** Once a majority of validators confirm the batch, the `Relayer` calls `submitBatch` on the Peggy contract with the batch and its confirmations. The Peggy contract validates the signatures, updates the batch checkpoint, processes the batch ERC-20 withdrawals, transfers the batch fee to the tx sender, and emits a `TransactionBatchExecutedEvent`.
 5. **Send Withdrawal Claim to Injective:** `Oracles` witness the `TransactionBatchExecutedEvent` and send a `MsgWithdrawClaim` containing the withdrawal information to the Peggy module.
 6. **Prune Batches** Once a majority of validators submit their `MsgWithdrawClaim` , the batch is deleted along and all previous batches are cancelled on the Peggy module. Withdrawals in cancelled batches get moved back into `Outgoing Tx Pool`.
-7. **Batch Slashing:** Validators are responsible for confirming batches and are subject to slashing if they fail to do so. Read more on [batch slashing](05\_slashing.md).
+7. **Batch Slashing:** Validators are responsible for confirming batches and are subject to slashing if they fail to do so. Read more on [batch slashing](05_slashing.md).
 
 {% hint style="info" %}
 **Note:** While batching reduces individual withdrawal costs dramatically, this comes at the cost of latency and implementation complexity. If a user wishes to withdraw quickly, they will have to pay a much higher fee. However, this fee will be about the same as the fee every withdrawal from the bridge would require in a non-batching system.

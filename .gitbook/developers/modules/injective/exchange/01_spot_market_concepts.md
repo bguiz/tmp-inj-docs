@@ -49,14 +49,14 @@ As a result, each market sell order implicitly has a zero price associated with 
 
 * BUY (1): A standard buy order to purchase an asset at either the current market price or a set limit price.
 * SELL (2): A standard sell order to sell an asset at either the current market price or a set limit price.
-* STOP\_BUY (3): This order type is not supported for spot markets.
-* STOP\_SELL (4): This order type is not supported for spot markets.
-* TAKE\_BUY (5): This order type is not supported for spot markets.
-* TAKE\_SELL (6): This order type is not supported for spot markets.
-* BUY\_PO (7): Post-Only Buy. This order type ensures that the order will only be added to the order book and not match with a pre-existing order. It guarantees that you will be the market "maker" and not the "taker".
-* SELL\_PO (8): Post-Only Sell. Similar to BUY\_PO, this ensures that your sell order will only add liquidity to the order book and not match with a pre-existing order.
-* BUY\_ATOMIC (9): An atomic buy order is a market order that gets executed instantly, bypassing the Frequent Batch Auctions (FBA). It's intended for smart contracts that need to execute a trade instantly. A higher fee is paid, defined in the global exchange parameters.
-* SELL\_ATOMIC (10): An atomic sell order is similar to a BUY\_ATOMIC, and it gets executed instantly at the current market price, bypassing the FBA.
+* STOP_BUY (3): This order type is not supported for spot markets.
+* STOP_SELL (4): This order type is not supported for spot markets.
+* TAKE_BUY (5): This order type is not supported for spot markets.
+* TAKE_SELL (6): This order type is not supported for spot markets.
+* BUY_PO (7): Post-Only Buy. This order type ensures that the order will only be added to the order book and not match with a pre-existing order. It guarantees that you will be the market "maker" and not the "taker".
+* SELL_PO (8): Post-Only Sell. Similar to BUY_PO, this ensures that your sell order will only add liquidity to the order book and not match with a pre-existing order.
+* BUY_ATOMIC (9): An atomic buy order is a market order that gets executed instantly, bypassing the Frequent Batch Auctions (FBA). It's intended for smart contracts that need to execute a trade instantly. A higher fee is paid, defined in the global exchange parameters.
+* SELL_ATOMIC (10): An atomic sell order is similar to a BUY_ATOMIC, and it gets executed instantly at the current market price, bypassing the FBA.
 
 ### Market Data Requirements
 

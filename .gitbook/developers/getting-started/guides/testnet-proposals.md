@@ -5,7 +5,7 @@ Let's say that you want to submit a proposal on `testnet`. Because there is a sh
 Once you submit the proposal, you should reach out to the team:
 
 1. Join the [Injective Discord server](https://discord.gg/injective) and find the relevant channel.
-2. Join the [Injective Developer Telegram channel](https://t.me/+8Y\_0HOFLhnRlZDU9).
+2. Join the [Injective Developer Telegram channel](https://t.me/+8Y_0HOFLhnRlZDU9).
 
 Here is an example for the `GrantProviderPrivilegeProposal`
 

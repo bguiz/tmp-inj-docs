@@ -61,7 +61,7 @@ These reference values may be used by future Peggy client implementations to all
 
 These values represent the time in blocks that a validator has to submit a signature for a batch or valset, or to submit a claim for a particular attestation nonce.
 
-In the case of attestations, this clock starts when the attestation is created, but only allows for slashing once the event has passed. Note that that claims slashing is not currently enabled, see [slashing spec](05\_slashing.md).
+In the case of attestations, this clock starts when the attestation is created, but only allows for slashing once the event has passed. Note that that claims slashing is not currently enabled, see [slashing spec](05_slashing.md).
 
 ## `target_batch_timeout`
 
@@ -83,7 +83,7 @@ These values are the average Injective Chain block time and Ethereum block time,
 
 The slashing fractions for the various peggy-related slashing conditions. The first three refer to not submitting a particular message, the third for failing to submit a claim, and the last for submitting a different claim than other validators.
 
-Note that claim slashing is currently disabled as outlined in the [slashing spec](05\_slashing.md)
+Note that claim slashing is currently disabled as outlined in the [slashing spec](05_slashing.md)
 
 ## `valset_reward`
 

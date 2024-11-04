@@ -39,7 +39,7 @@ where:
 
 Note that the `CumulativePrice` value follows the convention set by the [Uniswap V2 Oracle](https://uniswap.org/docs/v2/core-concepts/oracles/) and is used to allow modules to calculate Time-Weighted Average Price (TWAP) between 2 arbitrary block time intervals (t1, t2).
 
-$\mathrm{TWAP = \frac{CumulativePrice\_2 - CumulativePrice\_1}{Timestamp\_2 - Timestamp\_1\}}$
+$\mathrm{TWAP = \frac{CumulativePrice_2 - CumulativePrice_1}{Timestamp_2 - Timestamp_1\}}$
 
 ## Band
 

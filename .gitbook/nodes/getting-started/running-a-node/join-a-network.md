@@ -373,7 +373,7 @@ _To be added soon_
 
 **Pruned**
 
-1. [Polkachu](https://polkachu.com/tendermint\_snapshots/injective).
+1. [Polkachu](https://polkachu.com/tendermint_snapshots/injective).
 2. [HighStakes](https://tools.highstakes.ch/files/injective.tar.gz).
 3. [AutoStake](http://snapshots.autostake.net/injective-1/).
 4. [Imperator](https://www.imperator.co/services/chain-services/mainnets/injective).

@@ -10,10 +10,10 @@ Each insurance fund grows when positions in its corresponding derivative market 
 
 ## Contents
 
-1. [**State**](01\_state.md)
-2. [**State Transitions**](02\_state\_transitions.md)
-3. [**Messages**](03\_messages.md)
-4. [**End Block**](04\_end\_block.md)
-5. [**Events**](05\_events.md)
-6. [**Params**](06\_params.md)
-7. [**Future Improvements**](07\_future\_improvements.md)
+1. [**State**](01_state.md)
+2. [**State Transitions**](02_state_transitions.md)
+3. [**Messages**](03_messages.md)
+4. [**End Block**](04_end_block.md)
+5. [**Events**](05_events.md)
+6. [**Params**](06_params.md)
+7. [**Future Improvements**](07_future_improvements.md)
