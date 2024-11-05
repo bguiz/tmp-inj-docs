@@ -49,7 +49,7 @@
 * [Exchange Developers](developers/exchange-developers/README.md)
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
   * [Provider Oracle](developers/exchange-developers/provider-oracle.md)
-* [EVM Developers](developers/evm-developers/README.md)
+* [EVM Developers](developers/evm-developers.md)
   * [Your First Smart Contract](developers/evm-developers/your-first-smart-contract.md)
   * [Guides](developers/evm-developers/guides/README.md)
     * [Private Testnet Deployment](developers/evm-developers/guides/private-testnet-deployment.md)

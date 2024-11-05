@@ -80,7 +80,7 @@ You can read more about the process of [private-testnet-deployment.md](guides/pr
 #### Using Injective
 
 ```
-// Some code
+// WiP
 ```
 
 #### Using Casttive
@@ -99,7 +99,7 @@ cast call --rpc-url injectiveEvm {SmartContractAddress} 0x8381f58a
 #### Using Injective
 
 ```
-// Some code
+// WiP
 ```
 
 #### Using Cast
