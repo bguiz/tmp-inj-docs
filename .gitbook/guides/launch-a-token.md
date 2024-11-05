@@ -10,13 +10,13 @@ The easiest way to launch a token on Injective is by bridging your existing asse
 
 Once the bridging process is completed, a token will be created on Injective, which you can then use to [launch-a-market.md](launch-a-market.md "mention").&#x20;
 
-## Creating new token
+## Creating a New Token
 
-You can also create a new token on Injective using the `tokenFactory` module. There are multiple ways on how to achieve this.&#x20;
+You can also create a new token on Injective using the `TokenFactory` module. There are multiple ways on how to achieve this.&#x20;
 
-### Using InjectiveHub <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
+### Using Injective Hub <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
-The [InjectiveHub](https://hub.injective.network/token-factory/) web app provides you the ability to create and manage tokens seamlessly, creating a market on Injective's [native orderbook](https://docs.injective.network/develop/modules/injective/exchange), etc.
+The [Injective Hub](https://hub.injective.network/token-factory/) web app provides you the ability to create and manage tokens seamlessly, creating a market on Injective's [native orderbook](https://docs.injective.network/develop/modules/injective/exchange), etc.
 
 ### Using TokenStation[​](https://docs.injective.network/develop/guides/token-launch/#3-via-tokenstation) <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
@@ -40,7 +40,7 @@ You have to have `injectived` installed locally before proceeding with this tuto
 
 Once you have `injectived` installed and a key added, you can use the CLI to launch your token:
 
-1. **Create a tokenfactory denom**
+1. **Create a `TokenFactory` denom**
 
 The fee for creating a factory denom is `0.1 INJ`.
 
