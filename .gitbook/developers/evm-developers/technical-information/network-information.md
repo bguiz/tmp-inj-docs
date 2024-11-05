@@ -25,3 +25,11 @@ For more information about Injective EVM Testnet see the following pages:
 ## Injective EVM Mainnet
 
 Coming soon.
+
+
+
+_**Next Page**_
+
+{% content-ref url="evm-equivalence.md" %}
+[evm-equivalence.md](evm-equivalence.md)
+{% endcontent-ref %}

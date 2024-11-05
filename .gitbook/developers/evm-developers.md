@@ -12,3 +12,8 @@ Welcome EVM developers. We are excited to have native EVM support on Injective. 
 
 
 
+_**Next Page**_
+
+{% content-ref url="evm-developers/your-first-smart-contract.md" %}
+[your-first-smart-contract.md](evm-developers/your-first-smart-contract.md)
+{% endcontent-ref %}
