@@ -1,7 +1,9 @@
 # Your First Smart Contract
 
 {% hint style="info" %}
-You can find an example of a simple Counter contract and deployment instructions within the [injective-foundry-example](https://github.com/InjectiveLabs/injective-foundry-example). You can also read our general-purpose [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention")guides.
+* You can find the chain details on the [evm-developers.md](../evm-developers.md "mention")page
+* You can find an example of a simple Counter contract and deployment instructions within the [injective-foundry-example](https://github.com/InjectiveLabs/injective-foundry-example).&#x20;
+* You can also read our general-purpose [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention")guides.
 {% endhint %}
 
 Building and Deploying smart contracts on Injective should be quite simple. As your first example, we'll have a look at a simple Counter smart contract example.&#x20;
