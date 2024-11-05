@@ -13,7 +13,7 @@ $ git clone git@github.com:InjectiveLabs/injective-docs.git
 $ cd injective-docs
 ```
 
-2. Update your content in the `.gitbook` folder. _Note: `.gitbook/development/modules` should not be done as it's automatically pulled from the `inejctive-core` repo_
+2. Update your content in the `.gitbook` folder. _Note: `.gitbook/developers/modules` should not be done as it's automatically pulled from the `injective-core` repo_
 
 3. Regenerate documentation based on the desired branches for `injective-core` and `cosmos-sdk`. _Note: you can change the branches/tags in the `scripts/setup.sh` file_
 
