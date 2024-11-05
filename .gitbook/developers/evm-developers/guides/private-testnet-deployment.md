@@ -66,8 +66,7 @@ forge verify-contract \
 After that, you can navigate to the contract address in Explorer to see the code, parsed logs, and callable methods ([example](https://k8s.testnet.evm.blockscout.injective.network/address/0x2f9f80b89ef4C9AaBcd630E62B740d6a2f3065E4)).
 
 {% hint style="info" %}
-You can read more about foundry deploying [here](https://book.getfoundry.sh/forge/deploying) or you can check [other deployment options\
-](https://book.getfoundry.sh/reference/forge/forge-create). You can also read more about [forge verify-contract](https://book.getfoundry.sh/reference/forge/forge-verify-contract).
+You can read more about foundry deploying [here](https://book.getfoundry.sh/forge/deploying), or you can check other deployment options [here](https://book.getfoundry.sh/reference/forge/forge-create). You can also read more about forge verify-contract [here](https://book.getfoundry.sh/reference/forge/forge-verify-contract).
 {% endhint %}
 
 
