@@ -4,16 +4,11 @@ hidden: true
 
 # EVM Developers
 
-Welcome EVM developers. We are excited to have native EVM support on Injective. This allows developers deploy their Solidity smart contracts on Injective opening up the possibility of interacting with the exchange module, build their dApps, and much more.&#x20;
+Welcome EVM developers. We are excited to have native EVM support on Injective. This allows developers deploy their Solidity smart contracts on Injective, opening up the possibility of interacting with the exchange module, build their dApps, and much more.&#x20;
 
-#### Injective EVM Testnet Details
+## Start Building on EVM
 
-* Injective Chain Id: `injective-999`
-* Ethereum Chain Id: `999`
-* JSON-RPC Endpoint: [https://k8s.testnet.evmix.json-rpc.injective.network](https://k8s.testnet.evmix.json-rpc.injective.network/)
-* WS Endpoint: [wss://k8s.testnet.evmix.ws.injective.network](https://piehost.com/websocket-tester?url=wss://k8s.testnet.evmix.ws.injective.network)
-* Explorer: [https://k8s.testnet.evm.blockscout.injective.network](https://k8s.testnet.evm.blockscout.injective.network/)
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Configure Your Network</strong></td><td><a href="evm-developers/technical-information/network-information.md">network-information.md</a></td></tr><tr><td><strong>Deploy a Contract</strong></td><td><a href="evm-developers/your-first-smart-contract.md">your-first-smart-contract.md</a></td></tr><tr><td><strong>Understand the Technicals</strong></td><td><a href="evm-developers/technical-information/">technical-information</a></td></tr><tr><td><strong>Request EVM Testnet Funds</strong></td><td><a href="https://k8s.testnet.evmix.faucet.injective.network/">https://k8s.testnet.evmix.faucet.injective.network/</a></td></tr></tbody></table>
 
-{% hint style="info" %}
-You can request private EVM testnet funds [here](https://k8s.testnet.evmix.faucet.injective.network/)
-{% endhint %}
+
+

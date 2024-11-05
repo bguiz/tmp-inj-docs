@@ -54,7 +54,7 @@
   * [Guides](developers/evm-developers/guides/README.md)
     * [Private Testnet Deployment](developers/evm-developers/guides/private-testnet-deployment.md)
   * [Technical Information](developers/evm-developers/technical-information/README.md)
-    * [Network](developers/evm-developers/technical-information/network.md)
+    * [Network Information](developers/evm-developers/technical-information/network-information.md)
     * [EVM Equivalence](developers/evm-developers/technical-information/evm-equivalence.md)
     * [Single Token Representation](developers/evm-developers/technical-information/single-token-representation.md)
   * [EVM Testnet Faucet](https://k8s.testnet.evmix.faucet.injective.network/)
