@@ -23,6 +23,7 @@
     * [From Solana](https://blog.injective.com/en/how-to-bridge-from-solana-to-injective-using-phantom/)
   * [Launch a Token](guides/launch-a-token.md)
   * [Launch a Market](guides/launch-a-market.md)
+  * [Denom Metadata](guides/denom-metadata.md)
   * [Get INJ](https://injective.com/getinj)
 * [Toolkits](toolkits/README.md)
   * [injectived](toolkits/injectived/README.md)
