@@ -66,3 +66,5 @@ Currently, three types of bank denoms can have associated token pairs, each with
   IBC denoms can be integrated into the EVM by any user through token pair creation, though without the option for custom ERC20 addresses. These will always deploy a new, ownerless instance of `FixedSupplyBankERC20.sol`.
 * **Peggy (`peggy0x...`)**\
   Peggy denoms can be integrated into the EVM by any user through token pair creation, though without the option for custom ERC20 addresses. These will always deploy a new, ownerless instance of `FixedSupplyBankERC20.sol`.
+
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td></tr><tr><td>Return to Homepage ↺</td><td><a href="../../evm-developers.md">evm-developers.md</a></td><td><a href="../../evm-developers.md">evm-developers.md</a></td></tr></tbody></table>

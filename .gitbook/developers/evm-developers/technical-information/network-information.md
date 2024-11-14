@@ -28,8 +28,4 @@ Coming soon.
 
 
 
-_**Next Page**_
-
-{% content-ref url="evm-equivalence.md" %}
-[evm-equivalence.md](evm-equivalence.md)
-{% endcontent-ref %}
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="./">.</a></td><td><a href="./">.</a></td></tr><tr><td>Next → </td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td></tr></tbody></table>
