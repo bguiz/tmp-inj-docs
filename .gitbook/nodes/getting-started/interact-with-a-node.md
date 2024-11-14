@@ -6,7 +6,7 @@ There are multiple ways to interact with a node: the CLI, gRPC, or the REST endp
 
 You can use the `injectived` CLI to interact with a node. If you are interacting with a node in your local private network, make sure the node is running in the terminal before you use the CLI.
 
-For more details on how to use `injectived`, go to Using `injectived`.
+For more details on how to use `injectived`, go to [using-injectived.md](../../toolkits/injectived/using-injectived.md "mention")
 
 ## Using gRPC
 
