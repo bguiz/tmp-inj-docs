@@ -1,12 +1,12 @@
 # Your First Smart Contract
 
 {% hint style="info" %}
-* You can find the chain details on the [evm-developers.md](../evm-developers.md "mention")page
+* You can find the chain details on the [evm-developers.md](../evm-developers.md "mention") page
 * You can find an example of a simple Counter contract and deployment instructions within the [injective-foundry-example](https://github.com/InjectiveLabs/injective-foundry-example).&#x20;
-* You can also read our general-purpose [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention")guides.
+* You can also read our general-purpose [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention") guides.
 {% endhint %}
 
-Building and Deploying smart contracts on Injective should be quite simple. As your first example, we'll have a look at a simple Counter smart contract example.&#x20;
+Building and Deploying smart contracts on Injective should be quite simple. As your first example, we'll take a look at a simple Counter smart contract example.&#x20;
 
 1. We'll develop the smart contract,&#x20;
 2. Do a[private-testnet-deployment.md](guides/private-testnet-deployment.md "mention") on the Injective's Private EVM Testnet,
@@ -87,7 +87,7 @@ You can read more about the process of [private-testnet-deployment.md](guides/pr
 
 #### Using Casttive
 
-Let's query the the smart contract state using [Cast](https://book.getfoundry.sh/reference/cast/)
+Let's query the smart contract state using [Cast](https://book.getfoundry.sh/reference/cast/)
 
 ```bash
 cast sig "function number() returns (uint256)"

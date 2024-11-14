@@ -29,7 +29,7 @@ injectiveEvm = "https://k8s.testnet.evmix.json-rpc.injective.network"
 
 ## Deploying
 
-Due to the EVM-equivalence of _Injective_, foundry commands should work as expected. The major difference is the network URL. In most cases, using `--rpc-url injectiveEvm` is sufficient
+Due to the EVM-equivalence of _Injective_, foundry commands should work as expected. The major difference is the network URL. In most cases, using `--rpc-url injectiveEvm` is sufficient.
 
 ### Navigate to your smart contract project
 
