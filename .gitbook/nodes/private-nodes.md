@@ -10,6 +10,7 @@ Here is a list of external providers offering private Injective infrastructure s
 
 * [NewMetric](https://app.newmetric.xyz/)
 * [CryptoCrew](https://forms.gle/Aa2XYBB4sLxzHNzc6)
+* [Imperator](https://www.imperator.co/products/dedicated-and-rpc-nodes#get-started)
 * [AllNodes](https://www.allnodes.com/inj)
 * [NowNodes](https://nownodes.io/injective-inj)
 * [RockX](https://access.rockx.com/product/injective-blockchain-api-for-web3-builders)
@@ -18,6 +19,7 @@ Here is a list of external providers offering private Injective infrastructure s
 |-------------------|-------|---------|
 | NewMetric         | [x]   | [ ]     |
 | CryptoCrew        | [x]   | [x]     |
+| Imperator         | [x]   | [x]     |
 | AllNodes          | [x]   | [x]     |
 | NowNodes          | [x]   | [ ]     |
 | RockX             | [x]   | [ ]     |
