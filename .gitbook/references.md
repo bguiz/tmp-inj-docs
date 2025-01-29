@@ -39,6 +39,7 @@ Tools and resources developed by ecosystem developers and partners
 | [SubQuery](https://github.com/subquery/cosmos-subql-starter/tree/main/Injective/injective-starter) | Open-source data indexer providing custom APIs                                                                                            |
 | [Synternet](https://docs.synternet.com/build/data-layer/developer-portal/subscribe-to-streams)     | Subscribe or publish real-time live data stream                                                                                           |
 | [Wormhole](https://docs.wormhole.com/wormhole)                                                     | Cross-chain messaging protocol                                                                                                            |
+| [DAO DAO](https://daodao.zone/dao/injective)                                   | DAO DAO helps you build and operate DAOs by providing a visual interface to easily interact with the underlying smart contracts that run on the blockchain. DAO DAO also offers a multisig solution.                                                                            |
 
 ### Helpful Repos
 
