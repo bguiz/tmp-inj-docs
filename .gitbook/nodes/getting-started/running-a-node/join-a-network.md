@@ -140,15 +140,17 @@ This command allows you to run a single node, which is is enough to interact wit
 {% tab title="Testnet Network" %}
 ### Hardware Specification
 
-Node operators should expect to provision one or more data center locations with redundant power, networking, firewalls, HSMs and servers.
+Node operators should deploy bare metal servers to achieve optimal performance. Additionally, validator nodes must meet the recommended hardware specifications and particularly the CPU requirements, to ensure high uptime.
 
-The minimum hardware specifications are as follows, though they might rise as network usage increases:
 
-```
-6+ vCPU x64
-32+ GB RAM
-500 GB+ SSD
-```
+|           _Minimum_              |        _Recommendation_        |
+| :--------------------------:     | :---------------------------:  |
+|          RAM Memory 128GB        |          RAM Memory 128GB      |
+|          CPU 12 cores            |          CPU 16 cores          |
+|          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
+|          Storage 2TB             |          Storage 2TB           |
+|          Network 1Gbps+          |          Network 1Gbps+        |
+
 
 ### Install `injectived` and `peggo`
 
@@ -243,29 +245,17 @@ For any further questions, you can always connect with the Injective Team via [D
 {% tab title="Mainnet Network" %}
 ### Hardware Specification
 
-Node operators should expect to provision one or more data center locations with redundant power, networking, firewalls, HSMs and servers.
+Node operators should deploy bare metal servers to achieve optimal performance. Additionally, validator nodes must meet the recommended hardware specifications and particularly the CPU requirements, to ensure high uptime.
 
-The minimum hardware specifications are as follows, though they might rise as network usage increases:
 
-```
-(AWS r6i.2xlarge Instance)
-8+ vCPU x64
-64+ GB RAM
-1+ TB SSD storage
-1+ Gbps Network Bandwidth
-```
+|           _Minimum_              |        _Recommendation_        |
+| :--------------------------:     | :---------------------------:  |
+|          RAM Memory 128GB        |          RAM Memory 128GB      |
+|          CPU 12 cores            |          CPU 16 cores          |
+|          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
+|          Storage 2TB             |          Storage 2TB           |
+|          Network 1Gbps+          |          Network 1Gbps+        |
 
-For a more performant node, the following configuration is recommended:
-
-```
-(AWS r6i.4xlarge Instance or higher)
-16+ vCPU
-128+ GB RAM
-2+ TB SSD storage
-5+ Gbps Network Bandwidth
-```
-
-The more storage allocated, the less frequently data must be pruned from the node.
 
 ### Install `injectived` and `peggo`
 
