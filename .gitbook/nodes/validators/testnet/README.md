@@ -1,14 +1,16 @@
 # Testnet
 
+Node operators should deploy bare metal servers to achieve optimal performance. Additionally, validator nodes must meet the recommended hardware specifications and particularly the CPU requirements, to ensure high uptime.
+
 #### Hardware Requirements
 
-|           _Minimum_          |        _Recommendation_       |
-| :--------------------------: | :---------------------------: |
-|        RAM Memory 32GB       |        RAM Memory 64GB        |
-|          CPU 8 cores         |          CPU 8 cores          |
-|          Storage 2TB         |          Storage 2TB          |
-|        Network 5Gbps+        |         Network 5Gbps+        |
-| AWS Instance type t2.2xlarge | AWS Instance type r6i.2xlarge |
+|           _Minimum_              |        _Recommendation_        |
+| :--------------------------:     | :---------------------------:  |
+|          RAM Memory 128GB        |          RAM Memory 128GB      |
+|          CPU 12 cores            |          CPU 16 cores          |
+|          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
+|          Storage 2TB NVMe        |          Storage 2TB NVMe      |
+|          Network 1Gbps+          |          Network 1Gbps+        |
 
 ### Step 1: Create a Validator Account
 
