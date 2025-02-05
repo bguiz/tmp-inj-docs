@@ -9,7 +9,7 @@ Node operators should deploy bare metal servers to achieve optimal performance. 
 |          RAM Memory 128GB        |          RAM Memory 128GB      |
 |          CPU 12 cores            |          CPU 16 cores          |
 |          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
-|          Storage 2TB             |          Storage 2TB           |
+|          Storage 2TB NVMe        |          Storage 2TB NVMe      |
 |          Network 1Gbps+          |          Network 1Gbps+        |
 
 ### Step 1: Create a Validator Account
