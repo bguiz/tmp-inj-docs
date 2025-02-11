@@ -192,6 +192,7 @@
       * [Upgrade to v1.13.0 - Altaris](nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0.md)
       * [Upgrade to v1.13.2](nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2.md)
       * [Upgrade to v1.13.3](nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.3.md)
+      * [Upgrade to v1.14.0](nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.0.md)
   * [Testnet](nodes/validators/testnet/README.md)
     * [Testnet Peggo](nodes/validators/testnet/testnet-peggo.md)
   * [Cosmosvisor](nodes/validators/cosmosvisor.md)
