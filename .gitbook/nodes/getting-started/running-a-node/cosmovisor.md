@@ -10,7 +10,6 @@ Cosmovisor is a process manager designed for Cosmos SDK–based blockchains that
 
 1. [Installation](#installation)
    - [Installing via Go](#installing-via-go)
-   - [Using a Pre-built Binary](#using-a-pre-built-binary)
 2. [Environment Variables](#environment-variables)
 3. [Directory Structure](#directory-structure)
 4. [Running Cosmovisor](#running-cosmovisor)
@@ -26,7 +25,7 @@ Cosmovisor is a process manager designed for Cosmos SDK–based blockchains that
 If you have Go installed, you can install Cosmovisor with the following command:
 
 ```bash
-go install go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.5.0
+go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.5.0
 ```
 
 > **Tip:** Ensure that your Go binary installation path (commonly `$GOPATH/bin` or `$HOME/go/bin`) is added to your system’s `PATH`. You can verify the installation by running:
@@ -113,7 +112,7 @@ When an upgrade is announced on-chain, prepare the new binary so Cosmovisor can 
    cp /path/to/new/libwasmvm.x86_64.so $DAEMON_HOME/cosmovisor/upgrades/<upgrade_name>/bin
    ```
 
-> **TIP:** If you have downloaded the `injestived` binary package from GitHub, we copy `libwasmvm.x86_64.so` to the upgrade `bin` directory. An environment variable will be later added to the systemd service to add this directory to `LD_LIBRARY_PATH`.
+> **TIP:** If you have downloaded the `injectived` binary package from GitHub, we copy `libwasmvm.x86_64.so` to the upgrade `bin` directory. An environment variable will be later added to the systemd service to add this directory to `LD_LIBRARY_PATH`.
 
 3. **Upgrade Process**
 
