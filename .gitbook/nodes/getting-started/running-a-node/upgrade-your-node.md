@@ -15,6 +15,10 @@ To summarize, follow these steps to upgrade your node:
 3. Remove the old binaries and install the new release binaries.
 4. Restart the node.
 
+### Upgrading with Cosmovisor
+
+Information for managing chain upgrades via Cosmovisor can be found [here](./cosmovisor.md)
+
 ### Node Maintenance (Managing Storage)
 
 As Injective state grows, your disk space may fill up. It’s recommended you periodically prune the chain data by downloading new snapshots. Beyond the overhead on the disk, the node is more performant when the chain state is smaller.
