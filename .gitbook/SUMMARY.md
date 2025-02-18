@@ -170,6 +170,7 @@
   * [Running a node](nodes/getting-started/running-a-node/README.md)
     * [Setting up the keyring](nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md)
     * [Join a network](nodes/getting-started/running-a-node/join-a-network.md)
+    * [Cosmovisor](nodes/getting-started/running-a-node/cosmovisor.md)
     * [Upgrade your node](nodes/getting-started/running-a-node/upgrade-your-node.md)
 * [Validators](nodes/validators/README.md)
   * [Mainnet](nodes/validators/mainnet/README.md)
