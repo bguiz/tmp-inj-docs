@@ -135,7 +135,7 @@ For production environments, it is common to run your node as a systemd service.
 
    [Service]
    User=<your_username>
-   ExecStart=home/<your_username>/go/bin/cosmovisor run start
+   ExecStart=/home/<your_username>/go/bin/cosmovisor run start
    Restart=always
    RestartSec=3
    Environment="DAEMON_NAME=injectived"
