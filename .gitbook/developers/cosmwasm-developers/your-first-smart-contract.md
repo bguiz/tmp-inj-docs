@@ -485,7 +485,7 @@ yes 12345678 | injectived tx wasm store artifacts/my_first_contract.wasm \
 --from=$(echo $INJ_ADDRESS) \
 --chain-id="injective-888" \
 --yes --fees=1000000000000000inj --gas=2000000 \
---node=https://sentry.testnet.tm.injective.network:443
+--node=https://testnet.sentry.tm.injective.network:443
 ```
 
 **Output:**
@@ -520,7 +520,7 @@ There are different ways to find the code that you just stored:
 To query the transaction use the `txhash` and verify the contract was deployed.
 
 ```sh
-injectived query tx 912458AA8E0D50A479C8CF0DD26196C49A65FCFBEEB67DF8A2EA22317B130E2C --node=https://sentry.testnet.tm.injective.network:443
+injectived query tx 912458AA8E0D50A479C8CF0DD26196C49A65FCFBEEB67DF8A2EA22317B130E2C --node=https://testnet.sentry.tm.injective.network:443
 ```
 
 Inspecting the output more closely, we can see the `code_id` of `290` for the uploaded contract:
@@ -619,7 +619,7 @@ yes 12345678 | injectived tx wasm instantiate $CODE_ID $INIT \
 --yes --fees=1000000000000000inj \
 --gas=2000000 \
 --no-admin \
---node=https://sentry.testnet.tm.injective.network:443
+--node=https://testnet.sentry.tm.injective.network:443
 ```
 
 **Output:**
@@ -643,12 +643,12 @@ txhash: 01804F525FE336A5502E3C84C7AE00269C7E0B3DC9AA1AB0DDE3BA62CF93BE1D
 {% hint style="info" %}
 You can find the contract address and metadata by:
 
-* Looking on the [Testnet Explorer](https://testnet.explorer.injective.network/contracts/)
+* Looking on the [Testnet Explorer](https://www.injscan.com/smart-contracts/)
 * Querying the [ContractsByCode](https://k8s.testnet.lcd.injective.network/swagger/#/Query/ContractsByCode) and [ContractInfo](https://k8s.testnet.lcd.injective.network/swagger/#/Query/ContractInfo) APIs
 * Querying through the CLI
 
 ```bash
-injectived query wasm contract inj1ady3s7whq30l4fx8sj3x6muv5mx4dfdlcpv8n7 --node=https://sentry.testnet.tm.injective.network:443
+injectived query wasm contract inj1ady3s7whq30l4fx8sj3x6muv5mx4dfdlcpv8n7 --node=https://testnet.sentry.tm.injective.network:443
 ```
 {% endhint %}
 
@@ -659,7 +659,7 @@ As we know from earlier, the only QueryMsg we have is `get_count`.
 ```bash
 GET_COUNT_QUERY='{"get_count":{}}'
 injectived query wasm contract-state smart inj1ady3s7whq30l4fx8sj3x6muv5mx4dfdlcpv8n7 "$GET_COUNT_QUERY" \
---node=https://sentry.testnet.tm.injective.network:443 \
+--node=https://testnet.sentry.tm.injective.network:443 \
 --output json
 ```
 
@@ -684,7 +684,7 @@ INCREMENT='{"increment":{}}'
 yes 12345678 | injectived tx wasm execute inj1ady3s7whq30l4fx8sj3x6muv5mx4dfdlcpv8n7 "$INCREMENT" --from=$(echo $INJ_ADDRESS) \
 --chain-id="injective-888" \
 --yes --fees=1000000000000000inj --gas=2000000 \
---node=https://sentry.testnet.tm.injective.network:443 \
+--node=https://testnet.sentry.tm.injective.network:443 \
 --output json
 ```
 
@@ -706,7 +706,7 @@ yes 12345678 | injectived tx wasm execute inj1ady3s7whq30l4fx8sj3x6muv5mx4dfdlcp
 --from=$(echo $INJ_ADDRESS) \
 --chain-id="injective-888" \
 --yes --fees=1000000000000000inj --gas=2000000 \
---node=https://sentry.testnet.tm.injective.network:443 \
+--node=https://testnet.sentry.tm.injective.network:443 \
 --output json
 ```
 

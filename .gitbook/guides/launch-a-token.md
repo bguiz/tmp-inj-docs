@@ -58,7 +58,7 @@ To get your token visible on Injective dApps, you have to submit its metadata.&#
 injectived tx tokenfactory set-denom-metadata "My Token Description" 'factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak' AKK AKCoin AK '' '' '[
 {"denom":"factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak","exponent":0,"aliases":[]},
 {"denom":"AKK","exponent":6,"aliases":[]}
-]' 6 --from=YOUR_KEY --chain-id=injective-888 --node=https://sentry.testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
+]' 6 --from=YOUR_KEY --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
 This command expects the following arguments:
@@ -71,7 +71,7 @@ This command expects the following arguments:
 Once you have created your token and submitted the token metadata, it's time to mint your tokens.&#x20;
 
 ```bash
-injectived tx tokenfactory mint 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://sentry.testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
+injectived tx tokenfactory mint 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
 This command will mint 1 token, assuming your token has 6 decimals.&#x20;
@@ -81,7 +81,7 @@ This command will mint 1 token, assuming your token has 6 decimals.&#x20;
 The admin of the token, can also burn the tokens.&#x20;
 
 ```bash
-injectived tx tokenfactory burn 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://sentry.testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
+injectived tx tokenfactory burn 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
 5. **Change admin**
@@ -89,7 +89,7 @@ injectived tx tokenfactory burn 1000000factory/inj17vytdwqczqz72j65saukplrktd4gy
 It's recommended once you have minted the initial supply to change admin to the `null` address to make sure that the supply of the token cannot be manipulated. Once again, the admin of the token can mint and burn supply anytime. The `NEW_ADDRESS`, as explained above in most of the cases should be set to `inj1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe2hm49`.&#x20;
 
 ```bash
-injectived tx tokenfactory change-admin factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak NEW_ADDRESS --from=gov --chain-id=injective-888 --node=https://sentry.testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
+injectived tx tokenfactory change-admin factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak NEW_ADDRESS --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
 {% hint style="info" %}
@@ -97,7 +97,7 @@ The examples above are for testnet. If you want to run them on mainnet, do the f
 
 `injective-888` > `injective-1`
 
-`https://sentry.testnet.tm.injective.network:443` > `http://sentry.tm.injective.network:443`
+`https://testnet.sentry.tm.injective.network:443` > `http://sentry.tm.injective.network:443`
 {% endhint %}
 
 #### Using Cosmwasm
