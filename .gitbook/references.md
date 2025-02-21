@@ -22,6 +22,7 @@ Developer tools and resources to get you building on Injective
 | [Real-time Status (Mainnet)](https://status.injective.network/)                               | Real-time status of the endpoints and of the Injective network                                                              |
 | [Real-time Status (Testnet)](https://testnet.status.injective.network)                        | Real-time status of the endpoints and of the Injective testnet network                                                      |
 | [Cosmovisor](nodes/validators/cosmosvisor.md)                                                 | Small process manager around Cosmos SDK binaries that monitors the governance module                                        |
+| [CosmosSDK](https://docs.cosmos.network/v0.52/build)                                          | The Cosmos SDK documentation serving as a valuable resource for developers integrating with the Injective ecosystem                                        |
 
 ### Ecosystem Tools and Resources
 
