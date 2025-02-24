@@ -15,7 +15,7 @@
   * [Transactions](getting-started/transactions/README.md)
     * [Gas and Fees](getting-started/transactions/gas-and-fees.md)
 * [Guides](guides/README.md)
-  * [Create a Wallet](https://blog.injective.com/en/how-to-create-an-injective-wallet-2/)
+  * [Create a Wallet](getting-started/wallet/create-a-wallet.md)
   * [Bridge](guides/bridge/README.md)
     * [From Ethereum](https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/)
     * [Using Wormhole](https://blog.injective.com/en/how-to-bridge-to-injective-using-wormhole/)
