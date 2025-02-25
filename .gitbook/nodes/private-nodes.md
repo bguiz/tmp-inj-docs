@@ -1,10 +1,10 @@
 ---
 description: >-
-  As a developer, you may be interested in having a private/dedicated node or
+  As a developer, you may be interested in having a dedicated node or
   indexing solutions powering your dApp.
 ---
 
-# Private Nodes
+# Premium Endpoints
 
 Here is a list of external providers offering private Injective infrastructure services. For more information, click on their websites below:
 
