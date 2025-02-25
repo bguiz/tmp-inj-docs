@@ -198,7 +198,7 @@
     * [Testnet Peggo](nodes/validators/testnet/testnet-peggo.md)
   * [Cosmosvisor](nodes/validators/cosmosvisor.md)
 * [Public Endpoints](nodes/public-endpoints.md)
-* [Private Nodes](nodes/private-nodes.md)
+* [Premium Endpoints](nodes/private-nodes.md)
 * [Injective Indexer Setup](https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a)
 
 ## Traders
