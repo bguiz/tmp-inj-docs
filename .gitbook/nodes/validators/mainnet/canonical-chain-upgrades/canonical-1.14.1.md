@@ -73,7 +73,7 @@ You must remove the wasm cache before upgrading to the new version (rm -rf .inje
     sudo mv injectived peggo /usr/bin
     sudo mv libwasmvm.x86_64.so /usr/lib
     ```
-3.  Verify you are currently running the correct version (`4139d7dcd`) of `injectived` after downloading the v1.14.1 release:
+3.  Verify you are currently running the correct version (`0fe59376d`) of `injectived` after downloading the v1.14.1 release:
 
     ```bash
     injectived version
