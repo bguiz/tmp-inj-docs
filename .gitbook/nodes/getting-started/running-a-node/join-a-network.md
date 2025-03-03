@@ -262,7 +262,7 @@ Node operators should deploy bare metal servers to achieve optimal performance. 
 See the [Injective chain releases repo](https://github.com/InjectiveLabs/injective-chain-releases/releases/) for the most recent releases. Non-validator node operators do not need to install `peggo`.
 
 ```bash
-wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.13.0-1722157491/linux-amd64.zip
+wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.14.1-1740773301/linux-amd64.zip
 unzip linux-amd64.zip
 sudo mv peggo /usr/bin
 sudo mv injectived /usr/bin

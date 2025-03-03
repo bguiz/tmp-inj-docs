@@ -1,24 +1,37 @@
 # Install injectived
 
-The easiest way to install `injectived` and Injective core is by downloading a pre-built binary for your operating system. Download the most recent Injective binaries from [the official releases repo](https://github.com/InjectiveLabs/injective-chain-releases).
+## Platform compatibiltiy guide
+
+Check out this table to see which platform is supported to run `injectived` CLI:
+
+| Platform | Pre-Built Binaries | Docker | From Source |
+|----------|-------------------|--------|------------|
+| macOS (M1/ARM) | ❌ | ✅ | ✅ |
+| macOS (Intel) | ❌ | ✅ | ✅ |
+| Windows (x86_64) | ❌ | ✅ | ❌ |
+| Windows (ARM) | ❌ | ✅ | ❌ |
+| Linux (x86_64) | ✅ | ✅ | ✅ |
+| Linux (ARM) | ❌ | ✅ | ✅ |
+
+
+## Getting started with pre-built binaries
+
+At the moment, the only supported platform to run a pre-built `injectived` CLI is Linux x86_64. The pre-built binaries are available on the [Injective GitHub Releases page](https://github.com/InjectiveLabs/injective-chain-releases/releases).
 
 ```bash
-wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.13.2-1723753267/linux-amd64.zip
+wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v1.14.1-1740773301/linux-amd64.zip
+unzip linux-amd64.zip
 ```
 
-This zip file will contain three binaries and a virtual machine:
+This zip file will contain these files:
 
-* **`injectived`** - Injective daemon
-* **`peggo`** - Injective ERC-20 bridge relayer daemon
-* **`injective-exchange`** - the Injective Exchange daemon
-* **`libwasmvm.x86_64.so`** - the wasm virtual machine, which is needed to execute smart contracts.
+* **`injectived`** - Injective daemon also CLI
+* **`peggo`** - Injective Ethereum's bridge relayer daemon
+* **`libwasmvm.x86_64.so`** - the WASM virtual machine support file
 
-Unzip and add `injectived`, to your `/usr/bin`. Also add `libwasmvm.x86_64.so` to user library path `/usr/lib`.
-
-Note that you do not need `injective-exchange` and `peggo` for deploying and instantiating smart contracts.
+Note: you do not need `peggo` for deploying and instantiating smart contracts, this is for validators.
 
 ```bash
-unzip linux-amd64.zip
 sudo mv injectived /usr/bin
 sudo mv libwasmvm.x86_64.so /usr/lib
 ```
@@ -27,20 +40,50 @@ Confirm your version matches the output below (your output may be slightly diffe
 
 ```bash
 injectived version
-Version v1.10.0 (bf0b93dca)
-Compiled at 20230317-2113 using Go go1.19.4 (amd64)
+
+Version v1.14.1 (0fe59376dc)
+Compiled at 20250302-2204 using Go go1.23.1 (amd64)
 ```
 
-## Start injectived
+Continue to [Using injectived](./using-injectived.md) to learn how to use `injectived` CLI for interacting with the Injective blockchain. 
 
-Once you have `injectived` installed, you can start an instance of the chain by downloading this initialization script and starting the binary
+## Getting started with Docker
+
+The following command will start a container with `injectived` CLI:
 
 ```bash
-wget https://raw.githubusercontent.com/InjectiveLabs/injective-chain-releases/master/scripts/setup.sh
+docker run -it --rm injectivelabs/injective-core:v1.14.1 injectived version
+
+Version v1.14.1 (0fe59376d)
+Compiled at 20250302-2220 using Go go1.22.11 (amd64)
 ```
 
-Once the `script.sh` is downloaded, run it and start the chain
+This is compatible with most platforms and arm64 / x86_64 architectures.
+
+
+Continue to [Using injectived](./using-injectived.md) to learn how to use `injectived` CLI for interacting with the Injective blockchain. 
+
+
+## Getting started with source code
+
+The following command will build `injectived` CLI from source code:
 
 ```bash
-./setup.sh && injectived start
+git clone https://github.com/InjectiveFoundation/injective-core.git
+cd injective-core && git checkout v1.14.1
+make install
 ```
+
+This will install `injectived` CLI to your go path.
+
+```bash
+injectived version
+
+Version v1.14.1 (dd7622f)
+Compiled at 20250302-2230 using Go go1.24.0 (amd64)
+```
+
+(the commit hash may be different, as the open-source repository is published separately from the pre-built versions).
+
+Continue to [Using injectived](./using-injectived.md) to learn how to use `injectived` CLI for interacting with the Injective blockchain. 
+
