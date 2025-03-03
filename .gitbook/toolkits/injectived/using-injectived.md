@@ -60,7 +60,7 @@ To query the state and send transactions, you must connect to a node, which is t
 To set the RPC endpoint, you can use the following command:
 
 ```bash
-injectived config set client node https://k8s.bm.mainnet.tm.injective.network:443
+injectived config set client node https://sentry.tm.injective.network:443
 injectived config set client chain-id injective-1
 ```
 
@@ -187,7 +187,7 @@ Sometimes the config is not set correctly. You can force the correct node RPC en
 When sharing commands with others, it is recommended to have all the flags explicitly set in the commandline. (chain-id, node, keyring-backend, etc.)
 
 ```bash
-injectived --node https://k8s.bm.mainnet.tm.injective.network:443
+injectived --node https://sentry.tm.injective.network:443
 ```
 
 
