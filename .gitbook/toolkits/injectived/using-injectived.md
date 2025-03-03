@@ -147,18 +147,18 @@ Some useful flags to consider in the `tx sign` command:
 
 ### Signing with multiple signers (Multi Sig)
 
-Signing with multiple signers is done with the `tx multisign` command. This command assumes that all signers use `SIGN_MODE_LEGACY_AMINO_JSON`. The flow is similar to the `tx sign` command flow, but instead of signing an unsigned transaction file, each signer signs the file signed by previous signer(s). The `tx multisign` command will append signatures to the existing transactions. It is important that signers sign the transaction **in the same order** as given by the transaction, which is retrievable using the `GetSigners()` method.
+Signing with multiple signers is done with the `tx multi-sign` command. This command assumes that all signers use `SIGN_MODE_LEGACY_AMINO_JSON`. The flow is similar to the `tx sign` command flow, but instead of signing an unsigned transaction file, each signer signs the file signed by previous signer(s). The `tx multi-sign` command will append signatures to the existing transactions. It is important that signers sign the transaction **in the same order** as given by the transaction, which is retrievable using the `GetSigners()` method.
 
 For example, starting with the `unsigned_tx.json`, and assuming the transaction has 4 signers, we would run:
 
 ```bash
 # Let signer1 sign the unsigned tx.
-injectived tx multisignsign unsigned_tx.json signer_key_1 > partial_tx_1.json
+injectived tx multi-sign unsigned_tx.json signer_key_1 > partial_tx_1.json
 # Now signer1 will send the partial_tx_1.json to the signer2.
 # Signer2 appends their signature:
-injectived tx multisignsign partial_tx_1.json signer_key_2 > partial_tx_2.json
+injectived tx multi-sign partial_tx_1.json signer_key_2 > partial_tx_2.json
 # Signer2 sends the partial_tx_2.json file to signer3, and signer3 can append his signature:
-injectived tx multisignsign partial_tx_2.json signer_key_3 > partial_tx_3.json
+injectived tx multi-sign partial_tx_2.json signer_key_3 > partial_tx_3.json
 ```
 
 ### Broadcasting a Transaction
