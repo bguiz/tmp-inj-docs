@@ -90,10 +90,10 @@ Now that your account has some tokens, you need to add a validator to your chain
 
 ```bash
 # Create a gentx.
-injectived gentx my_validator 1000000000000000000000inj --chain-id=injective-1 --keyring-backend=test
+injectived genesis gentx my_validator 1000000000000000000000inj --chain-id=injective-1 --keyring-backend=test
 
 # Add the gentx to the genesis file.
-injectived collect-gentxs
+injectived genesis collect-gentxs
 ```
 
 A `gentx` does three things:
@@ -105,7 +105,7 @@ A `gentx` does three things:
 For more information on `gentx`, use the following command:
 
 ```bash
-injectived gentx --help
+injectived genesis gentx --help
 ```
 
 ### Configuring the Node Using `app.toml` and `config.toml`
