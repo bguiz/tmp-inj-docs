@@ -77,7 +77,7 @@
       * [EndBlock](developers/modules/injective/auction/03\_end\_block.md)
       * [Events](developers/modules/injective/auction/04\_events.md)
       * [Params](developers/modules/injective/auction/05\_params.md)
-      * [Errors](developers/modules/injective/auction/99\_errors_.md)
+      * [Errors](developers/modules/injective/auction/99\_errors.md)
     * [Exchange](developers/modules/injective/exchange/README.md)
       * [Derivative Markets Concepts](developers/modules/injective/exchange/00\_derivative\_market\_concepts.md)
       * [Spot Markets Concepts](developers/modules/injective/exchange/01\_spot\_market\_concepts.md)
