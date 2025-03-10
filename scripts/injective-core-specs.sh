@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-injective_core_branch=dev
+injective_core_branch=master
 cosmos_sdk_branch=v0.50.x-inj
 BUILD_DIR=./temp
 STUB_DIR=./scripts/stub
@@ -19,6 +19,9 @@ else
 fi
 
 git clone https://github.com/InjectiveLabs/cosmos-sdk.git $BUILD_DIR/cosmos-sdk -b $cosmos_sdk_branch --depth 1 --single-branch > /dev/null
+
+## Generate errors docs
+./$BUILD_DIR/injective-core/scripts/docs/generate_errors_docs.sh
 
 for D in ./$BUILD_DIR/cosmos-sdk/x/*; do
   if [ -d "${D}" ]; then

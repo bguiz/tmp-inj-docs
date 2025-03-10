@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "generate": "./scripts/setup.sh"
+    "generate:core-specs": "./scripts/injective-core-specs.sh"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
