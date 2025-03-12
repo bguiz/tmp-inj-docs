@@ -8,6 +8,7 @@ description: >-
 
 Here is a list of external providers offering private Injective infrastructure services. For more information, click on their websites below:
 
+* [QuickNode](https://www.quicknode.com/chains/inj)
 * [NewMetric](https://app.newmetric.xyz/)
 * [CryptoCrew](https://forms.gle/Aa2XYBB4sLxzHNzc6)
 * [Imperator](https://www.imperator.co/products/dedicated-and-rpc-nodes#get-started)
@@ -17,6 +18,7 @@ Here is a list of external providers offering private Injective infrastructure s
 
 | Provider          | Chain | Indexer |
 |-------------------|-------|---------|
+| QuickNode         | [x]   | [ ]
 | NewMetric         | [x]   | [ ]     |
 | CryptoCrew        | [x]   | [x]     |
 | Imperator         | [x]   | [x]     |
