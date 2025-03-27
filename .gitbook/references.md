@@ -38,9 +38,8 @@ Tools and resources developed by ecosystem developers and partners
 | [Pyth](https://docs.pyth.network/home)                                                             | Price feed oracles and market data                                                                                                        |
 | [Starship](https://docs.cosmology.zone/starship)                                                   | Unified development environment that allows developers to spin up a fully simulated mini-cosmos ecosystem and write end-to-end test cases |
 | [SubQuery](https://github.com/subquery/cosmos-subql-starter/tree/main/Injective/injective-starter) | Open-source data indexer providing custom APIs                                                                                            |
-| [Synternet](https://docs.synternet.com/build/data-layer/developer-portal/subscribe-to-streams)     | Subscribe or publish real-time live data stream                                                                                           |
-| [Wormhole](https://docs.wormhole.com/wormhole)                                                     | Cross-chain messaging protocol                                                                                                            |
-| [DAO DAO](https://daodao.zone/dao/injective)                                   | DAO DAO helps you build and operate DAOs by providing a visual interface to easily interact with the underlying smart contracts that run on the blockchain. DAO DAO also offers a multisig solution.                                                                            |
+| [Remix IDE](https://docs.welldonestudio.io/code/deploy-and-run/injective) | Smart Contract Deployment & Development APIs                                                                                            |
+
 
 ### Helpful Repos
 
