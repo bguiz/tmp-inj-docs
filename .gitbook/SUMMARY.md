@@ -68,6 +68,7 @@
     * [Whitelisting deployment address](developers/cosmwasm-developers/guides/whitelisting-deployment-address.md)
     * [Create your Swap Contract](developers/cosmwasm-developers/guides/create-your-swap-contract.md)
     * [Creating UIs](developers/cosmwasm-developers/guides/creating-uis.md)
+  * [Using Injective Queries and Messages](developers/cosmwasm-developers/cosmwasm-any.md)
   * [CW20 Adapter](developers/cosmwasm-developers/page-1.md)
   * [Injective Test Tube](developers/cosmwasm-developers/injective-test-tube.md)
 * [Modules](developers/modules/README.md)
