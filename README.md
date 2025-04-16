@@ -25,7 +25,7 @@ $ yarn generate
 
 ## 🔓 License
 
-Copyright © 2021 - 2024 Injective Foundation (https://injective.com/)
+Copyright © 2021 - 2025 Injective Foundation (https://injective.com/)
 
 <a href="https://iili.io/mNneZN.md.png"><img src="https://iili.io/mNneZN.md.png" style="width: 300px; max-width: 100%; height: auto" />
 
