@@ -34,6 +34,7 @@
   * [Injective Go SDK](https://github.com/InjectiveLabs/sdk-go/)
   * [Injective Python SDK](https://github.com/InjectiveLabs/sdk-python)
   * [Injective CW SDK](https://github.com/InjectiveLabs/cw-injective)
+  * [Injective Rust](https://github.com/InjectiveLabs/injective-rust)
   * [The Graph](https://docs.substreams.dev/documentation/how-to-guides/injective)
 * [References](references.md)
 * [Glossary](glossary.md)
