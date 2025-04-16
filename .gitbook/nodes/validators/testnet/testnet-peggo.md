@@ -87,14 +87,29 @@ Simply update the `PEGGO_ETH_PK` with a new Ethereum Private Key from a new acco
 
 Next, ensure that your Ethereum addresss has Sepolia ETH. You can request Sepolia ETH from the public faucet [here](https://www.alchemy.com/faucets/ethereum-sepolia).
 
-## Step 2: Register Your Ethereum Address
+### Step 2: Register Your Orchestrator and Ethereum Address
+
+You can register orchestrator and ethereum address only once. It **CANNOT** be updated later. So Check twice before running below command.
 
 ```bash
-cd ~/.peggo
-peggo tx register-eth-key
+injectived tx peggy set-orchestrator-address $VALIDATOR_INJ_ADDRESS $ORCHESTRATOR_INJ_ADDRESS $ETHEREUM_ADDRESS --from $VALIDATOR_KEY_NAME --chain-id=injective-888 --keyring-backend=file --yes --node=tcp://localhost:26657 --gas-prices=160000000inj
+
 ```
 
-You can verify successful registration by checking for your Validator's mapped Ethereum address on https://staking-lcd-testnet.injective.network/peggy/v1/valset/current.
+* To obtain your validator's inj address, run, `injectived keys list $VALIDATOR_KEY_NAME`
+* To obtain your orchestrators's inj address, `injectived keys list $ORCHESTRATOR_KEY_NAME`
+
+Example:
+
+```bash
+injectived tx peggy set-orchestrator-address inj10m247khat0esnl0x66vu9mhlanfftnvww67j9n inj1x7kvxlz2epqx3hpq6v8j8w859t29pgca4z92l2 0xf79D16a79130a07e77eE36e8067AeA783aBdA3b6 --from validator-key-name --chain-id=injective-888 --keyring-backend=file --yes --node=tcp://localhost:26657 --gas-prices=160000000inj
+```
+
+You can verify successful registration by checking for your Validator's mapped Ethereum address on https://testnet.sentry.lcd.injective.network/peggy/v1/valset/current.
+
+{% hint style="info" %}
+**NOTE:** Once you've registered your Orchestrator with the `set-orchestrator-address` message, you **CANNOT** register again. Once this step is complete, your `Validator` is bound to the provided Ethereum address (as well the Delegated address you may have provided). In other words, your peggo must always run with the addresses you provided for registration.
+{% endhint %}
 
 ## Step 3: Start the Relayer
 
