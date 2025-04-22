@@ -35,6 +35,12 @@ for D in ./$BUILD_DIR/injective-core/injective-chain/modules/*; do
   fi
 done
 
+## txfees
+cp $BUILD_DIR/injective-core/injective-chain/modules/txfees/README.md $INJECTIVE_DIR/txfees/README.md
+## lanes
+mkdir -p $INJECTIVE_DIR/lanes
+cp $BUILD_DIR/injective-core/injective-chain/lanes/spec/README.md $INJECTIVE_DIR/lanes/README.md
+
 cp $STUB_DIR/core.modules.md.stub $CORE_DIR/README.md
 cp $STUB_DIR/injective.modules.md.stub $INJECTIVE_DIR/README.md
 
