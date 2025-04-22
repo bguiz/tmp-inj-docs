@@ -153,7 +153,7 @@
       * [Messages](developers/modules/injective/wasmx/04\_messages.md)
       * [Params](developers/modules/injective/wasmx/05\_params.md)
       * [Errors](developers/modules/injective/wasmx/99\_errors.md)
-    * [Lanes](developers/modules/injective/wasmx/README.md)
+    * [Lanes](developers/modules/injective/lanes/README.md)
     * [TxFees](developers/modules/injective/txfees/README.md)
   * [Core](developers/modules/core/README.md)
     * [Auth](developers/modules/core/auth/README.md)
