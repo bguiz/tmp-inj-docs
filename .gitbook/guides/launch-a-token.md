@@ -1,18 +1,18 @@
 # Launch a Token
 
-Within this document, we'll explain how to launch a token on Injective.&#x20;
+Within this document, we'll explain how to launch a token on Injective.
 
 There are two options for launching a token on Injective: bridging an existing token or creating a new token.
 
-## Bridging  <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
+## Bridging <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
-The easiest way to launch a token on Injective is by bridging your existing assets from one of the supported networks that Injective is interoperable with. There are guides in the [bridge](bridge/ "mention") sections that you can reference to bridge assets from other networks to Injective.&#x20;
+The easiest way to launch a token on Injective is by bridging your existing assets from one of the supported networks that Injective is interoperable with. There are guides in the [bridge](bridge/ "mention") sections that you can reference to bridge assets from other networks to Injective.
 
-Once the bridging process is completed, a token will be created on Injective, which you can then use to [launch-a-market.md](launch-a-market.md "mention").&#x20;
+Once the bridging process is completed, a token will be created on Injective, which you can then use to [launch-a-market.md](launch-a-market.md "mention").
 
 ## Creating a New Token
 
-You can also create a new token on Injective using the `TokenFactory` module. There are multiple ways on how to achieve this.&#x20;
+You can also create a new token on Injective using the `TokenFactory` module. There are multiple ways on how to achieve this.
 
 ### Using Injective Hub <a href="#id-3-via-tokenstation" id="id-3-via-tokenstation"></a>
 
@@ -35,7 +35,7 @@ You can learn more about Launching a token on the [TypeScript Documentation](htt
 #### Using Injective CLI
 
 {% hint style="info" %}
-You have to have `injectived` installed locally before proceeding with this tutorial. You cal learn more about it on the [getting-started](../getting-started/ "mention")page in the Nodes section.&#x20;
+You have to have `injectived` installed locally before proceeding with this tutorial. You cal learn more about it on the [getting-started](../getting-started/ "mention")page in the Nodes section.
 {% endhint %}
 
 Once you have `injectived` installed and a key added, you can use the CLI to launch your token:
@@ -45,14 +45,14 @@ Once you have `injectived` installed and a key added, you can use the CLI to lau
 The fee for creating a factory denom is `0.1 INJ`.
 
 ```bash
-injectived tx tokenfactory create-denom ak --from=YOUR_KEY --chain-id=injective-888 --node=https://testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
+injectived tx tokenfactory create-denom [subdenom] [name] [symbol] [decimals] --from=YOUR_KEY --chain-id=injective-888 --node=https://testnet.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
-Tokens are namespaced by the creator address to be permissionless and avoid name collision. In the example above, the subdenom is `ak` but the denom naming will be `factory/{creator address}/{subdenom}`.&#x20;
+Tokens are namespaced by the creator address to be permissionless and avoid name collision. In the example above, the subdenom is `ak` but the denom naming will be `factory/{creator address}/{subdenom}`.
 
 2. **Submit token metadata**
 
-To get your token visible on Injective dApps, you have to submit its metadata.&#x20;
+To get your token visible on Injective dApps, you have to submit its metadata.
 
 ```bash
 injectived tx tokenfactory set-denom-metadata "My Token Description" 'factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak' AKK AKCoin AK '' '' '[
@@ -66,19 +66,19 @@ This command expects the following arguments:
 <pre class="language-bash"><code class="lang-bash"><strong>injectived tx tokenfactory set-denom-metadata [description] [base] [display] [name] [symbol] [uri] [uri-hash] [denom-unit (json)] [decimals]
 </strong></code></pre>
 
-3. #### Mint tokens <a href="#id-5-mint-tokens" id="id-5-mint-tokens"></a>
+3. **Mint tokens**
 
-Once you have created your token and submitted the token metadata, it's time to mint your tokens.&#x20;
+Once you have created your token and submitted the token metadata, it's time to mint your tokens.
 
 ```bash
 injectived tx tokenfactory mint 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
 ```
 
-This command will mint 1 token, assuming your token has 6 decimals.&#x20;
+This command will mint 1 token, assuming your token has 6 decimals.
 
 4. **Burn tokens**
 
-The admin of the token, can also burn the tokens.&#x20;
+The admin of the token, can also burn the tokens.
 
 ```bash
 injectived tx tokenfactory burn 1000000factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
@@ -86,7 +86,7 @@ injectived tx tokenfactory burn 1000000factory/inj17vytdwqczqz72j65saukplrktd4gy
 
 5. **Change admin**
 
-It's recommended once you have minted the initial supply to change admin to the `null` address to make sure that the supply of the token cannot be manipulated. Once again, the admin of the token can mint and burn supply anytime. The `NEW_ADDRESS`, as explained above in most of the cases should be set to `inj1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe2hm49`.&#x20;
+It's recommended once you have minted the initial supply to change admin to the `null` address to make sure that the supply of the token cannot be manipulated. Once again, the admin of the token can mint and burn supply anytime. The `NEW_ADDRESS`, as explained above in most of the cases should be set to `inj1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe2hm49`.
 
 ```bash
 injectived tx tokenfactory change-admin factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/ak NEW_ADDRESS --from=gov --chain-id=injective-888 --node=https://testnet.sentry.tm.injective.network:443 --gas-prices=500000000inj --gas 1000000
