@@ -62,6 +62,7 @@
     * [MultiVM Token Standard](developers/evm-developers/technical-information/multivm-token-standard.md)
     * [Precompiles](developers/evm-developers/technical-information/precompiles/README.md)
       * [Bank Precompile](developers/evm-developers/technical-information/precompiles/bank-precompile.md)
+      * [Exchange Precompile](developers/evm-developers/technical-information/precompiles/exchange-precompile.md)
     * [ERC20 Module](developers/evm-developers/technical-information/erc20-module.md)
   * [EVM Testnet Faucet](https://k8s.testnet.evmix.faucet.injective.network/)
 * [Cosmwasm Developers](developers/cosmwasm-developers/README.md)
