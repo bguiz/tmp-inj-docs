@@ -20,7 +20,7 @@ For more information about Injective EVM Testnet see the following pages:
 
 * [Private Testnet Deployment](../guides/private-testnet-deployment.md)
 * [EVM Equivalence](evm-equivalence.md)
-* [Single Token Representation](single-token-representation.md)
+* [Single Token Representation](multivm-token-standard.md)
 
 ## Injective EVM Mainnet
 

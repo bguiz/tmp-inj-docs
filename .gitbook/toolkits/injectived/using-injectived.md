@@ -6,7 +6,7 @@ The following page explains what one can do via `injectived`, the command-line i
 
 ### Ensuring injectived is installed
 
-See [Install injectived](./install-injectived.md) for more information. If you have installed `injectived` successfully, you should be able to run the following command:
+See [Install injectived](install-injectived.md) for more information. If you have installed `injectived` successfully, you should be able to run the following command:
 
 ```bash
 injectived version
@@ -55,7 +55,7 @@ Before you can access the Injective blockchain, you need to have a node running.
 
 To query the state and send transactions, you must connect to a node, which is the access point to the entire network of peer connections. You can either run your own full node or connect to someone else’s.
 
-[Running own node](../../nodes//getting-started/running-a-node/join-a-network.md) is for advanced users only. For most users, it is recommended to connect to a public node.
+[Running own node](../../nodes/getting-started/running-a-node/join-a-network.md) is for advanced users only. For most users, it is recommended to connect to a public node.
 
 To set the RPC endpoint, you can use the following command:
 
@@ -100,14 +100,14 @@ All options in the file can be set using the CLI: `injectived config set client 
 
 ## Generate, Sign, and Broadcast a Transaction
 
-Running the following command sends INJ tokens from the sender's account to the recipient's account.
-`1000inj` is the amount of INJ tokens to send, where `1 INJ = 10^18 inj`, so `1000inj` is a really small amount.
+Running the following command sends INJ tokens from the sender's account to the recipient's account. `1000inj` is the amount of INJ tokens to send, where `1 INJ = 10^18 inj`, so `1000inj` is a really small amount.
 
 ```bash
 injectived tx bank send MY_WALLET RECEIVER_WALLET 1000inj --from MY_WALLET
 ```
 
 The following steps are performed:
+
 * Generates a transaction with one `Msg` (`x/bank`'s `MsgSend`), and print the generated transaction to the console.
 * Ask the user for confirmation to send the transaction from the `$MY_WALLET` account.
 * Fetch `$MY_WALLET` from the keyring. This is possible because we have set up the CLI's keyring in a previous step.
@@ -183,11 +183,8 @@ injectived tx query TX_HASH
 
 ## Additional Troubleshooting
 
-Sometimes the config is not set correctly. You can force the correct node RPC endpoint by adding the following to the commandline.
-When sharing commands with others, it is recommended to have all the flags explicitly set in the commandline. (chain-id, node, keyring-backend, etc.)
+Sometimes the config is not set correctly. You can force the correct node RPC endpoint by adding the following to the commandline. When sharing commands with others, it is recommended to have all the flags explicitly set in the commandline. (chain-id, node, keyring-backend, etc.)
 
 ```bash
 injectived --node https://sentry.tm.injective.network:443
 ```
-
-

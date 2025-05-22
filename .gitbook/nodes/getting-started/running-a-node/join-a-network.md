@@ -1,8 +1,8 @@
 # Join a network
 
-This guide will walk you through the process of setting up a standalone network locally, as well as running a node on Mainnet or Testnet.&#x20;
+This guide will walk you through the process of setting up a standalone network locally, as well as running a node on Mainnet or Testnet.
 
-You can also find the hardware requirements for each network in the respective tabs.&#x20;
+You can also find the hardware requirements for each network in the respective tabs.
 
 {% tabs %}
 {% tab title="Local Network" %}
@@ -22,7 +22,7 @@ injectived start # Blocks should start coming in after running this
 
 For further explanation on what the script is doing and more fine-grained control over the setup process, continue reading below.
 
-### Initialize the Chain
+#### Initialize the Chain
 
 Before running Injective node, we need to initialize the chain as well as the node's genesis file:
 
@@ -46,7 +46,7 @@ The `~/.injectived` folder has the following structure:
       |- priv_validator_key.json    # Private key to use as a validator in the consensus protocol.
 ```
 
-### Modify the `genesis.json` File
+#### Modify the `genesis.json` File
 
 At this point, a modification is required in the `genesis.json` file:
 
@@ -65,7 +65,7 @@ cat $HOME/.injectived/config/genesis.json | jq '.app_state["mint"]["params"]["mi
 The commands above will only work if the default `.injectived` directory is used. For a specific directory, either modify the commands above or manually edit the `genesis.json` file to reflect the changes.
 {% endhint %}
 
-### Create Keys for the Validator Account
+#### Create Keys for the Validator Account
 
 Before starting the chain, you need to populate the state with at least one account. To do so, first create a new account in the keyring named `my_validator` under the `test` keyring backend (feel free to choose another name and another backend):
 
@@ -84,7 +84,7 @@ injectived add-genesis-account $MY_VALIDATOR_ADDRESS 100000000000000000000000000
 
 `$MY_VALIDATOR_ADDRESS` is the variable that holds the address of the `my_validator` key in the keyring. Tokens in Injective have the `{amount}{denom}` format: `amount` is an 18-digit-precision decimal number, and `denom` is the unique token identifier with its denomination key (e.g. `inj`). Here, we are granting `inj` tokens, as `inj` is the token identifier used for staking in `injectived`.
 
-### Add the Validator to the Chain
+#### Add the Validator to the Chain
 
 Now that your account has some tokens, you need to add a validator to your chain. Validators are special full-nodes that participate in the consensus process in order to add new blocks to the chain. Any account can declare its intention to become a validator operator, but only those with sufficient delegation get to enter the active set. For this guide, you will add your local node (created via the `init` command above) as a validator of your chain. Validators can be declared before a chain is first started via a special transaction included in the genesis file called a `gentx`:
 
@@ -108,7 +108,7 @@ For more information on `gentx`, use the following command:
 injectived genesis gentx --help
 ```
 
-### Configuring the Node Using `app.toml` and `config.toml`
+#### Configuring the Node Using `app.toml` and `config.toml`
 
 Two configuration files are automatically generated inside `~/.injectived/config`:
 
@@ -126,7 +126,7 @@ One example config to tweak is the `minimum-gas-prices` field inside `app.toml`,
  minimum-gas-prices = "0inj"
 ```
 
-### Run a Localnet
+#### Run a Localnet
 
 Now that everything is set up, you can finally start your node:
 
@@ -138,21 +138,19 @@ This command allows you to run a single node, which is is enough to interact wit
 {% endtab %}
 
 {% tab title="Testnet Network" %}
-### Hardware Specification
+#### Hardware Specification
 
 Node operators should deploy bare metal servers to achieve optimal performance. Additionally, validator nodes must meet the recommended hardware specifications and particularly the CPU requirements, to ensure high uptime.
 
+|       _Minimum_       |    _Recommendation_   |
+| :-------------------: | :-------------------: |
+|    RAM Memory 128GB   |    RAM Memory 128GB   |
+|      CPU 12 cores     |      CPU 16 cores     |
+| CPU base clock 3.7GHz | CPU base clock 4.2GHz |
+|    Storage 2TB NVMe   |    Storage 2TB NVMe   |
+|     Network 1Gbps+    |     Network 1Gbps+    |
 
-|           _Minimum_              |        _Recommendation_        |
-| :--------------------------:     | :---------------------------:  |
-|          RAM Memory 128GB        |          RAM Memory 128GB      |
-|          CPU 12 cores            |          CPU 16 cores          |
-|          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
-|          Storage 2TB NVMe        |          Storage 2TB NVMe      |
-|          Network 1Gbps+          |          Network 1Gbps+        |
-
-
-### Install `injectived` and `peggo`
+#### Install `injectived` and `peggo`
 
 See the [Injective releases repo](https://github.com/InjectiveLabs/testnet/releases) for the most recent releases. Non-validator node operators do not need to install `peggo`.
 
@@ -164,7 +162,7 @@ sudo mv injectived /usr/bin
 sudo mv libwasmvm.x86_64.so /usr/lib 
 ```
 
-### Initialize a New Injective Chain Node
+#### Initialize a New Injective Chain Node
 
 Before running Injective node, we need to initialize the chain as well as the node's genesis file:
 
@@ -177,7 +175,7 @@ injectived init $MONIKER --chain-id injective-888
 
 Running the `init` command will create `injectived` default configuration files at `~/.injectived`.
 
-### Prepare Configuration to Join Testnet
+#### Prepare Configuration to Join Testnet
 
 You should now update the default configuration with the Testnet's genesis file and application config file, as well as configure your persistent peers with seed nodes.
 
@@ -199,7 +197,7 @@ You can also run verify the checksum of the genesis checksum - a4abe4e1f5511d4c2
 sha256sum ~/.injectived/config/genesis.json
 ```
 
-### Configure `systemd` Service for `injectived`
+#### Configure `systemd` Service for `injectived`
 
 Edit the config at `/etc/systemd/system/injectived.service`:
 
@@ -233,31 +231,29 @@ sudo systemctl enable injectived
 journalctl -u injectived -f
 ```
 
-### Sync with the network
+#### Sync with the network
 
 Refer to the Polkachu guide [here](https://polkachu.com/testnets/injective/snapshots) to download a snapshot and sync with the network.
 
-#### Support
+**Support**
 
 For any further questions, you can always connect with the Injective Team via [Discord](https://discord.gg/injective), [Telegram](https://t.me/joininjective), or [email](mailto:contact@injectivelabs.org).
 {% endtab %}
 
 {% tab title="Mainnet Network" %}
-### Hardware Specification
+#### Hardware Specification
 
 Node operators should deploy bare metal servers to achieve optimal performance. Additionally, validator nodes must meet the recommended hardware specifications and particularly the CPU requirements, to ensure high uptime.
 
+|       _Minimum_       |    _Recommendation_   |
+| :-------------------: | :-------------------: |
+|    RAM Memory 128GB   |    RAM Memory 128GB   |
+|      CPU 12 cores     |      CPU 16 cores     |
+| CPU base clock 3.7GHz | CPU base clock 4.2GHz |
+|    Storage 2TB NVMe   |    Storage 2TB NVMe   |
+|     Network 1Gbps+    |     Network 1Gbps+    |
 
-|           _Minimum_              |        _Recommendation_        |
-| :--------------------------:     | :---------------------------:  |
-|          RAM Memory 128GB        |          RAM Memory 128GB      |
-|          CPU 12 cores            |          CPU 16 cores          |
-|          CPU base clock 3.7GHz   |          CPU base clock 4.2GHz |
-|          Storage 2TB NVMe        |          Storage 2TB NVMe      |
-|          Network 1Gbps+          |          Network 1Gbps+        |
-
-
-### Install `injectived` and `peggo`
+#### Install `injectived` and `peggo`
 
 See the [Injective chain releases repo](https://github.com/InjectiveLabs/injective-chain-releases/releases/) for the most recent releases. Non-validator node operators do not need to install `peggo`.
 
@@ -269,7 +265,7 @@ sudo mv injectived /usr/bin
 sudo mv libwasmvm.x86_64.so /usr/lib 
 ```
 
-### Initialize a New Injective Node
+#### Initialize a New Injective Node
 
 Before running Injective node, we need to initialize the chain as well as the node's genesis file:
 
@@ -282,7 +278,7 @@ injectived init $MONIKER --chain-id injective-1
 
 Running the `init` command will create `injectived` default configuration files at `~/.injectived`.
 
-### Prepare Configuration to Join Mainnet
+#### Prepare Configuration to Join Mainnet
 
 You should now update the default configuration with the Mainnet's genesis file and application config file, as well as configure your persistent peers with seed nodes.
 
@@ -309,7 +305,7 @@ cat mainnet-config/10001/seeds.txt
 nano ~/.injectived/config/config.toml
 ```
 
-### Configure `systemd` Service for `injectived`
+#### Configure `systemd` Service for `injectived`
 
 Edit the config at `/etc/systemd/system/injectived.service`:
 
@@ -353,13 +349,13 @@ sudo systemctl stop injectived
 sudo systemctl start injectived
 ```
 
-### Sync with the network
+#### Sync with the network
 
-#### Option 1. State-Sync
+**Option 1. State-Sync**
 
 _To be added soon_
 
-#### Option 2. Snapshots
+**Option 2. Snapshots**
 
 **Pruned**
 
@@ -402,9 +398,8 @@ go install github.com/cosmos/gex@latest
 gex
 ```
 
-#### Support
+**Support**
 
 For any further questions, you can always connect with the Injective Team via [Discord](https://discord.gg/injective), [Telegram](https://t.me/joininjective), or [email](mailto:contact@injectivelabs.org)
 {% endtab %}
 {% endtabs %}
-

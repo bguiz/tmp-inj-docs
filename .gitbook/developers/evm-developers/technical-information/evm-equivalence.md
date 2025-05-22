@@ -36,4 +36,4 @@ Coming soon.
 
 
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="network-information.md">network-information.md</a></td><td><a href="network-information.md">network-information.md</a></td></tr><tr><td>Next → </td><td><a href="single-token-representation.md">single-token-representation.md</a></td><td><a href="single-token-representation.md">single-token-representation.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="network-information.md">network-information.md</a></td><td><a href="network-information.md">network-information.md</a></td></tr><tr><td>Next → </td><td><a href="multivm-token-standard.md">multivm-token-standard.md</a></td><td><a href="multivm-token-standard.md">multivm-token-standard.md</a></td></tr></tbody></table>

@@ -59,7 +59,7 @@
   * [Technical Information](developers/evm-developers/technical-information/README.md)
     * [Network Information](developers/evm-developers/technical-information/network-information.md)
     * [EVM Equivalence](developers/evm-developers/technical-information/evm-equivalence.md)
-    * [MultiVM Token Standard](developers/evm-developers/technical-information/single-token-representation.md)
+    * [MultiVM Token Standard](developers/evm-developers/technical-information/multivm-token-standard.md)
     * [Precompiles](developers/evm-developers/technical-information/precompiles/README.md)
       * [Bank Precompile](developers/evm-developers/technical-information/precompiles/bank-precompile.md)
     * [ERC20 Module](developers/evm-developers/technical-information/erc20-module.md)
