@@ -35,7 +35,8 @@ forge --version
 
 ```
 [rpc_endpoints]
-injectiveEvm = "https://k8s.testnet.evmix.json-rpc.injective.network"
+injectiveEvm = " 
+https://testnet.sentry.chain.json-rpc.injective.network/"
 ```
 
 ## Development
