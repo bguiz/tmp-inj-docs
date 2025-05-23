@@ -55,7 +55,7 @@
 * [EVM Developers](developers/evm-developers.md)
   * [Your First Smart Contract](developers/evm-developers/your-first-smart-contract.md)
   * [Guides](developers/evm-developers/guides/README.md)
-    * [Private Testnet Deployment](developers/evm-developers/guides/private-testnet-deployment.md)
+    * [Testnet Deployment](developers/evm-developers/guides/private-testnet-deployment.md)
   * [Technical Information](developers/evm-developers/technical-information/README.md)
     * [Network Information](developers/evm-developers/technical-information/network-information.md)
     * [EVM Equivalence](developers/evm-developers/technical-information/evm-equivalence.md)

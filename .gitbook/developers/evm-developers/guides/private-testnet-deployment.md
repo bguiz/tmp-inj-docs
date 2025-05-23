@@ -1,4 +1,20 @@
-# Private Testnet Deployment
+# Testnet Deployment
+
+During the initial phase of the public testnet EVM release, deployments will be permissioned. This means that only a limited set of accounts will be able to deploy contracts and applications. This permissioned period is expected to last for a maximum of two weeks.
+
+The purpose of this restriction is to allow the core team to conduct thorough performance tests and ensure the stability of the EVM environment under controlled conditions. This allows us to identify and address any potential issues before opening up deployments to the wider community.
+
+If you are a team interested in deploying on the public testnet EVM during this permissioned period, please reach out to us on \[Discord]\(_insert Discord link here_) or \[Telegram]\(_insert Telegram link here_). We may be able to assist with deploying your contracts for testing purposes.
+
+
+
+***
+
+## Testnet permissionless contract deployment guide&#x20;
+
+<details>
+
+<summary>Coming soon! </summary>
 
 This guide will walk you through deploying a smart contract on the Injective EVM Testnet network.
 
@@ -24,7 +40,7 @@ forge --version
 
 ```
 [rpc_endpoints]
-injectiveEvm = "https://k8s.testnet.evmix.json-rpc.injective.network"
+injectiveEvm = "https://testnet.sentry.chain.json-rpc.injective.network/"
 ```
 
 ## Deploying
@@ -58,7 +74,7 @@ After the deployment is completed, you can verify the contract.&#x20;
 forge verify-contract \
   --rpc-url injectiveEvm \
   --verifier blockscout \
-  --verifier-url 'https://k8s.testnet.evm.blockscout.api.injective.network/api/' \
+  --verifier-url 'https://testnet.blockscout-api.injective.network/api/' \
   {SmartContractAddress} \
   src/{YourContract}.sol:{ContractName}
 ```
@@ -68,6 +84,10 @@ After that, you can navigate to the contract address in Explorer to see the code
 {% hint style="info" %}
 You can read more about foundry deploying [here](https://book.getfoundry.sh/forge/deploying), or you can check other deployment options [here](https://book.getfoundry.sh/reference/forge/forge-create). You can also read more about forge verify-contract [here](https://book.getfoundry.sh/reference/forge/forge-verify-contract).
 {% endhint %}
+
+</details>
+
+
 
 
 

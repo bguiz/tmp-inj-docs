@@ -6,10 +6,10 @@ description: Essential information about the Injective EVM network
 
 ## Injective EVM Testnet Details
 
-* Injective Chain Id: `injective-999`
+* Injective Chain Id: `injective-888`
 * Ethereum Chain Id: `1439`
 * JSON-RPC Endpoint: [https://testnet.sentry.chain.json-rpc.injective.network/](https://testnet.sentry.chain.json-rpc.injective.network/)
-* WS Endpoint: [wss://k8s.testnet.evmix.ws.injective.network](https://piehost.com/websocket-tester?url=wss://k8s.testnet.evmix.ws.injective.network)
+* WS Endpoint: [https://testnet.sentry.chain.ws.injective.network/](https://testnet.sentry.chain.ws.injective.network/)
 * Explorer: [https://testnet.blockscout.injective.network/blocks](https://testnet.blockscout.injective.network/blocks)
 
 {% hint style="info" %}
