@@ -4,7 +4,7 @@ During the initial phase of the public testnet EVM release, deployments will be 
 
 The purpose of this restriction is to allow the core team to conduct thorough performance tests and ensure the stability of the EVM environment under controlled conditions. This allows us to identify and address any potential issues before opening up deployments to the wider community.
 
-If you are a team interested in deploying on the public testnet EVM during this permissioned period, please reach out to us on \[Discord]\(_insert Discord link here_) or \[Telegram]\(_insert Telegram link here_). We may be able to assist with deploying your contracts for testing purposes.
+If you are a team interested in deploying on the public testnet EVM during this permissioned period, please reach out to us on [Discord](https://discord.com/invite/NK4qdbv) or [Telegram](https://t.me/joininjective). We may be able to assist with deploying your contracts for testing purposes.
 
 
 
