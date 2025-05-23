@@ -13,7 +13,7 @@ description: Essential information about the Injective EVM network
 * Explorer: [https://testnet.blockscout.injective.network/blocks](https://testnet.blockscout.injective.network/blocks)
 
 {% hint style="info" %}
-You can request private EVM testnet funds [here](https://k8s.testnet.evmix.faucet.injective.network/)
+You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
 {% endhint %}
 
 For more information about Injective EVM Testnet see the following pages:
