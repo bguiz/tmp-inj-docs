@@ -1,6 +1,6 @@
 # Modules
 
-## What are Modules?[​](https://docs.injective.network/learn/introduction#what-is-injective)
+## What are Modules?​
 
 Modules are foundational components in Injective’s blockchain architecture, each built to provide specific functionalities. A module is essentially a self-contained unit with well-defined logic and services, allowing Injective to efficiently manage diverse operations across the network.
 
