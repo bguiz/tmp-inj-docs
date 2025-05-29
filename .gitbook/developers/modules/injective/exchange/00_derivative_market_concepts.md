@@ -82,8 +82,8 @@ This is the requirement for the ratio of margin to the order's notional as well 
 
 PNL is the expected profit and loss of the position if it was closed at the current MarkPrice. Solved for MarkPrice this results in:
 
-* For Buys: $\mathrm{MarkPrice}$ ≥ $\mathrm{\frac{Margin - Price \* Quantity}{(InitialMarginRatio - 1) \* Quantity\}}$
-* For Sells: $\mathrm{MarkPrice}$ ≤ $\mathrm{\frac{Margin + Price \* Quantity}{(InitialMarginRatio + 1) \* Quantity\}}$
+* For Buys: `Mark Price >= (Margin - (Price * Quantity)) / ((InitialMarginRatio - 1) * Quantity)`
+* For Sells: `Mark Price <= (Margin + (Price * Quantity)) / ((InitialMarginRatio + 1) * Quantity)`
 
 **Maintenance Margin Requirement**
 
