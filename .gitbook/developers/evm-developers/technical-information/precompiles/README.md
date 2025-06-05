@@ -34,8 +34,8 @@ These implementations are based on OpenZeppelin’s ERC20 contracts. Developers 
 
 ### Precompile Addresses
 
-| Name     | Purpose                       | EVM address |
-| -------- | ----------------------------- | ----------- |
-| Bank     | Token Management              | 0x64        |
-| Exchange | On-chain Order Book           | 0x65        |
-| Staking  | Native staking token on-chain | 0x66        |
+| Name                               | Purpose                       | EVM address |
+| ---------------------------------- | ----------------------------- | ----------- |
+| [Bank](bank-precompile.md)         | Token Management              | 0x64        |
+| [Exchange](exchange-precompile.md) | On-chain Order Book           | 0x65        |
+| Staking                            | Native staking token on-chain | 0x66        |
