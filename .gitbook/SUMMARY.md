@@ -38,6 +38,7 @@
   * [The Graph](https://docs.substreams.dev/documentation/how-to-guides/injective)
 * [References](references.md)
 * [Glossary](glossary.md)
+* [llm.txt](llm.txt.md)
 
 ## Developers
 
@@ -235,4 +236,3 @@
 * [Chain API Reference](https://sentry.lcd.injective.network/swagger/#/)
 * [Indexer API Reference](https://api.injective.network/swagger/#/)
 * [Testnet Faucet](https://testnet.faucet.injective.network)
-* [llm.txt](useful-links/llm.txt.md)
