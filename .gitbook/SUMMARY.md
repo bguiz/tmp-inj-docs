@@ -235,3 +235,4 @@
 * [Chain API Reference](https://sentry.lcd.injective.network/swagger/#/)
 * [Indexer API Reference](https://api.injective.network/swagger/#/)
 * [Testnet Faucet](https://testnet.faucet.injective.network)
+* [llm.txt](useful-links/llm.txt.md)
