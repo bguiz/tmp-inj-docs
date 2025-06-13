@@ -10,7 +10,8 @@ description: Essential information about the Injective EVM network
 * Ethereum Chain Id: `1439`
 * JSON-RPC Endpoint: [https://testnet.sentry.chain.json-rpc.injective.network/](https://testnet.sentry.chain.json-rpc.injective.network/)
 * WS Endpoint: [https://testnet.sentry.chain.ws.injective.network/](https://testnet.sentry.chain.ws.injective.network/)
-* Explorer: [https://testnet.blockscout.injective.network/blocks](https://testnet.blockscout.injective.network/blocks)
+* Explorer: [https://testnet.blockscout.injective.network/blocks](https://testnet.blockscout.injective.network/blocks) ([Mirror](https://testnet-injective.cloud.blockscout.com/blocks) by BlockScout)
+
 
 {% hint style="info" %}
 You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
@@ -21,6 +22,7 @@ For more information about Injective EVM Testnet see the following pages:
 * [Private Testnet Deployment](../guides/private-testnet-deployment.md)
 * [EVM Equivalence](evm-equivalence.md)
 * [MultiVM Token Standard](multivm-token-standard.md)
+* [Start Building on EVM](../../evm-developers.md)
 
 ## Injective EVM Mainnet
 

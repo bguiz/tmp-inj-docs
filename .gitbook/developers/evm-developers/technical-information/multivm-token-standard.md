@@ -68,4 +68,8 @@ Injective’s EVM is integrated directly into the Cosmos-based chain.
 * The use of [precompiles](precompiles/) prevents common pitfalls like state desynchronization, ensuring that all operations—no matter where initiated—update the same canonical ledger.
 * Advanced security guidelines and best practices for smart contract development are provided in our security section and external resources.
 
+**ℹ️ Note:**
+
+To prevent denom spam, deploying an ERC20 contract via the ERC20 module is a **payable operation** and requires a deployment fee of **1 INJ**. Make sure your ERC20 contract deployment transaction includes this amount, or the operation will be rejected.
+
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td><td><a href="evm-equivalence.md">evm-equivalence.md</a></td></tr><tr><td>Precompiles</td><td><a href="precompiles/">precompiles</a></td><td><a href="../../evm-developers.md">evm-developers.md</a></td></tr></tbody></table>

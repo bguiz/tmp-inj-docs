@@ -16,4 +16,4 @@ BlockScoutInjective is supported by a rich ecosystem of industry-leading infrast
 
 ### Block Explorers
 
-<table data-header-hidden><thead><tr><th width="149.71484375"></th><th></th></tr></thead><tbody><tr><td><a href="https://testnet.blockscout.injective.network/blocks">BlockScout</a></td><td>EVM standard Block explorer</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="149.71484375"></th><th></th></tr></thead><tbody><tr><td><a href="https://testnet.blockscout.injective.network/blocks">BlockScout</a></td><td>EVM standard Block explorer</td></tr><tr><td><a href="https://testnet-injective.cloud.blockscout.com">BlockScout Cloud</a></td><td>EVM standard Block explorer (Hosted by BlockScout)</td></tr></tbody></table>
