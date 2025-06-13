@@ -1,15 +1,5 @@
 # Testnet Deployment
 
-During the initial phase of the public testnet EVM release, deployments will be permissioned. This means that only a limited set of accounts will be able to deploy contracts and applications. This permissioned period is expected to last for a maximum of two weeks.
-
-The purpose of this restriction is to allow the core team to conduct thorough performance tests and ensure the stability of the EVM environment under controlled conditions. This allows us to identify and address any potential issues before opening up deployments to the wider community.
-
-If you are a team interested in deploying on the public testnet EVM during this permissioned period, please reach out to us on [Discord](https://discord.com/invite/NK4qdbv) or [Telegram](https://t.me/joininjective). We may be able to assist with deploying your contracts for testing purposes.
-
-
-
-***
-
 ## Testnet permissionless contract deployment guide&#x20;
 
 <details>
@@ -19,7 +9,7 @@ If you are a team interested in deploying on the public testnet EVM during this 
 This guide will walk you through deploying a smart contract on the Injective EVM Testnet network.
 
 {% hint style="info" %}
-You can request private EVM testnet funds [here](https://k8s.testnet.evmix.faucet.injective.network/)
+You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
 {% endhint %}
 
 ## Requirements
