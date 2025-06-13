@@ -2,10 +2,6 @@
 
 ## Testnet permissionless contract deployment guide&#x20;
 
-<details>
-
-<summary>Coming soon! </summary>
-
 This guide will walk you through deploying a smart contract on the Injective EVM Testnet network.
 
 {% hint style="info" %}
@@ -74,8 +70,6 @@ After that, you can navigate to the contract address in Explorer to see the code
 {% hint style="info" %}
 You can read more about foundry deploying [here](https://book.getfoundry.sh/forge/deploying), or you can check other deployment options [here](https://book.getfoundry.sh/reference/forge/forge-create). You can also read more about forge verify-contract [here](https://book.getfoundry.sh/reference/forge/forge-verify-contract).
 {% endhint %}
-
-</details>
 
 
 
