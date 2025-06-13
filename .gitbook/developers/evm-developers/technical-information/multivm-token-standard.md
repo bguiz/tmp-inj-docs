@@ -32,7 +32,7 @@ The system comprises two main components:
 
 1. [**Using Our Prebuilt Templates**](https://github.com/InjectiveLabs/solidity-contracts/tree/master/src)**:**
    * Start with the provided Solidity templates, such as `BankERC20.sol`, `MintBurnBankERC20.sol`, or `FixedSupplyBankERC20.sol`.
-2. [**Deploying the Contract**](../guides/private-testnet-deployment.md)**:**
+2. [**Deploying the Contract**](../guides/testnet-deployment.md)**:**
    * Deploy your MTS token contract on the Injective EVM network.
    * The contract automatically interacts with the Bank Precompile to update the canonical state.
 
@@ -62,13 +62,13 @@ Injective’s EVM is integrated directly into the Cosmos-based chain.
 * Gas fees are paid in INJ. While MTS operations via the EVM introduce an abstraction layer that may slightly increase gas usage compared to native transactions, the overall cost remains lower than comparable operations on Ethereum.
 * The gas model is designed to reflect a balance between EVM-style opcode costs and native module interactions.
 
-#### **Security**&#x20;
+#### **Security**
 
 * The [bank module](../../modules/core/bank/), as the single source of truth, underpins MTS’s security by ensuring that token balances are consistent and verifiable.
 * The use of [precompiles](precompiles/) prevents common pitfalls like state desynchronization, ensuring that all operations—no matter where initiated—update the same canonical ledger.
 * Advanced security guidelines and best practices for smart contract development are provided in our security section and external resources.
 
-**ℹ️ Note:**
+**ℹ️ Note:**
 
 To prevent denom spam, deploying an ERC20 contract via the ERC20 module is a **payable operation** and requires a deployment fee of **1 INJ**. Make sure your ERC20 contract deployment transaction includes this amount, or the operation will be rejected.
 

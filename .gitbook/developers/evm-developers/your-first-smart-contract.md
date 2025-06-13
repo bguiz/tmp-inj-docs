@@ -2,14 +2,14 @@
 
 {% hint style="info" %}
 * You can find the chain details on the [evm-developers.md](../evm-developers.md "mention") page
-* You can find an example of a simple Counter contract and deployment instructions within the [injective-foundry-example](https://github.com/InjectiveLabs/injective-foundry-example).&#x20;
-* You can also read our general-purpose [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention") guides.
+* You can find an example of a simple Counter contract and deployment instructions within the [injective-foundry-example](https://github.com/InjectiveLabs/injective-foundry-example).
+* You can also read our general-purpose [testnet-deployment.md](guides/testnet-deployment.md "mention") guides.
 {% endhint %}
 
-Building and Deploying smart contracts on Injective should be quite simple. As your first example, we'll take a look at a simple Counter smart contract example.&#x20;
+Building and Deploying smart contracts on Injective should be quite simple. As your first example, we'll take a look at a simple Counter smart contract example.
 
-1. We'll develop the smart contract,&#x20;
-2. Do a[private-testnet-deployment.md](guides/private-testnet-deployment.md "mention") on the Injective's Private EVM Testnet,
+1. We'll develop the smart contract,
+2. Do a[testnet-deployment.md](guides/testnet-deployment.md "mention") on the Injective's Private EVM Testnet,
 3. Query the smart contract using [Cast](https://book.getfoundry.sh/reference/cast/),
 4. Send a transaction to change the smart contract state using [Cast](https://book.getfoundry.sh/reference/cast/),
 
@@ -41,11 +41,11 @@ https://testnet.sentry.chain.json-rpc.injective.network/"
 
 ## Development
 
-We can build a simple **Counter** example and then do a transaction/query the smart contract state.&#x20;
+We can build a simple **Counter** example and then do a transaction/query the smart contract state.
 
 ### Smart Contract Code
 
-This is just a simple Counter smart contract written in Solidity.&#x20;
+This is just a simple Counter smart contract written in Solidity.
 
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
@@ -76,7 +76,7 @@ contract Counter {
 
 ### Deployment
 
-You can read more about the process of [private-testnet-deployment.md](guides/private-testnet-deployment.md "mention") in the page referenced in the link.&#x20;
+You can read more about the process of [testnet-deployment.md](guides/testnet-deployment.md "mention") in the page referenced in the link.
 
 ### Querying the Smart Contract
 
@@ -116,6 +116,4 @@ cast sig "function increment()"
 cast send --legacy --rpc-url injectiveEvm --private-key {YourPrivateKey} {SmartContractAddress} 0xd09de08a
 ```
 
-
-
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="../evm-developers.md">evm-developers.md</a></td><td><a href="../evm-developers.md">evm-developers.md</a></td></tr><tr><td>Next → </td><td><a href="guides/">guides</a></td><td><a href="guides/">guides</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="../evm-developers.md">evm-developers.md</a></td><td><a href="../evm-developers.md">evm-developers.md</a></td></tr><tr><td>Next →</td><td><a href="guides/">guides</a></td><td><a href="guides/">guides</a></td></tr></tbody></table>
