@@ -16,7 +16,7 @@ Building and Deploying smart contracts on Injective should be quite simple. As y
 ## Requirements
 
 {% hint style="info" %}
-You can request private EVM testnet funds from the official Testnet faucet [here](https://testnet.faucet.injective.network/).
+You can request EVM testnet funds from the official Testnet faucet [here](https://testnet.faucet.injective.network/).
 {% endhint %}
 
 1. The guide uses [foundry](https://book.getfoundry.sh/) for deployments. Install it by running:
