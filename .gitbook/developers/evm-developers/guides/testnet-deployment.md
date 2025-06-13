@@ -1,11 +1,11 @@
 # Testnet Deployment
 
-## Testnet permissionless contract deployment guide&#x20;
+## Testnet permissionless contract deployment guide
 
 This guide will walk you through deploying a smart contract on the Injective EVM Testnet network.
 
 {% hint style="info" %}
-You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
+You can request EVM testnet funds [here](https://testnet.faucet.injective.network/)
 {% endhint %}
 
 ## Requirements
@@ -42,7 +42,7 @@ cd path/to/your/project
 ### Deploying a smart contract <a href="#deploying-a-smart-contract" id="deploying-a-smart-contract"></a>
 
 {% hint style="info" %}
-Your private key should have INJ on the Injective network. A transaction will be created which requires a gas fee. You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
+Your private key should have INJ on the Injective network. A transaction will be created which requires a gas fee. You can request EVM testnet funds [here](https://testnet.faucet.injective.network/)
 {% endhint %}
 
 <pre class="language-bash"><code class="lang-bash"># Simulating
@@ -54,7 +54,7 @@ forge create src/{YourContract}.sol:{ContractName} --rpc-url injectiveEvm --priv
 
 ### Verifying on Blockscout
 
-After the deployment is completed, you can verify the contract.&#x20;
+After the deployment is completed, you can verify the contract.
 
 ```bash
 forge verify-contract \
@@ -71,8 +71,4 @@ After that, you can navigate to the contract address in Explorer to see the code
 You can read more about foundry deploying [here](https://book.getfoundry.sh/forge/deploying), or you can check other deployment options [here](https://book.getfoundry.sh/reference/forge/forge-create). You can also read more about forge verify-contract [here](https://book.getfoundry.sh/reference/forge/forge-verify-contract).
 {% endhint %}
 
-
-
-
-
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="../../../guides/">guides</a></td><td><a href="./">.</a></td></tr><tr><td>Next → </td><td><a href="../technical-information/">technical-information</a></td><td><a href="../technical-information/">technical-information</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>← Previous</td><td><a href="../../../guides/">guides</a></td><td><a href="./">.</a></td></tr><tr><td>Next →</td><td><a href="../technical-information/">technical-information</a></td><td><a href="../technical-information/">technical-information</a></td></tr></tbody></table>
