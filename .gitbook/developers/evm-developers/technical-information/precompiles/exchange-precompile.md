@@ -18,7 +18,7 @@ In this mode, your smart contract interacts with the precompile on its own behal
 _Example:_
 
 ```
-solidityCopy Codeexchange.deposit(address(this), subaccountID, denom, amount);  
+exchange.deposit(address(this), subaccountID, denom, amount);  
 ```
 
 This method is straightforward and **requires no explicit authorization grant**, as the contract is inherently permissioned to manage its own resources.
@@ -30,7 +30,7 @@ Smart contracts can also be designed to act as intermediaries, performing exchan
 _Example:_
 
 ```
-solidityCopy Codeexchange.deposit(userAddress, subaccountID, denom, amount);  
+exchange.deposit(userAddress, subaccountID, denom, amount);  
 ```
 
 For this to succeed, the smart contract (`grantee`) **must be explicitly authorized** by the user (`userAddress`, the `granter`) to perform the specified action. This authorization is managed using the `approve` and `revoke` methods provided by the precompile. **It's crucial to handle these authorizations with care to ensure user funds are secure.**
@@ -38,7 +38,7 @@ For this to succeed, the smart contract (`grantee`) **must be explicitly authori
 To authorize a contract to perform specific actions on your behalf:
 
 ```
-solidityCopy Codeexchange.approve(grantee, msgTypes, spendLimit, duration);  
+exchange.approve(grantee, msgTypes, spendLimit, duration);  
 ```
 
 * `grantee`: The address of the contract being authorized.
@@ -49,13 +49,13 @@ solidityCopy Codeexchange.approve(grantee, msgTypes, spendLimit, duration);
 To revoke a previously granted authorization:
 
 ```
-solidityCopy Codeexchange.revoke(grantee, msgTypes);  
+exchange.revoke(grantee, msgTypes);  
 ```
 
 To check if an authorization currently exists:
 
 ```
-solidityCopy Codeexchange.allowance(grantee, granter, msgType);  
+exchange.allowance(grantee, granter, msgType);  
 ```
 
 #### Example: Direct Method
@@ -65,7 +65,7 @@ The `ExchangeDemo` contract below illustrates how a smart contract can use the d
 The `Exchange.sol` and `ExchangeTypes.sol` files contain the necessary interface definitions and data structures for interacting with the precompile. These are typically available in the official Injective Solidity contracts repository or can be included as dependencies in your project.
 
 ```solidity
-solidityCopy Code// SPDX-License-Identifier: MIT  
+// SPDX-License-Identifier: MIT  
 pragma solidity ^0.8.4;  
   
 import "../src/Exchange.sol"; // Contains IExchangeModule interface  
@@ -153,7 +153,9 @@ contract ExchangeDemo {
 }  
 ```
 
-For detailed instructions on how to build, deploy, and interact with this `ExchangeDemo` smart contract, including setting up subaccounts and funding, please refer to the comprehensive demo available in our `solidity-contracts` repository.
+#### Start building
+
+For detailed instructions on how to build, deploy, and interact with this `ExchangeDemo` smart contract, including setting up subaccounts and funding, please refer to the comprehensive demo available in our [solidity-contracts](https://github.com/InjectiveLabs/solidity-contracts/tree/master/demos/exchange) repository.
 
 #### Conclusion
 

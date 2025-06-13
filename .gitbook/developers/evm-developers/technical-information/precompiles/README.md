@@ -30,7 +30,23 @@ A range of ERC-20 implementations backed by the Bank precompile, alongside preco
 
 These implementations are based on OpenZeppelin’s ERC20 contracts. Developers can freely create custom ERC20 contracts utilizing the Bank precompile.
 
+### Demos to get you started
 
+We've prepared a handful of demos that show how to build contracts using the Bank, Exchange, and Staking precompiles. These examples also demonstrate how to interact with the Injective EVM using the most common Ethereum development framework — **Foundry**.
+
+By leveraging Foundry's `cast` tool, you can easily deploy contracts and interact with the Injective chain directly from your terminal. This enables builders to quickly experiment, test, and deploy powerful applications that tap into Injective's native modules.
+
+Explore the demos below to see:
+
+- How to write Solidity contracts that call precompiles for token management, trading, and staking.
+- How to use Foundry scripts and `cast` commands to deploy and interact with these contracts on Injective EVM.
+- Best practices for bridging EVM logic with Injective's native features.
+
+Jumpstart your development by cloning the [Injective Solidity Contracts Repository](https://github.com/InjectiveLabs/solidity-contracts/tree/master/demos) and following the step-by-step guides in each demo directory.
+
+* [Bank Precompile Demo](https://github.com/InjectiveLabs/solidity-contracts/tree/master/demos/erc20)
+* [Exchange Precompile Demo](https://github.com/InjectiveLabs/solidity-contracts/tree/master/demos/exchange)
+* [Staking Precompile Demo](https://github.com/InjectiveLabs/solidity-contracts/tree/master/demos/staking)
 
 ### Precompile Addresses
 

@@ -42,7 +42,7 @@ cd path/to/your/project
 ### Deploying a smart contract <a href="#deploying-a-smart-contract" id="deploying-a-smart-contract"></a>
 
 {% hint style="info" %}
-Your private key should have INJ on the Injective network. A transaction will be created which requires a gas fee. You can request private EVM testnet funds [here](https://k8s.testnet.evmix.faucet.injective.network/)
+Your private key should have INJ on the Injective network. A transaction will be created which requires a gas fee. You can request private EVM testnet funds [here](https://testnet.faucet.injective.network/)
 {% endhint %}
 
 <pre class="language-bash"><code class="lang-bash"># Simulating
