@@ -65,6 +65,7 @@
       * [Bank Precompile](developers/evm-developers/technical-information/precompiles/bank-precompile.md)
       * [Exchange Precompile](developers/evm-developers/technical-information/precompiles/exchange-precompile.md)
     * [ERC20 Module](developers/evm-developers/technical-information/erc20-module.md)
+    * [Infrastructure & Tooling](developers/evm-developers/technical-information/infrastructure-and-tooling.md)
   * [EVM Testnet Faucet](https://k8s.testnet.evmix.faucet.injective.network/)
 * [Cosmwasm Developers](developers/cosmwasm-developers/README.md)
   * [Your First Smart Contract](developers/cosmwasm-developers/your-first-smart-contract.md)

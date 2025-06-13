@@ -26,7 +26,7 @@ The system comprises two main components:
   * This module maps native bank denoms (e.g., INJ, IBC tokens, Peggy assets) to an ERC20 contract within the EVM.
   * It deploys MTS-compliant ERC20 contracts that always reflect the canonical token balance as maintained by the bank module.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Single Token Representation Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Single Token Representation Architecture</p></figcaption></figure>
 
 ### **Creating an** MT&#x53;**-Compliant Token**
 
