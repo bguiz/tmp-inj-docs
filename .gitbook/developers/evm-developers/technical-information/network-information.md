@@ -8,8 +8,8 @@ description: Essential information about the Injective EVM network
 
 * Injective Chain Id: `injective-888`
 * Ethereum Chain Id: `1439`
-* JSON-RPC Endpoint: [https://testnet.sentry.chain.json-rpc.injective.network/](https://testnet.sentry.chain.json-rpc.injective.network/)
-* WS Endpoint: [https://testnet.sentry.chain.ws.injective.network/](https://testnet.sentry.chain.ws.injective.network/)
+* JSON-RPC Endpoint: [https://k8s.testnet.json-rpc.injective.network/](https://k8s.testnet.json-rpc.injective.network/)
+* WS Endpoint: [https://k8s.testnet.ws.injective.network/](https://k8s.testnet.ws.injective.network/)
 * Explorer: [https://testnet.blockscout.injective.network/blocks](https://testnet.blockscout.injective.network/blocks) ([Mirror](https://testnet-injective.cloud.blockscout.com/blocks) by BlockScout)
 
 {% hint style="info" %}
