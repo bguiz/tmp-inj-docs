@@ -26,7 +26,7 @@ forge --version
 
 ```
 [rpc_endpoints]
-injectiveEvm = "https://testnet.sentry.chain.json-rpc.injective.network/"
+injectiveEvm = "https://k8s.testnet.json-rpc.injective.network/"
 ```
 
 ## Deploying

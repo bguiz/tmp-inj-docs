@@ -35,8 +35,7 @@ forge --version
 
 ```
 [rpc_endpoints]
-injectiveEvm = " 
-https://testnet.sentry.chain.json-rpc.injective.network/"
+injectiveEvm = "https://k8s.testnet.json-rpc.injective.network/"
 ```
 
 ## Development
@@ -91,8 +90,7 @@ You can read more about the process of [testnet-deployment.md](guides/testnet-de
 Let's query the smart contract state using [Cast](https://book.getfoundry.sh/reference/cast/)
 
 ```bash
-cast sig "function number() returns (uint256)"
-0x8381f58a
+cast sig "function number() returns (uint256)" 0x8381f58a
 
 cast call --rpc-url injectiveEvm {SmartContractAddress} 0x8381f58a
 ```
@@ -110,8 +108,7 @@ cast call --rpc-url injectiveEvm {SmartContractAddress} 0x8381f58a
 Let's make a transaction and change the smart contract state using [Cast](https://book.getfoundry.sh/reference/cast/)
 
 ```bash
-cast sig "function increment()"
-0xd09de08a
+cast sig "function increment()" 0xd09de08a
 
 cast send --legacy --rpc-url injectiveEvm --private-key {YourPrivateKey} {SmartContractAddress} 0xd09de08a
 ```
