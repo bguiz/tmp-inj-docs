@@ -12,6 +12,8 @@ cat getting-started/README.md >> README.md
 git rm getting-started/README.md
 # TODO edit to add directory links
 
+mkdir -p defi
+echo "# DeFi Users" > defi/README.md
 mkdir -p defi/wallet
 git mv getting-started/wallet/README.md defi/wallet/README.md
 git mv getting-started/wallet/create-a-wallet.md defi/wallet/create.md
@@ -21,12 +23,15 @@ git mv getting-started/wallet/governance.md defi/wallet/governance.md
 git mv getting-started/wallet/auction.md defi/wallet/auction.md
 mkdir -p defi/bridge
 git mv guides/bridge/README.md defi/bridge/README.md
+# TODO discuss whether these bridge pages should be moved into
+# the docs site instead of the blog
 mkdir -p defi/tokens
 git mv getting-started/token-standards/README.md defi/tokens/README.md
 git mv getting-started/token-standards/inj-coin.md defi/tokens/inj-coin.md
 git mv getting-started/token-standards/token-factory.md defi/tokens/token-factory.md
 git mv getting-started/token-standards/cw20-standard.md defi/tokens/cw20-standard.md
 echo "# Get INJ" > defi/tokens/get-inj.md
+# TODO edit to add link to external Get INJ page
 echo "# Queries" > defi/queries.md
 # TODO edit to split of original file into 2 (queries and transactions)
 git mv getting-started/transactions/README.md defi/transactions.md
