@@ -10,10 +10,6 @@ description: >-
 
 The validators that participate in consensus and receive rewards.
 
-### Validator Set
-
-(See active set)
-
 ### Airdrops
 
 Additional rewards given to delegators through certain validators that are separate from staking rewards. Airdrops are generally given by applications in the Injective ecosystem to increase visibility.

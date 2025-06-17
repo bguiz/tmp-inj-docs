@@ -2,3 +2,17 @@ root: ./
 
 redirects:
   develop/public-endpoints: nodes/public-endpoints.md
+  getting-started: README.md
+  getting-started/wallet: defi/wallet/README.md
+  getting-started/wallet/create-a-wallet: defi/wallet/create.md
+  getting-started/wallet/accounts: defi/wallet/accounts.md
+  getting-started/wallet/staking: defi/wallet/staking.md
+  getting-started/wallet/governance: defi/wallet/governance.md
+  getting-started/wallet/auction: defi/wallet/auction.md
+  guides/bridge: defi/bridge/README.md
+  getting-started/token-standards: defi/tokens/README.md
+  getting-started/token-standards/inj-coin: defi/tokens/inj-coin.md
+  getting-started/token-standards/token-factory: defi/tokens/token-factory.md
+  getting-started/token-standards/cw20-standard: defi/tokens/cw20-standard.md
+  getting-started/transactions: defi/transactions.md
+  getting-started/transactions/gas-and-fees: defi/transaction-fees.md
