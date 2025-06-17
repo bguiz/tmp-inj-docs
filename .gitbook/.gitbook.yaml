@@ -16,3 +16,38 @@ redirects:
   getting-started/token-standards/cw20-standard: defi/tokens/cw20-standard.md
   getting-started/transactions: defi/transactions.md
   getting-started/transactions/gas-and-fees: defi/transaction-fees.md
+  nodes/getting-started/interact-with-a-node: infra/interact-node-rest.md
+  nodes/getting-started/running-a-node: infra/run-node.md
+  nodes/getting-started/running-a-node/1.-setting-up-the-keyring: infra/set-up-keyring.md
+  nodes/getting-started/running-a-node/join-a-network: infra/join-a-network.md
+  nodes/getting-started/running-a-node/cosmovisor: infra/cosmovisor.md
+  nodes/getting-started/running-a-node/upgrade-your-node: infra/upgrade-node.md
+  nodes/validators: infra/validator-mainnet/README.md
+  nodes/validators/mainnet: infra/validator-mainnet/README.md
+  nodes/validators/mainnet/peggo: infra/validator-mainnet/peggo.md
+  nodes/validators/mainnet/canonical-chain-upgrades: infra/validator-mainnet/canonical-chain-upgrade.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc1: infra/validator-mainnet/canonical-chain-upgrade-10002-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc2: infra/validator-mainnet/canonical-chain-upgrade-10002-rc2.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10003-rc1: infra/validator-mainnet/canonical-chain-upgrade-10003-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1: infra/validator-mainnet/canonical-chain-upgrade-10004-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1-patch: infra/validator-mainnet/canonical-chain-upgrade-10004-rc1-patch.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10005-rc1: infra/validator-mainnet/canonical-chain-upgrade-10005-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10006-rc1: infra/validator-mainnet/canonical-chain-upgrade-10006-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10007-rc1: infra/validator-mainnet/canonical-chain-upgrade-10007-rc1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10008: infra/validator-mainnet/canonical-chain-upgrade-10008.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10009: infra/validator-mainnet/canonical-chain-upgrade-10009.md
+  nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.10: infra/validator-mainnet/canonical-chain-upgrade-v1.10.0.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-10011: infra/validator-mainnet/canonical-chain-upgrade-v1.11.0.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1-12: infra/validator-mainnet/canonical-chain-upgrade-v1.12.0.md
+  nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.12.1: infra/validator-mainnet/canonical-chain-upgrade-v1.12.1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0: infra/validator-mainnet/canonical-chain-upgrade-1.13.0.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2: infra/validator-mainnet/canonical-chain-upgrade-1.13.2.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.3: infra/validator-mainnet/canonical-chain-upgrade-1.13.3.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.0: infra/validator-mainnet/canonical-chain-upgrade-1.14.0.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.1: infra/validator-mainnet/canonical-chain-upgrade-1.14.1.md
+  nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.15.0: infra/validator-mainnet/canonical-chain-upgrade-1.15.0.md
+  nodes/validators/testnet: infra/validator-testnet/README.md
+  nodes/validators/testnet/testnet-peggo: infra/validator-testnet/peggo.md
+  nodes/validators/cosmosvisor: infra/cosmovisor.md
+  nodes/public-endpoints: infra/public-endpoints.md
+  nodes/private-nodes: infra/premium-endpoints.md

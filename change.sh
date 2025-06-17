@@ -4,7 +4,7 @@
 
 # git mv README.md README.md
 # TODO edit to add directory links
-echo "# Injective FAQ" > faq.md
+echo -e "# Injective FAQ\n\n(WIP)" > faq.md
 # TODO new file
 
 cat getting-started/README.md >> README.md
@@ -13,7 +13,7 @@ git rm getting-started/README.md
 # TODO edit to add directory links
 
 mkdir -p defi
-echo "# DeFi Users" > defi/README.md
+echo -e "DeFi Users\n\n(WIP)" > defi/README.md
 mkdir -p defi/wallet
 git mv getting-started/wallet/README.md defi/wallet/README.md
 git mv getting-started/wallet/create-a-wallet.md defi/wallet/create.md
@@ -30,20 +30,78 @@ git mv getting-started/token-standards/README.md defi/tokens/README.md
 git mv getting-started/token-standards/inj-coin.md defi/tokens/inj-coin.md
 git mv getting-started/token-standards/token-factory.md defi/tokens/token-factory.md
 git mv getting-started/token-standards/cw20-standard.md defi/tokens/cw20-standard.md
-echo "# Get INJ" > defi/tokens/get-inj.md
+echo -e "Get INJ\n\n(WIP)" > defi/tokens/get-inj.md
 # TODO edit to add link to external Get INJ page
-echo "# Queries" > defi/queries.md
+echo -e "Queries\n\n(WIP)" > defi/queries.md
 # TODO edit to split of original file into 2 (queries and transactions)
 git mv getting-started/transactions/README.md defi/transactions.md
 # TODO edit to split of original file into 2 (queries and transactions)
 git mv getting-started/transactions/gas-and-fees.md defi/transaction-fees.md
-# TODO defi/basics/ in phase 4
-# TODO defi/margin/ in phase 4
-# TODO defi/derivatives/ in phase 4
-# TODO defi/open-liquidity-program/ in phase 4
-# TODO defi/fee-tiers/ in phase 4
-echo "# DeFi FAQ" > defi/faq.md
+# TODO in phase 4 - defi/basics/
+# TODO in phase 4 - defi/margin/
+# TODO in phase 4 - defi/derivatives/
+# TODO in phase 4 - defi/open-liquidity-program/
+# TODO in phase 4 - defi/fee-tiers/
+echo -e "DeFi FAQ\n\n(WIP)" > defi/faq.md
 # TODO new file
+
+# TODO current --- ---
+mkdir -p infra/
+git mv nodes/getting-started/README.md infra/README.md
+echo -e "Networks\n\n(WIP)" > infra/networks.md
+cp nodes/getting-started/interact-with-a-node.md infra/interact-node-command-line.md
+# TODO edit to split of original file into 6
+cp nodes/getting-started/interact-with-a-node.md infra/interact-node-grpc.md
+# TODO edit to split of original file into 6
+cp nodes/getting-started/interact-with-a-node.md infra/interact-node-typescript.md
+# TODO edit to split of original file into 6
+cp nodes/getting-started/interact-with-a-node.md infra/interact-node-python.md
+# TODO edit to split of original file into 6
+cp nodes/getting-started/interact-with-a-node.md infra/interact-node-go.md
+# TODO edit to split of original file into 6
+git mv nodes/getting-started/interact-with-a-node.md infra/interact-node-rest.md
+# TODO edit to split of original file into 6
+git mv nodes/getting-started/running-a-node/README.md infra/run-node.md
+git mv nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md infra/set-up-keyring.md
+git mv nodes/getting-started/running-a-node/join-a-network.md infra/join-a-network.md
+git mv nodes/getting-started/running-a-node/cosmovisor.md infra/cosmovisor.md
+git mv nodes/getting-started/running-a-node/upgrade-your-node.md infra/upgrade-node.md
+git rm nodes/validators/README.md
+# NOTE that it this file is deleted
+mkdir -p infra/validator-mainnet/
+git mv nodes/validators/mainnet/README.md infra/validator-mainnet/README.md
+git mv nodes/validators/mainnet/peggo.md infra/validator-mainnet/peggo.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/README.md infra/validator-mainnet/canonical-chain-upgrade.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10002-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc2.md infra/validator-mainnet/canonical-chain-upgrade-10002-rc2.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10003-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10003-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10004-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1-patch.md infra/validator-mainnet/canonical-chain-upgrade-10004-rc1-patch.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10005-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10005-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10006-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10006-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10007-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10007-rc1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10008.md infra/validator-mainnet/canonical-chain-upgrade-10008.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10009.md infra/validator-mainnet/canonical-chain-upgrade-10009.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.10.md infra/validator-mainnet/canonical-chain-upgrade-v1.10.0.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10011.md infra/validator-mainnet/canonical-chain-upgrade-v1.11.0.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1-12.md infra/validator-mainnet/canonical-chain-upgrade-v1.12.0.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.12.1.md infra/validator-mainnet/canonical-chain-upgrade-v1.12.1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0.md infra/validator-mainnet/canonical-chain-upgrade-1.13.0.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2.md infra/validator-mainnet/canonical-chain-upgrade-1.13.2.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.3.md infra/validator-mainnet/canonical-chain-upgrade-1.13.3.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.0.md infra/validator-mainnet/canonical-chain-upgrade-1.14.0.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.1.md infra/validator-mainnet/canonical-chain-upgrade-1.14.1.md
+git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.15.0.md infra/validator-mainnet/canonical-chain-upgrade-1.15.0.md
+mkdir -p infra/validator-mainnet/
+git mv nodes/validators/testnet/README.md infra/validator-testnet/README.md
+git mv nodes/validators/testnet/testnet-peggo.md infra/validator-testnet/peggo.md
+git rm nodes/validators/cosmosvisor.md
+# TODO check if this file should actually be deleted
+git mv nodes/public-endpoints.md infra/public-endpoints.md
+git mv nodes/private-nodes.md infra/premium-endpoints.md
+echo -e "Set up Indexer\n\n(WIP)" > infra/indexer-setup.md
+# TODO copy contents from https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a
+echo -e "FAQ\n\n(WIP)" > infra/faq.md
 
 ## TODO continue from here --- ---
 
@@ -51,7 +109,6 @@ git mv guides/README.md defi/README.md
 git mv guides/launch-a-token.md guides/launch-a-token.md
 git mv guides/launch-a-market.md guides/launch-a-market.md
 git mv guides/denom-metadata.md guides/denom-metadata.md
-git mv https://injective.com/getinj https://injective.com/getinj
 
 git mv getting-started/transactions/gas-and-fees.md getting-started/transactions/gas-and-fees.md
 
@@ -219,46 +276,6 @@ git mv developers/modules/core/upgrade/README.md developers/modules/core/upgrade
 git mv developers/modules/core/circuit/README.md developers/modules/core/circuit/README.md
 git mv developers/modules/core/genutils.md developers/modules/core/genutils.md
 git mv https://docs.ts.injective.network https://docs.ts.injective.network
-
-## Nodes
-
-git mv nodes/getting-started/README.md nodes/getting-started/README.md
-git mv nodes/getting-started/interact-with-a-node.md nodes/getting-started/interact-with-a-node.md
-git mv nodes/getting-started/running-a-node/README.md nodes/getting-started/running-a-node/README.md
-git mv nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md nodes/getting-started/running-a-node/1.-setting-up-the-keyring.md
-git mv nodes/getting-started/running-a-node/join-a-network.md nodes/getting-started/running-a-node/join-a-network.md
-git mv nodes/getting-started/running-a-node/cosmovisor.md nodes/getting-started/running-a-node/cosmovisor.md
-git mv nodes/getting-started/running-a-node/upgrade-your-node.md nodes/getting-started/running-a-node/upgrade-your-node.md
-git mv nodes/validators/README.md nodes/validators/README.md
-git mv nodes/validators/mainnet/README.md nodes/validators/mainnet/README.md
-git mv nodes/validators/mainnet/peggo.md nodes/validators/mainnet/peggo.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/README.md nodes/validators/mainnet/canonical-chain-upgrades/README.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc2.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10002-rc2.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10003-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10003-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1-patch.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10004-rc1-patch.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10005-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10005-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10006-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10006-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10007-rc1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10007-rc1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10008.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10008.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10009.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10009.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.10.md nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.10.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10011.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-10011.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1-12.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1-12.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.12.1.md nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.12.1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.3.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.3.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.0.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.0.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.1.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.14.1.md
-git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.15.0.md nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.15.0.md
-git mv nodes/validators/testnet/README.md nodes/validators/testnet/README.md
-git mv nodes/validators/testnet/testnet-peggo.md nodes/validators/testnet/testnet-peggo.md
-git mv nodes/validators/cosmosvisor.md nodes/validators/cosmosvisor.md
-git mv nodes/public-endpoints.md nodes/public-endpoints.md
-git mv nodes/private-nodes.md nodes/private-nodes.md
-git mv https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a
 
 ## Traders
 
