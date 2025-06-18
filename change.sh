@@ -45,7 +45,6 @@ git mv getting-started/transactions/gas-and-fees.md defi/transaction-fees.md
 echo -e "DeFi FAQ\n\n(WIP)" > defi/faq.md
 # TODO new file
 
-# TODO current --- ---
 mkdir -p infra/
 git mv nodes/getting-started/README.md infra/README.md
 echo -e "Networks\n\n(WIP)" > infra/networks.md
@@ -102,6 +101,144 @@ git mv nodes/private-nodes.md infra/premium-endpoints.md
 echo -e "Set up Indexer\n\n(WIP)" > infra/indexer-setup.md
 # TODO copy contents from https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a
 echo -e "FAQ\n\n(WIP)" > infra/faq.md
+
+# TODO current --- ---
+
+mkdir -p developers-native/
+git mv developers/modules/README.md developers-native/README.md
+mkdir -p developers-native/injective/
+git mv developers/modules/injective/README.md developers-native/injective/README.md
+mkdir -p developers-native/injective/auction/
+git mv developers/modules/injective/auction/README.md developers-native/injective/auction/README.md
+git mv developers/modules/injective/auction/01_state.md developers-native/injective/auction/01_state.md
+git mv developers/modules/injective/auction/02_messages.md developers-native/injective/auction/02_messages.md
+git mv developers/modules/injective/auction/03_end_block.md developers-native/injective/auction/03_end_block.md
+git mv developers/modules/injective/auction/04_events.md developers-native/injective/auction/04_events.md
+git mv developers/modules/injective/auction/05_params.md developers-native/injective/auction/05_params.md
+git mv developers/modules/injective/auction/99_errors.md developers-native/injective/auction/99_errors.md
+mkdir -p developers-native/injective/exchange/
+git mv developers/modules/injective/exchange/README.md developers-native/injective/exchange/README.md
+git mv developers/modules/injective/exchange/00_derivative_market_concepts.md developers-native/injective/exchange/00_derivative_market_concepts.md
+git mv developers/modules/injective/exchange/01_spot_market_concepts.md developers-native/injective/exchange/01_spot_market_concepts.md
+git mv developers/modules/injective/exchange/02_binary_options_markets.md developers-native/injective/exchange/02_binary_options_markets.md
+git mv developers/modules/injective/exchange/02_other_concepts.md developers-native/injective/exchange/02_other_concepts.md
+git mv developers/modules/injective/exchange/03_state.md developers-native/injective/exchange/03_state.md
+git mv developers/modules/injective/exchange/04_state_transitions.md developers-native/injective/exchange/04_state_transitions.md
+git mv developers/modules/injective/exchange/05_messages.md developers-native/injective/exchange/05_messages.md
+git mv developers/modules/injective/exchange/06_proposals.md developers-native/injective/exchange/06_proposals.md
+git mv developers/modules/injective/exchange/07_begin_block.md developers-native/injective/exchange/07_begin_block.md
+git mv developers/modules/injective/exchange/08_end_block.md developers-native/injective/exchange/08_end_block.md
+git mv developers/modules/injective/exchange/09_events.md developers-native/injective/exchange/09_events.md
+git mv developers/modules/injective/exchange/10_params.md developers-native/injective/exchange/10_params.md
+git mv developers/modules/injective/exchange/11_msg_privileged_execute_contract.md developers-native/injective/exchange/11_msg_privileged_execute_contract.md
+git mv developers/modules/injective/exchange/99_errors.md developers-native/injective/exchange/99_errors.md
+mkdir -p developers-native/injective/insurance/
+git mv developers/modules/injective/insurance/README.md developers-native/injective/insurance/README.md
+git mv developers/modules/injective/insurance/01_state.md developers-native/injective/insurance/01_state.md
+git mv developers/modules/injective/insurance/02_state_transitions.md developers-native/injective/insurance/02_state_transitions.md
+git mv developers/modules/injective/insurance/03_messages.md developers-native/injective/insurance/03_messages.md
+git mv developers/modules/injective/insurance/04_end_block.md developers-native/injective/insurance/04_end_block.md
+git mv developers/modules/injective/insurance/05_events.md developers-native/injective/insurance/05_events.md
+git mv developers/modules/injective/insurance/06_params.md developers-native/injective/insurance/06_params.md
+git mv developers/modules/injective/insurance/07_future_improvements.md developers-native/injective/insurance/07_future_improvements.md
+git mv developers/modules/injective/insurance/99_errors.md developers-native/injective/insurance/99_errors.md
+mkdir -p developers-native/injective/ocr/
+git mv developers/modules/injective/ocr/README.md developers-native/injective/ocr/README.md
+git mv developers/modules/injective/ocr/01_concepts.md developers-native/injective/ocr/01_concepts.md
+git mv developers/modules/injective/ocr/02_state.md developers-native/injective/ocr/02_state.md
+git mv developers/modules/injective/ocr/03_messages.md developers-native/injective/ocr/03_messages.md
+git mv developers/modules/injective/ocr/04_proposals.md developers-native/injective/ocr/04_proposals.md
+git mv developers/modules/injective/ocr/05_begin_block.md developers-native/injective/ocr/05_begin_block.md
+git mv developers/modules/injective/ocr/06_hooks.md developers-native/injective/ocr/06_hooks.md
+git mv developers/modules/injective/ocr/07_events.md developers-native/injective/ocr/07_events.md
+git mv developers/modules/injective/ocr/08_params.md developers-native/injective/ocr/08_params.md
+git mv developers/modules/injective/ocr/99_errors.md developers-native/injective/ocr/99_errors.md
+mkdir -p developers-native/injective/oracle/
+git mv developers/modules/injective/oracle/README.md developers-native/injective/oracle/README.md
+git mv developers/modules/injective/oracle/01_state.md developers-native/injective/oracle/01_state.md
+git mv developers/modules/injective/oracle/02_keeper.md developers-native/injective/oracle/02_keeper.md
+git mv developers/modules/injective/oracle/03_messages.md developers-native/injective/oracle/03_messages.md
+git mv developers/modules/injective/oracle/04_proposals.md developers-native/injective/oracle/04_proposals.md
+git mv developers/modules/injective/oracle/05_events.md developers-native/injective/oracle/05_events.md
+git mv developers/modules/injective/oracle/06_future_improvements.md developers-native/injective/oracle/06_future_improvements.md
+git mv developers/modules/injective/oracle/99_errors.md developers-native/injective/oracle/99_errors.md
+mkdir -p developers-native/injective/peggy/
+git mv developers/modules/injective/peggy/README.md developers-native/injective/peggy/README.md
+git mv developers/modules/injective/peggy/01_definitions.md developers-native/injective/peggy/01_definitions.md
+git mv developers/modules/injective/peggy/02_workflow.md developers-native/injective/peggy/02_workflow.md
+git mv developers/modules/injective/peggy/03_state.md developers-native/injective/peggy/03_state.md
+git mv developers/modules/injective/peggy/04_messages.md developers-native/injective/peggy/04_messages.md
+git mv developers/modules/injective/peggy/05_slashing.md developers-native/injective/peggy/05_slashing.md
+git mv developers/modules/injective/peggy/06_end_block.md developers-native/injective/peggy/06_end_block.md
+git mv developers/modules/injective/peggy/07_events.md developers-native/injective/peggy/07_events.md
+git mv developers/modules/injective/peggy/08_params.md developers-native/injective/peggy/08_params.md
+git mv developers/modules/injective/peggy/09_relay_semantics.md developers-native/injective/peggy/09_relay_semantics.md
+git mv developers/modules/injective/peggy/10_future_improvements.md developers-native/injective/peggy/10_future_improvements.md
+git mv developers/modules/injective/peggy/99_errors.md developers-native/injective/peggy/99_errors.md
+mkdir -p developers-native/injective/permissions/
+git mv developers/modules/injective/permissions/README.md developers-native/injective/permissions/README.md
+git mv developers/modules/injective/permissions/01_concepts.md developers-native/injective/permissions/01_concepts.md
+git mv developers/modules/injective/permissions/02_state.md developers-native/injective/permissions/02_state.md
+git mv developers/modules/injective/permissions/03_state_transitions.md developers-native/injective/permissions/03_state_transitions.md
+git mv developers/modules/injective/permissions/99_errors.md developers-native/injective/permissions/99_errors.md
+mkdir -p developers-native/injective/tokenfactory/
+git mv developers/modules/injective/tokenfactory/README.md developers-native/injective/tokenfactory/README.md
+git mv developers/modules/injective/tokenfactory/01_concepts.md developers-native/injective/tokenfactory/01_concepts.md
+git mv developers/modules/injective/tokenfactory/02_state.md developers-native/injective/tokenfactory/02_state.md
+git mv developers/modules/injective/tokenfactory/03_messages.md developers-native/injective/tokenfactory/03_messages.md
+git mv developers/modules/injective/tokenfactory/04_events.md developers-native/injective/tokenfactory/04_events.md
+git mv developers/modules/injective/tokenfactory/05_params.md developers-native/injective/tokenfactory/05_params.md
+git mv developers/modules/injective/tokenfactory/99_errors.md developers-native/injective/tokenfactory/99_errors.md
+mkdir -p developers-native/injective/wasmx/
+git mv developers/modules/injective/wasmx/README.md developers-native/injective/wasmx/README.md
+git mv developers/modules/injective/wasmx/01_concepts.md developers-native/injective/wasmx/01_concepts.md
+git mv developers/modules/injective/wasmx/02_data.md developers-native/injective/wasmx/02_data.md
+git mv developers/modules/injective/wasmx/03_proposals.md developers-native/injective/wasmx/03_proposals.md
+git mv developers/modules/injective/wasmx/04_messages.md developers-native/injective/wasmx/04_messages.md
+git mv developers/modules/injective/wasmx/05_params.md developers-native/injective/wasmx/05_params.md
+git mv developers/modules/injective/wasmx/99_errors.md developers-native/injective/wasmx/99_errors.md
+mkdir -p developers-native/injective/lanes/
+git mv developers/modules/injective/lanes/README.md developers-native/injective/lanes/README.md
+mkdir -p developers-native/injective/txfees/
+git mv developers/modules/injective/txfees/README.md developers-native/injective/txfees/README.md
+mkdir -p developers-native/core/
+git mv developers/modules/core/README.md developers-native/core/README.md
+mkdir -p developers-native/core/auth/
+git mv developers/modules/core/auth/README.md developers-native/core/auth/README.md
+mkdir -p developers-native/core/authz/
+git mv developers/modules/core/authz/README.md developers-native/core/authz/README.md
+mkdir -p developers-native/core/bank/
+git mv developers/modules/core/bank/README.md developers-native/core/bank/README.md
+mkdir -p developers-native/core/consensus/
+git mv developers/modules/core/consensus/README.md developers-native/core/consensus/README.md
+mkdir -p developers-native/core/crisis/
+git mv developers/modules/core/crisis/README.md developers-native/core/crisis/README.md
+mkdir -p developers-native/core/distribution/
+git mv developers/modules/core/distribution/README.md developers-native/core/distribution/README.md
+mkdir -p developers-native/core/evidence/
+git mv developers/modules/core/evidence/README.md developers-native/core/evidence/README.md
+mkdir -p developers-native/core/feegrant/
+git mv developers/modules/core/feegrant/README.md developers-native/core/feegrant/README.md
+mkdir -p developers-native/core/gov/
+git mv developers/modules/core/gov/README.md developers-native/core/gov/README.md
+mkdir -p developers-native/core/group/
+git mv developers/modules/core/group/README.md developers-native/core/group/README.md
+mkdir -p developers-native/core/mint/
+git mv developers/modules/core/mint/README.md developers-native/core/mint/README.md
+mkdir -p developers-native/core/nft/
+git mv developers/modules/core/nft/README.md developers-native/core/nft/README.md
+mkdir -p developers-native/core/params/
+git mv developers/modules/core/params/README.md developers-native/core/params/README.md
+mkdir -p developers-native/core/slashing/
+git mv developers/modules/core/slashing/README.md developers-native/core/slashing/README.md
+mkdir -p developers-native/core/staking/
+git mv developers/modules/core/staking/README.md developers-native/core/staking/README.md
+mkdir -p developers-native/core/upgrade/
+git mv developers/modules/core/upgrade/README.md developers-native/core/upgrade/README.md
+mkdir -p developers-native/core/circuit/
+git mv developers/modules/core/circuit/README.md developers-native/core/circuit/README.md
+mkdir -p developers-native/core/genutils/
+git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 
 ## TODO continue from here --- ---
 
