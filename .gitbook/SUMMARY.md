@@ -2,6 +2,7 @@
 
 * [About Injective](README.md)
 * [Injective FAQ](faq.md)
+
 * [DeFi](defi/README.md)
   * [Wallet](defi/wallet/README.md)
     * [Create a wallet](defi/wallet/create.md)
@@ -22,6 +23,7 @@
   * [Queries](defi/queries.md)
   * [Transactions](defi/transactions.md)
   * [Transaction Gas and Fees](defi/transaction-fees.md)
+
 * [Infrastructure](infra/README.md)
   * [Networks](infra/networks.md)
   * [Command Line Node Interaction](infra/interact-node-command-line.md)
@@ -64,6 +66,18 @@
   * [Premium Endpoints](infra/premium-endpoints.md)
   * [Set up Indexer](infra/indexer-setup.md)
   * [FAQ](infra/faq.md)
+
+* [Cosmwasm Developers](developers-cosmwasm/README.md)
+  * [Your First Smart Contract](developers-cosmwasm/your-first-smart-contract-guide.md)
+  * [Local Development Guide](developers-cosmwasm/local-development-guide.md)
+  * [Mainnet Deployment Guide](developers-cosmwasm/mainnet-deployment-guide.md)
+  * [Whitelisting Deployment Address Guide](developers-cosmwasm/whitelisting-deployment-address-guide.md)
+  * [Create your Swap Contract Guide](developers-cosmwasm/create-your-swap-contract-guide.md)
+  * [Creating UIs Guide](developers-cosmwasm/create-uis-guide.md)
+  * [Using Injective Queries and Messages](developers-cosmwasm/cosmwasm-any.md)
+  * [CW20 Adapter](developers-cosmwasm/cw20-adapter.md)
+  * [Injective Test Tube](developers-cosmwasm/injective-test-tube.md)
+
 * [DeFi Developers](developers-defi/README.md)
   * [Launch a Token](developers-defi/token-launch.md)
   * [Launch a Market](developers-defi/market-launch.md)
@@ -71,6 +85,7 @@
   * [Provider Oracle](developers-defi/provider-oracle.md)
   * [Liquidity Provision](developers-defi/liquidity-provision.md)
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
+
 * [Native Developers](developers-native/README.md)
   * [Injective Module](developers-native/injective/README.md)
     * [Auction](developers-native/injective/auction/README.md)

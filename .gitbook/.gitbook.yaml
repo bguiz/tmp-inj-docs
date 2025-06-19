@@ -165,3 +165,14 @@ redirects:
   guides/launch-a-market: developers-defi/market-launch.md
   guides/denom-metadata: developers-defi/denom-and-bank.md
   developers/exchange-developers/provider-oracle: developers-defi/provider-oracle.md
+  developers/cosmwasm-developers: developers-cosmwasm/README.md
+  developers/cosmwasm-developers/your-first-smart-contract: developers-cosmwasm/your-first-smart-contract-guide.md
+  developers/cosmwasm-developers/guides: developers-cosmwasm/local-development-guide.md
+  developers/cosmwasm-developers/guides/local-development: developers-cosmwasm/local-development-guide.md
+  developers/cosmwasm-developers/guides/mainnet-deployment: developers-cosmwasm/mainnet-deployment-guide.md
+  developers/cosmwasm-developers/guides/whitelisting-deployment-address: developers-cosmwasm/whitelisting-deployment-address-guide.md
+  developers/cosmwasm-developers/guides/create-your-swap-contract: developers-cosmwasm/create-your-swap-contract-guide.md
+  developers/cosmwasm-developers/guides/creating-uis: developers-cosmwasm/create-uis-guide.md
+  developers/cosmwasm-developers/cosmwasm-any: developers-cosmwasm/cosmwasm-any.md
+  developers/cosmwasm-developers/page-1: developers-cosmwasm/cw20-adapter.md
+  developers/cosmwasm-developers/injective-test-tube: developers-cosmwasm/injective-test-tube.md

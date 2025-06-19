@@ -243,8 +243,6 @@ git mv developers/modules/core/circuit/README.md developers-native/core/circuit/
 mkdir -p developers-native/core/genutils/
 git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 
-# TODO current --- ---
-
 mkdir -p developers-defi/
 git mv developers/exchange-developers/README.md developers-defi/README.md
 # echo -e "# Query\n\n(WIP)" > developers-defi/query.md
@@ -256,6 +254,22 @@ git mv developers/exchange-developers/provider-oracle.md developers-defi/provide
 echo -e "# Liquidity Provision\n\n(WIP)" > developers-defi/liquidity-provision.md
 git rm guides/README.md
 rm -r guides
+
+# TODO current --- ---
+mkdir -p developers-cosmwasm/
+git mv developers/cosmwasm-developers/README.md developers-cosmwasm/README.md
+git mv developers/cosmwasm-developers/your-first-smart-contract.md developers-cosmwasm/your-first-smart-contract-guide.md
+# git mv developers/cosmwasm-developers/guides/README.md developers-cosmwasm/guides/README.md
+git rm developers/cosmwasm-developers/guides/README.md
+git mv developers/cosmwasm-developers/guides/local-development.md developers-cosmwasm/local-development-guide.md
+git mv developers/cosmwasm-developers/guides/mainnet-deployment.md developers-cosmwasm/mainnet-deployment-guide.md
+git mv developers/cosmwasm-developers/guides/whitelisting-deployment-address.md developers-cosmwasm/whitelisting-deployment-address-guide.md
+git mv developers/cosmwasm-developers/guides/create-your-swap-contract.md developers-cosmwasm/create-your-swap-contract-guide.md
+git mv developers/cosmwasm-developers/guides/creating-uis.md developers-cosmwasm/create-uis-guide.md
+git mv developers/cosmwasm-developers/cosmwasm-any.md developers-cosmwasm/cosmwasm-any.md
+git mv developers/cosmwasm-developers/page-1.md developers-cosmwasm/cw20-adapter.md
+git mv developers/cosmwasm-developers/injective-test-tube.md developers-cosmwasm/injective-test-tube.md
+rm -r developers/cosmwasm-developers
 
 ## TODO continue from here --- ---
 
