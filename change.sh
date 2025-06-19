@@ -271,7 +271,6 @@ git mv developers/cosmwasm-developers/page-1.md developers-cosmwasm/cw20-adapter
 git mv developers/cosmwasm-developers/injective-test-tube.md developers-cosmwasm/injective-test-tube.md
 rm -r developers/cosmwasm-developers
 
-# TODO current --- ---
 mkdir -p developers-evm/
 git mv developers/evm-developers.md developers-evm/README.md
 git mv developers/evm-developers/your-first-smart-contract.md developers-evm/your-first-smart-contract.md
@@ -290,6 +289,17 @@ git mv developers/evm-developers/technical-information/infrastructure-and-toolin
 #   * [EVM Testnet Explorer](https://testnet.blockscout.injective.network/blocks)
 # rm -r developers/evm-developers/
 
+# TODO current --- ---
+mkdir -p developers/
+git mv developers/getting-started/README.md developers/README.md
+git rm developers/getting-started/guides/README.md
+git mv developers/getting-started/guides/testnet-proposals.md developers/testnet-proposals.md
+git mv developers/getting-started/guides/convert-addresses.md developers/convert-addresses.md
+git rm developers/getting-started/guides/calculations/README.md
+git mv developers/getting-started/guides/calculations/min-price-tick-size.md developers/calculate-min-price-tick-size.md
+git mv developers/getting-started/guides/calculations/min-quantity-tick-size.md developers/min-quantity-tick-size.md
+git mv developers/getting-started/guides/testnet-faucet-integration.md developers/testnet-faucet-integration.md
+rm -r developers/getting-started/
 ## TODO continue from here --- ---
 
 git mv https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/ https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/

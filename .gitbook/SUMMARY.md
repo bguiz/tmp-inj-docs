@@ -67,6 +67,13 @@
   * [Set up Indexer](infra/indexer-setup.md)
   * [FAQ](infra/faq.md)
 
+* [Developers](developers/README.md)
+  * [Testnet Proposals](developers/testnet-proposals.md)
+  * [Convert addresses](developers/convert-addresses.md)
+  * [Min Price Tick Size Calculation](developers/calculate-min-price-tick-size.md)
+  * [Min Quantity Tick Size Calculation](developers/min-quantity-tick-size.md)
+  * [Testnet Faucet Integration](developers/testnet-faucet-integration.md)
+
 * [EVM Developers](developers-evm/README.md)
   * [Your First Smart Contract](developers-evm/your-first-smart-contract.md)
   * [Testnet Deployment](developers-evm/testnet-deployment.md)

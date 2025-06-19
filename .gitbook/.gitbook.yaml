@@ -159,8 +159,6 @@ redirects:
   developers/modules/core/circuit: developers-native/core/circuit/README.md
   developers/modules/core/genutils: developers-native/core/genutils.md
   developers/exchange-developers: developers-defi/README.md
-  developers-defi/wallet: defi/wallet/README.md
-  developers-defi/tokens: defi/tokens/README.md
   guides/launch-a-token: developers-defi/token-launch.md
   guides/launch-a-market: developers-defi/market-launch.md
   guides/denom-metadata: developers-defi/denom-and-bank.md
@@ -189,3 +187,11 @@ redirects:
   developers/evm-developers/technical-information/precompiles/exchange-precompile: developers-evm/exchange-precompile.md
   developers/evm-developers/technical-information/erc20-module: developers-evm/erc20-module.md
   developers/evm-developers/technical-information/infrastructure-and-tooling: developers-evm/infrastructure-and-tooling.md
+  developers/getting-started: developers/README.md
+  developers/getting-started/guides: developers/testnet-proposals.md
+  developers/getting-started/guides/testnet-proposals: developers/testnet-proposals.md
+  developers/getting-started/guides/convert-addresses: developers/convert-addresses.md
+  developers/getting-started/guides/calculations: developers/calculate-min-price-tick-size.md
+  developers/getting-started/guides/calculations/min-price-tick-size: developers/calculate-min-price-tick-size.md
+  developers/getting-started/guides/calculations/min-quantity-tick-size: developers/min-quantity-tick-size.md
+  developers/getting-started/guides/testnet-faucet-integration: developers/testnet-faucet-integration.md
