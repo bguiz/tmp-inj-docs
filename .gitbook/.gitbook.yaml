@@ -154,3 +154,6 @@ redirects:
   developers/modules/core/upgrade: developers-native/core/upgrade/README.md
   developers/modules/core/circuit: developers-native/core/circuit/README.md
   developers/modules/core/genutils: developers-native/core/genutils.md
+  guides/launch-a-token: developers-defi/token-launch.md
+  guides/launch-a-market: developers-defi/market-launch.md
+  guides/denom-metadata: developers-defi/denom-and-bank.md

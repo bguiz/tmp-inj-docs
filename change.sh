@@ -13,7 +13,7 @@ git rm getting-started/README.md
 # TODO edit to add directory links
 
 mkdir -p defi
-echo -e "DeFi Users\n\n(WIP)" > defi/README.md
+echo -e "# DeFi Users\n\n(WIP)" > defi/README.md
 mkdir -p defi/wallet
 git mv getting-started/wallet/README.md defi/wallet/README.md
 git mv getting-started/wallet/create-a-wallet.md defi/wallet/create.md
@@ -30,9 +30,9 @@ git mv getting-started/token-standards/README.md defi/tokens/README.md
 git mv getting-started/token-standards/inj-coin.md defi/tokens/inj-coin.md
 git mv getting-started/token-standards/token-factory.md defi/tokens/token-factory.md
 git mv getting-started/token-standards/cw20-standard.md defi/tokens/cw20-standard.md
-echo -e "Get INJ\n\n(WIP)" > defi/tokens/get-inj.md
+echo -e "# Get INJ\n\n(WIP)" > defi/tokens/get-inj.md
 # TODO edit to add link to external Get INJ page
-echo -e "Queries\n\n(WIP)" > defi/queries.md
+echo -e "# Queries\n\n(WIP)" > defi/queries.md
 # TODO edit to split of original file into 2 (queries and transactions)
 git mv getting-started/transactions/README.md defi/transactions.md
 # TODO edit to split of original file into 2 (queries and transactions)
@@ -42,12 +42,14 @@ git mv getting-started/transactions/gas-and-fees.md defi/transaction-fees.md
 # TODO in phase 4 - defi/derivatives/
 # TODO in phase 4 - defi/open-liquidity-program/
 # TODO in phase 4 - defi/fee-tiers/
-echo -e "DeFi FAQ\n\n(WIP)" > defi/faq.md
+echo -e "# DeFi FAQ\n\n(WIP)" > defi/faq.md
 # TODO new file
+
+rm -r getting-started/
 
 mkdir -p infra/
 git mv nodes/getting-started/README.md infra/README.md
-echo -e "Networks\n\n(WIP)" > infra/networks.md
+echo -e "# Networks\n\n(WIP)" > infra/networks.md
 cp nodes/getting-started/interact-with-a-node.md infra/interact-node-command-line.md
 # TODO edit to split of original file into 6
 cp nodes/getting-started/interact-with-a-node.md infra/interact-node-grpc.md
@@ -81,9 +83,11 @@ git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10006-rc1.md 
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10007-rc1.md infra/validator-mainnet/canonical-chain-upgrade-10007-rc1.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10008.md infra/validator-mainnet/canonical-chain-upgrade-10008.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10009.md infra/validator-mainnet/canonical-chain-upgrade-10009.md
+git rm .gitbook/nodes/validators/mainnet/canonical-chain-upgrades/canonical-10010.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.10.md infra/validator-mainnet/canonical-chain-upgrade-v1.10.0.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-10011.md infra/validator-mainnet/canonical-chain-upgrade-v1.11.0.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1-12.md infra/validator-mainnet/canonical-chain-upgrade-v1.12.0.md
+git rm .gitbook/nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.12.1.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/upgrade-to-v1.12.1.md infra/validator-mainnet/canonical-chain-upgrade-v1.12.1.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.0.md infra/validator-mainnet/canonical-chain-upgrade-1.13.0.md
 git mv nodes/validators/mainnet/canonical-chain-upgrades/canonical-1.13.2.md infra/validator-mainnet/canonical-chain-upgrade-1.13.2.md
@@ -98,11 +102,10 @@ git rm nodes/validators/cosmosvisor.md
 # TODO check if this file should actually be deleted
 git mv nodes/public-endpoints.md infra/public-endpoints.md
 git mv nodes/private-nodes.md infra/premium-endpoints.md
-echo -e "Set up Indexer\n\n(WIP)" > infra/indexer-setup.md
+echo -e "# Set up Indexer\n\n(WIP)" > infra/indexer-setup.md
 # TODO copy contents from https://injective.notion.site/Injective-Exchange-Service-Setup-Guide-7e59980634d54991862300670583d46a
-echo -e "FAQ\n\n(WIP)" > infra/faq.md
-
-# TODO current --- ---
+echo -e "# FAQ\n\n(WIP)" > infra/faq.md
+rm -r nodes/
 
 mkdir -p developers-native/
 git mv developers/modules/README.md developers-native/README.md
@@ -240,16 +243,20 @@ git mv developers/modules/core/circuit/README.md developers-native/core/circuit/
 mkdir -p developers-native/core/genutils/
 git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 
+# TODO current --- ---
+
+mkdir -p developers-defi/
+echo -e "# Query\n\n(WIP)" > developers-defi/query.md
+echo -e "# Transaction\n\n(WIP)" > developers-defi/transaction.md
+git mv guides/launch-a-token.md developers-defi/token-launch.md
+git mv guides/launch-a-market.md developers-defi/market-launch.md
+git mv guides/denom-metadata.md developers-defi/denom-and-bank.md
+echo -e "# Liquidity Provision\n\n(WIP)" > developers-defi/liquidity-provision.md
+git rm guides/README.md
+rm -r guides
+
 ## TODO continue from here --- ---
 
-git mv guides/README.md defi/README.md
-git mv guides/launch-a-token.md guides/launch-a-token.md
-git mv guides/launch-a-market.md guides/launch-a-market.md
-git mv guides/denom-metadata.md guides/denom-metadata.md
-
-git mv getting-started/transactions/gas-and-fees.md getting-started/transactions/gas-and-fees.md
-
-git mv getting-started/wallet/create-a-wallet.md getting-started/wallet/create-a-wallet.md
 git mv https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/ https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/
 git mv https://blog.injective.com/en/how-to-bridge-to-injective-using-wormhole/ https://blog.injective.com/en/how-to-bridge-to-injective-using-wormhole/
 git mv https://blog.injective.com/en/how-to-bridge-from-cosmos-to-injective-using-keplr/ https://blog.injective.com/en/how-to-bridge-from-cosmos-to-injective-using-keplr/

@@ -71,6 +71,19 @@
   * [Set up Indexer](infra/indexer-setup.md)
   * [FAQ](infra/faq.md)
 
+## DeFi Developers
+
+* [DeFi Developers](developers-defi/README.md)
+  * [Wallet](defi/wallet/README.md)
+  * [Token Standards](defi/tokens/README.md)
+  * [Query](developers-defi/query.md)
+  * [Transaction](developers-defi/transaction.md)
+  * [Get INJ](defi/tokens/get-inj.md)
+  * [Launch a Token](developers-defi/token-launch.md)
+  * [Launch a Market](developers-defi/market-launch.md)
+  * [Denom Metadata](developers-defi/denom-and-bank.md)
+  * [Liquidity Provision](developers-defi/liquidity-provision.md)
+
 ## Native Developers
 
 * [Native Developers](developers-native/README.md)
