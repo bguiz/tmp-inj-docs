@@ -246,11 +246,13 @@ git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 # TODO current --- ---
 
 mkdir -p developers-defi/
+git mv developers/exchange-developers/README.md developers-defi/README.md
 # echo -e "# Query\n\n(WIP)" > developers-defi/query.md
 # echo -e "# Transaction\n\n(WIP)" > developers-defi/transaction.md
 git mv guides/launch-a-token.md developers-defi/token-launch.md
 git mv guides/launch-a-market.md developers-defi/market-launch.md
 git mv guides/denom-metadata.md developers-defi/denom-and-bank.md
+git mv developers/exchange-developers/provider-oracle.md developers-defi/provider-oracle.md
 echo -e "# Liquidity Provision\n\n(WIP)" > developers-defi/liquidity-provision.md
 git rm guides/README.md
 rm -r guides

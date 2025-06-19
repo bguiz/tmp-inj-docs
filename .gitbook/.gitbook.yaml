@@ -158,8 +158,10 @@ redirects:
   developers/modules/core/upgrade: developers-native/core/upgrade/README.md
   developers/modules/core/circuit: developers-native/core/circuit/README.md
   developers/modules/core/genutils: developers-native/core/genutils.md
+  developers/exchange-developers: developers-defi/README.md
   developers-defi/wallet: defi/wallet/README.md
   developers-defi/tokens: defi/tokens/README.md
   guides/launch-a-token: developers-defi/token-launch.md
   guides/launch-a-market: developers-defi/market-launch.md
   guides/denom-metadata: developers-defi/denom-and-bank.md
+  developers/exchange-developers/provider-oracle: developers-defi/provider-oracle.md
