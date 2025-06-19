@@ -466,11 +466,13 @@ git mv developers/modules/core/circuit/README.md developers/modules/core/circuit
 git mv developers/modules/core/genutils.md developers/modules/core/genutils.md
 git mv https://docs.ts.injective.network https://docs.ts.injective.network
 
-## Traders
-
-git mv traders/getting-started.md traders/getting-started.md
-git mv https://docs.trading.injective.network https://docs.trading.injective.network
-git mv https://api.injective.exchange/ https://api.injective.exchange/
+mkdir -p developers/injectived/
+git rm toolkits/README.md
+git mv toolkits/injectived/README.md developers/injectived/README.md
+git mv toolkits/injectived/install-injectived.md developers/injectived/install-injectived.md
+git mv toolkits/injectived/using-injectived.md developers/injectived/using-injectived.md
+git mv toolkits/injectived/advanced.md developers/injectived/advanced.md
+rm -r toolkits/
 
 ## Useful Links
 

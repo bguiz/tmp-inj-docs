@@ -195,3 +195,8 @@ redirects:
   developers/getting-started/guides/calculations/min-price-tick-size: developers/calculate-min-price-tick-size.md
   developers/getting-started/guides/calculations/min-quantity-tick-size: developers/min-quantity-tick-size.md
   developers/getting-started/guides/testnet-faucet-integration: developers/testnet-faucet-integration.md
+  toolkits: developers/injectived/README.md
+  toolkits/injectived: developers/injectived/README.md
+  toolkits/injectived/install-injectived: developers/injectived/install-injectived.md
+  toolkits/injectived/using-injectived: developers/injectived/using-injectived.md
+  toolkits/injectived/advanced: developers/injectived/advanced.md
