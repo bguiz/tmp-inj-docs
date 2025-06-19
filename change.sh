@@ -13,7 +13,7 @@ git rm getting-started/README.md
 # TODO edit to add directory links
 
 mkdir -p defi
-echo -e "# DeFi Users\n\n(WIP)" > defi/README.md
+git mv traders/getting-started.md defi/README.md
 mkdir -p defi/wallet
 git mv getting-started/wallet/README.md defi/wallet/README.md
 git mv getting-started/wallet/create-a-wallet.md defi/wallet/create.md
@@ -44,7 +44,7 @@ git mv getting-started/transactions/gas-and-fees.md defi/transaction-fees.md
 # TODO in phase 4 - defi/fee-tiers/
 echo -e "# DeFi FAQ\n\n(WIP)" > defi/faq.md
 # TODO new file
-
+rm -r traders/
 rm -r getting-started/
 
 mkdir -p infra/

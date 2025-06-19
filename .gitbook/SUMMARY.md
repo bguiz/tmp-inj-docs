@@ -1,7 +1,10 @@
 # Injective
 
 * [About Injective](README.md)
+* [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
 * [Injective FAQ](faq.md)
+* [Glossary](glossary.md)
+* [References](references.md)
 
 * [DeFi](defi/README.md)
   * [Wallet](defi/wallet/README.md)
@@ -23,6 +26,10 @@
   * [Queries](defi/queries.md)
   * [Transactions](defi/transactions.md)
   * [Transaction Gas and Fees](defi/transaction-fees.md)
+  * [Trading Documentation](https://docs.trading.injective.network)
+  * [Injective Hub](https://hub.injective.network)
+  * [Injective Explorer](https://explorer.injective.network)
+
 
 * [Infrastructure](infra/README.md)
   * [Networks](infra/networks.md)
@@ -65,6 +72,7 @@
   * [Public Endpoints](infra/public-endpoints.md)
   * [Premium Endpoints](infra/premium-endpoints.md)
   * [Set up Indexer](infra/indexer-setup.md)
+  * [Indexer API Reference](https://api.injective.network/swagger/#/)
   * [FAQ](infra/faq.md)
 
 * [Developers](developers/README.md)
@@ -73,6 +81,9 @@
   * [Min Price Tick Size Calculation](developers/calculate-min-price-tick-size.md)
   * [Min Quantity Tick Size Calculation](developers/min-quantity-tick-size.md)
   * [Testnet Faucet Integration](developers/testnet-faucet-integration.md)
+  * [Testnet Faucet](https://testnet.faucet.injective.network)
+  * [Chain API Reference](https://sentry.lcd.injective.network/swagger/#/)
+  * [TypeScript SDK Documentation](https://docs.ts.injective.network)
 
 * [EVM Developers](developers-evm/README.md)
   * [Your First Smart Contract](developers-evm/your-first-smart-contract.md)
@@ -106,6 +117,7 @@
   * [Provider Oracle](developers-defi/provider-oracle.md)
   * [Liquidity Provision](developers-defi/liquidity-provision.md)
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
+  * [Exchange API Reference](https://api.injective.exchange/)
 
 * [Native Developers](developers-native/README.md)
   * [Injective Module](developers-native/injective/README.md)

@@ -1,3 +1,8 @@
-# DeFi Users
+---
+description: >-
+  This section helps traders to learn more about trading instruments and start
+  trading on Injective
+---
 
-(WIP)
+# Getting Started
+
