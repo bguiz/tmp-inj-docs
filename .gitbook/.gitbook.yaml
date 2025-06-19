@@ -1,5 +1,9 @@
 root: ./
 
+structure:
+  readme: ./README.md
+  summary: ./SUMMARY.md
+
 redirects:
   develop/public-endpoints: nodes/public-endpoints.md
   getting-started: README.md
@@ -154,6 +158,8 @@ redirects:
   developers/modules/core/upgrade: developers-native/core/upgrade/README.md
   developers/modules/core/circuit: developers-native/core/circuit/README.md
   developers/modules/core/genutils: developers-native/core/genutils.md
+  developers-defi/wallet: defi/wallet/README.md
+  developers-defi/tokens: defi/tokens/README.md
   guides/launch-a-token: developers-defi/token-launch.md
   guides/launch-a-market: developers-defi/market-launch.md
   guides/denom-metadata: developers-defi/denom-and-bank.md

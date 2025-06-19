@@ -246,8 +246,8 @@ git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 # TODO current --- ---
 
 mkdir -p developers-defi/
-echo -e "# Query\n\n(WIP)" > developers-defi/query.md
-echo -e "# Transaction\n\n(WIP)" > developers-defi/transaction.md
+# echo -e "# Query\n\n(WIP)" > developers-defi/query.md
+# echo -e "# Transaction\n\n(WIP)" > developers-defi/transaction.md
 git mv guides/launch-a-token.md developers-defi/token-launch.md
 git mv guides/launch-a-market.md developers-defi/market-launch.md
 git mv guides/denom-metadata.md developers-defi/denom-and-bank.md

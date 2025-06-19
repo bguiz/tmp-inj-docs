@@ -1,3 +1,3 @@
-Set up Indexer
+# Set up Indexer
 
 (WIP)

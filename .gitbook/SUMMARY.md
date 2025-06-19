@@ -1,10 +1,7 @@
-# Table of contents
+# Injective
 
 * [About Injective](README.md)
 * [Injective FAQ](faq.md)
-
-## DeFi
-
 * [DeFi](defi/README.md)
   * [Wallet](defi/wallet/README.md)
     * [Create a wallet](defi/wallet/create.md)
@@ -25,9 +22,6 @@
   * [Queries](defi/queries.md)
   * [Transactions](defi/transactions.md)
   * [Transaction Gas and Fees](defi/transaction-fees.md)
-
-## Infrastructure
-
 * [Infrastructure](infra/README.md)
   * [Networks](infra/networks.md)
   * [Command Line Node Interaction](infra/interact-node-command-line.md)
@@ -70,22 +64,11 @@
   * [Premium Endpoints](infra/premium-endpoints.md)
   * [Set up Indexer](infra/indexer-setup.md)
   * [FAQ](infra/faq.md)
-
-## DeFi Developers
-
-* [DeFi Developers](developers-defi/README.md)
-  * [Wallet](defi/wallet/README.md)
-  * [Token Standards](defi/tokens/README.md)
-  * [Query](developers-defi/query.md)
-  * [Transaction](developers-defi/transaction.md)
-  * [Get INJ](defi/tokens/get-inj.md)
+* [Developers DeFi](developers-defi/README.md)
   * [Launch a Token](developers-defi/token-launch.md)
   * [Launch a Market](developers-defi/market-launch.md)
   * [Denom Metadata](developers-defi/denom-and-bank.md)
   * [Liquidity Provision](developers-defi/liquidity-provision.md)
-
-## Native Developers
-
 * [Native Developers](developers-native/README.md)
   * [Injective Module](developers-native/injective/README.md)
     * [Auction](developers-native/injective/auction/README.md)
@@ -189,80 +172,3 @@
     * [Upgrade](developers-native/core/upgrade/README.md)
     * [Circuit](developers-native/core/circuit/README.md)
     * [Genutils](developers-native/core/genutils.md)
-
-## Guides
-
-* [Guides](guides/README.md)
-  * [Launch a Token](guides/launch-a-token.md)
-  * [Launch a Market](guides/launch-a-market.md)
-  * [Denom Metadata](guides/denom-metadata.md)
-* [Toolkits](toolkits/README.md)
-  * [injectived](toolkits/injectived/README.md)
-    * [Install injectived](toolkits/injectived/install-injectived.md)
-    * [Using injectived](toolkits/injectived/using-injectived.md)
-    * [Commands](toolkits/injectived/advanced.md)
-  * [Injective TS SDK](https://docs.ts.injective.network)
-  * [Injective Go SDK](https://github.com/InjectiveLabs/sdk-go/)
-  * [Injective Python SDK](https://github.com/InjectiveLabs/sdk-python)
-  * [Injective CW SDK](https://github.com/InjectiveLabs/cw-injective)
-  * [Injective Rust](https://github.com/InjectiveLabs/injective-rust)
-  * [The Graph](https://docs.substreams.dev/documentation/how-to-guides/injective)
-* [References](references.md)
-* [Glossary](glossary.md)
-* [llm.txt](llm.txt.md)
-
-## Developers
-
-* [Getting Started](developers/getting-started/README.md)
-  * [Guides](developers/getting-started/guides/README.md)
-    * [Testnet Proposals](developers/getting-started/guides/testnet-proposals.md)
-    * [Convert addresses](developers/getting-started/guides/convert-addresses.md)
-    * [Calculations](developers/getting-started/guides/calculations/README.md)
-      * [Min Price Tick Size](developers/getting-started/guides/calculations/min-price-tick-size.md)
-      * [Min Quantity Tick Size](developers/getting-started/guides/calculations/min-quantity-tick-size.md)
-    * [Testnet Faucet Integration](developers/getting-started/guides/testnet-faucet-integration.md)
-* [Exchange Developers](developers/exchange-developers/README.md)
-  * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
-  * [Provider Oracle](developers/exchange-developers/provider-oracle.md)
-* [EVM Developers](developers/evm-developers.md)
-  * [Your First Smart Contract](developers/evm-developers/your-first-smart-contract.md)
-  * [Guides](developers/evm-developers/guides/README.md)
-    * [Testnet Deployment](developers/evm-developers/guides/testnet-deployment.md)
-  * [Technical Information](developers/evm-developers/technical-information/README.md)
-    * [Network Information](developers/evm-developers/technical-information/network-information.md)
-    * [EVM Equivalence](developers/evm-developers/technical-information/evm-equivalence.md)
-    * [MultiVM Token Standard](developers/evm-developers/technical-information/multivm-token-standard.md)
-    * [Precompiles](developers/evm-developers/technical-information/precompiles/README.md)
-      * [Bank Precompile](developers/evm-developers/technical-information/precompiles/bank-precompile.md)
-      * [Exchange Precompile](developers/evm-developers/technical-information/precompiles/exchange-precompile.md)
-    * [ERC20 Module](developers/evm-developers/technical-information/erc20-module.md)
-    * [Infrastructure & Tooling](developers/evm-developers/technical-information/infrastructure-and-tooling.md)
-  * [EVM Testnet Faucet](https://testnet.faucet.injective.network/)
-  * [EVM Testnet Explorer](https://testnet.blockscout.injective.network/blocks)
-* [Cosmwasm Developers](developers/cosmwasm-developers/README.md)
-  * [Your First Smart Contract](developers/cosmwasm-developers/your-first-smart-contract.md)
-  * [Guides](developers/cosmwasm-developers/guides/README.md)
-    * [Local Development](developers/cosmwasm-developers/guides/local-development.md)
-    * [Mainnet Deployment](developers/cosmwasm-developers/guides/mainnet-deployment.md)
-    * [Whitelisting deployment address](developers/cosmwasm-developers/guides/whitelisting-deployment-address.md)
-    * [Create your Swap Contract](developers/cosmwasm-developers/guides/create-your-swap-contract.md)
-    * [Creating UIs](developers/cosmwasm-developers/guides/creating-uis.md)
-  * [Using Injective Queries and Messages](developers/cosmwasm-developers/cosmwasm-any.md)
-  * [CW20 Adapter](developers/cosmwasm-developers/page-1.md)
-  * [Injective Test Tube](developers/cosmwasm-developers/injective-test-tube.md)
-* [dApps Documentation](https://docs.ts.injective.network)
-
-## Traders
-
-* [Getting Started](traders/getting-started.md)
-* [Documentation](https://docs.trading.injective.network)
-* [API Reference](https://api.injective.exchange/)
-
-## Useful Links
-
-* [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
-* [Injective Hub](https://hub.injective.network)
-* [Injective Explorer](https://explorer.injective.network)
-* [Chain API Reference](https://sentry.lcd.injective.network/swagger/#/)
-* [Indexer API Reference](https://api.injective.network/swagger/#/)
-* [Testnet Faucet](https://testnet.faucet.injective.network)

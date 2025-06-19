@@ -1,3 +1,3 @@
-DeFi FAQ
+# DeFi FAQ
 
 (WIP)
