@@ -271,6 +271,25 @@ git mv developers/cosmwasm-developers/page-1.md developers-cosmwasm/cw20-adapter
 git mv developers/cosmwasm-developers/injective-test-tube.md developers-cosmwasm/injective-test-tube.md
 rm -r developers/cosmwasm-developers
 
+# TODO current --- ---
+mkdir -p developers-evm/
+git mv developers/evm-developers.md developers-evm/README.md
+git mv developers/evm-developers/your-first-smart-contract.md developers-evm/your-first-smart-contract.md
+git rm developers/evm-developers/guides/README.md
+git mv developers/evm-developers/guides/testnet-deployment.md developers-evm/testnet-deployment.md
+git rm developers/evm-developers/technical-information/README.md
+git mv developers/evm-developers/technical-information/network-information.md developers-evm/network-information.md
+git mv developers/evm-developers/technical-information/evm-equivalence.md developers-evm/evm-equivalence.md
+git mv developers/evm-developers/technical-information/multivm-token-standard.md developers-evm/multivm-token-standard.md
+git mv developers/evm-developers/technical-information/precompiles/README.md developers-evm/precompiles.md
+git mv developers/evm-developers/technical-information/precompiles/bank-precompile.md developers-evm/bank-precompile.md
+git mv developers/evm-developers/technical-information/precompiles/exchange-precompile.md developers-evm/exchange-precompile.md
+git mv developers/evm-developers/technical-information/erc20-module.md developers-evm/erc20-module.md
+git mv developers/evm-developers/technical-information/infrastructure-and-tooling.md developers-evm/infrastructure-and-tooling.md
+#   * [EVM Testnet Faucet](https://testnet.faucet.injective.network/)
+#   * [EVM Testnet Explorer](https://testnet.blockscout.injective.network/blocks)
+# rm -r developers/evm-developers/
+
 ## TODO continue from here --- ---
 
 git mv https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/ https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/

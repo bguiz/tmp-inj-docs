@@ -176,3 +176,16 @@ redirects:
   developers/cosmwasm-developers/cosmwasm-any: developers-cosmwasm/cosmwasm-any.md
   developers/cosmwasm-developers/page-1: developers-cosmwasm/cw20-adapter.md
   developers/cosmwasm-developers/injective-test-tube: developers-cosmwasm/injective-test-tube.md
+  developers/evm-developers: developers-evm/README.md
+  developers/evm-developers/your-first-smart-contract: developers-evm/your-first-smart-contract.md
+  developers/evm-developers/guides: developers-evm/testnet-deployment.md
+  developers/evm-developers/guides/testnet-deployment: developers-evm/testnet-deployment.md
+  developers/evm-developers/technical-information: developers-evm/network-information.md
+  developers/evm-developers/technical-information/network-information: developers-evm/network-information.md
+  developers/evm-developers/technical-information/evm-equivalence: developers-evm/evm-equivalence.md
+  developers/evm-developers/technical-information/multivm-token-standard: developers-evm/multivm-token-standard.md
+  developers/evm-developers/technical-information/precompiles: developers-evm/precompiles.md
+  developers/evm-developers/technical-information/precompiles/bank-precompile: developers-evm/bank-precompile.md
+  developers/evm-developers/technical-information/precompiles/exchange-precompile: developers-evm/exchange-precompile.md
+  developers/evm-developers/technical-information/erc20-module: developers-evm/erc20-module.md
+  developers/evm-developers/technical-information/infrastructure-and-tooling: developers-evm/infrastructure-and-tooling.md
