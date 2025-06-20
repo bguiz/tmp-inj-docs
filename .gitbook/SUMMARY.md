@@ -1,10 +1,12 @@
-# Injective
+# Summary
 
 * [About Injective](README.md)
 * [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
 * [Injective FAQ](faq.md)
 * [Glossary](glossary.md)
 * [References](references.md)
+
+----
 
 * [DeFi](defi/README.md)
   * [Wallet](defi/wallet/README.md)
@@ -26,10 +28,10 @@
   * [Queries](defi/queries.md)
   * [Transactions](defi/transactions.md)
   * [Transaction Gas and Fees](defi/transaction-fees.md)
+  * [FAQ](defi/faq.md)
   * [Trading Documentation](https://docs.trading.injective.network)
   * [Injective Hub](https://hub.injective.network)
   * [Injective Explorer](https://explorer.injective.network)
-
 
 * [Infrastructure](infra/README.md)
   * [Networks](infra/networks.md)
@@ -74,6 +76,8 @@
   * [Set up Indexer](infra/indexer-setup.md)
   * [Indexer API Reference](https://api.injective.network/swagger/#/)
   * [FAQ](infra/faq.md)
+
+----
 
 * [Developers](developers/README.md)
   * [Testnet Proposals](developers/testnet-proposals.md)
