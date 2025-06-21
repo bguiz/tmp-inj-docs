@@ -37,9 +37,9 @@
   <!-- * [Networks](infra/networks.md) -->
   * [Command Line Node Interaction](infra/interact-node-command-line.md)
   * [gRPC Node Interaction](infra/interact-node-grpc.md)
-  * [TypeScript Node Interaction](infra/interact-node-typescript.md)
-  * [Python Node Interaction](infra/interact-node-python.md)
   * [Go Node Interaction](infra/interact-node-go.md)
+  <!-- * [TypeScript Node Interaction](infra/interact-node-typescript.md) -->
+  <!-- * [Python Node Interaction](infra/interact-node-python.md) -->
   * [REST Node Interaction](infra/interact-node-rest.md)
   * [Run Node](infra/run-node.md)
   * [Set up Keyring](infra/set-up-keyring.md)
