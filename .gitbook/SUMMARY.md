@@ -2,7 +2,7 @@
 
 * [About Injective](README.md)
 * [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
-* [Injective FAQ](faq.md)
+<!-- * [Injective FAQ](faq.md) -->
 * [Glossary](glossary.md)
 * [References](references.md)
 
@@ -19,22 +19,22 @@
     * [INJ coin](defi/tokens/inj-coin.md)
     * [Token Factory](defi/tokens/token-factory.md)
     * [CW20 Standard](defi/tokens/cw20-standard.md)
-    * [Get INJ](defi/tokens/get-inj.md)
+    <!-- * [Get INJ](defi/tokens/get-inj.md) -->
   * [Bridge](defi/bridge/README.md)
     * [From Ethereum](https://blog.injective.com/en/how-to-bridge-from-ethereum-to-injective-using-metamask/)
     * [From Solana](https://blog.injective.com/en/how-to-bridge-from-solana-to-injective-using-phantom/)
     * [Using Wormhole](https://blog.injective.com/en/how-to-bridge-to-injective-using-wormhole/)
     * [Using IBC](https://blog.injective.com/en/how-to-bridge-from-cosmos-to-injective-using-keplr/)
-  * [Queries](defi/queries.md)
+  <!-- * [Queries](defi/queries.md) -->
   * [Transactions](defi/transactions.md)
   * [Transaction Gas and Fees](defi/transaction-fees.md)
-  * [FAQ](defi/faq.md)
+  <!-- * [FAQ](defi/faq.md) -->
   * [Trading Documentation](https://docs.trading.injective.network)
   * [Injective Hub](https://hub.injective.network)
   * [Injective Explorer](https://explorer.injective.network)
 
 * [Infrastructure](infra/README.md)
-  * [Networks](infra/networks.md)
+  <!-- * [Networks](infra/networks.md) -->
   * [Command Line Node Interaction](infra/interact-node-command-line.md)
   * [gRPC Node Interaction](infra/interact-node-grpc.md)
   * [TypeScript Node Interaction](infra/interact-node-typescript.md)
@@ -73,9 +73,9 @@
     * [Peggo](infra/validator-testnet/peggo.md)
   * [Public Endpoints](infra/public-endpoints.md)
   * [Premium Endpoints](infra/premium-endpoints.md)
-  * [Set up Indexer](infra/indexer-setup.md)
+  <!-- * [Set up Indexer](infra/indexer-setup.md) -->
   * [Indexer API Reference](https://api.injective.network/swagger/#/)
-  * [FAQ](infra/faq.md)
+  <!-- * [FAQ](infra/faq.md) -->
 
 ----
 
@@ -128,7 +128,7 @@
   * [Launch a Market](developers-defi/market-launch.md)
   * [Denom Metadata](developers-defi/denom-and-bank.md)
   * [Provider Oracle](developers-defi/provider-oracle.md)
-  * [Liquidity Provision](developers-defi/liquidity-provision.md)
+  <!-- * [Liquidity Provision](developers-defi/liquidity-provision.md) -->
   * [Build a DEX](https://docs.ts.injective.network/building-dapps/dapps-examples/dex)
   * [Exchange API Reference](https://api.injective.exchange/)
 
