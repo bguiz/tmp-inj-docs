@@ -2,4 +2,4 @@
 
 You can use the `injectived` CLI to interact with a node. If you are interacting with a node in your local private network, make sure the node is running in the terminal before you use the CLI.
 
-For more details on how to use `injectived`, go to [using-injectived.md](developers/injectived/using-injectived.md "mention").
+For more details on how to use `injectived`, see [using injectived](../developers/injectived/using-injectived.md "mention").
