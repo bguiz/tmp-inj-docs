@@ -1,7 +1,7 @@
 # Summary
 
 * [About Injective](README.md)
-* [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4)
+<!-- * [Injective 101](https://injective.notion.site/Injective-d48cbe6cb04141e082ff2c85a73ba67a?pvs=4) -->
 <!-- * [Injective FAQ](faq.md) -->
 * [Glossary](glossary.md)
 * [References](references.md)
