@@ -159,6 +159,10 @@ redirects:
   developers/modules/core/circuit: developers-native/core/circuit/README.md
   developers/modules/core/genutils: developers-native/core/genutils.md
   developers/exchange-developers: developers-defi/README.md
+  developers/getting-started/guides/calculations: developers-defi/calculate-min-price-tick-size.md
+  developers/getting-started/guides/calculations/min-price-tick-size: developers-defi/calculate-min-price-tick-size.md
+  developers/getting-started/guides/calculations/min-quantity-tick-size: developers-defi/min-quantity-tick-size.md
+  developers/getting-started/guides/testnet-faucet-integration: developers-defi/testnet-faucet-integration.md
   guides/launch-a-token: developers-defi/token-launch.md
   guides/launch-a-market: developers-defi/market-launch.md
   guides/denom-metadata: developers-defi/denom-and-bank.md
@@ -191,10 +195,6 @@ redirects:
   developers/getting-started/guides: developers/testnet-proposals.md
   developers/getting-started/guides/testnet-proposals: developers/testnet-proposals.md
   developers/getting-started/guides/convert-addresses: developers/convert-addresses.md
-  developers/getting-started/guides/calculations: developers/calculate-min-price-tick-size.md
-  developers/getting-started/guides/calculations/min-price-tick-size: developers/calculate-min-price-tick-size.md
-  developers/getting-started/guides/calculations/min-quantity-tick-size: developers/min-quantity-tick-size.md
-  developers/getting-started/guides/testnet-faucet-integration: developers/testnet-faucet-integration.md
   toolkits: developers/injectived/README.md
   toolkits/injectived: developers/injectived/README.md
   toolkits/injectived/install-injectived: developers/injectived/install-injectived.md

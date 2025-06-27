@@ -245,6 +245,9 @@ git mv developers/modules/core/genutils.md developers-native/core/genutils.md
 
 mkdir -p developers-defi/
 git mv developers/exchange-developers/README.md developers-defi/README.md
+git mv developers/getting-started/guides/calculations/min-price-tick-size.md developers-defi/calculate-min-price-tick-size.md
+git mv developers/getting-started/guides/calculations/min-quantity-tick-size.md developers-defi/min-quantity-tick-size.md
+git mv developers/getting-started/guides/testnet-faucet-integration.md developers-defi/testnet-faucet-integration.md
 # echo -e "# Query\n\n(WIP)" > developers-defi/query.md
 # echo -e "# Transaction\n\n(WIP)" > developers-defi/transaction.md
 git mv guides/launch-a-token.md developers-defi/token-launch.md
@@ -293,7 +296,4 @@ git rm developers/getting-started/guides/README.md
 git mv developers/getting-started/guides/testnet-proposals.md developers/testnet-proposals.md
 git mv developers/getting-started/guides/convert-addresses.md developers/convert-addresses.md
 git rm developers/getting-started/guides/calculations/README.md
-git mv developers/getting-started/guides/calculations/min-price-tick-size.md developers/calculate-min-price-tick-size.md
-git mv developers/getting-started/guides/calculations/min-quantity-tick-size.md developers/min-quantity-tick-size.md
-git mv developers/getting-started/guides/testnet-faucet-integration.md developers/testnet-faucet-integration.md
 rm -r developers/getting-started/
