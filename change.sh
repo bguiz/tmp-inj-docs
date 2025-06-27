@@ -2,6 +2,8 @@
 # Refactor injective docs for consolidation across
 # docs.* docs.ts.* and docs.trading.* subdomains
 
+git mv .gitbook/assets/start-ehro.png .gitbook/assets/start-hero.png
+
 # git mv README.md README.md
 # TODO edit to add directory links
 echo -e "# Injective FAQ\n\n(WIP)" > faq.md
