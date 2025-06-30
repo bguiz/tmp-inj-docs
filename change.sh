@@ -21,9 +21,9 @@ mkdir -p defi/wallet
 git mv getting-started/wallet/README.md defi/wallet/README.md
 git mv getting-started/wallet/create-a-wallet.md defi/wallet/create.md
 git mv getting-started/wallet/accounts.md defi/wallet/accounts.md
-git mv getting-started/wallet/staking.md defi/wallet/staking.md
-git mv getting-started/wallet/governance.md defi/wallet/governance.md
-git mv getting-started/wallet/auction.md defi/wallet/auction.md
+git mv getting-started/wallet/staking.md defi/staking.md
+git mv getting-started/wallet/governance.md defi/governance.md
+git mv getting-started/wallet/auction.md defi/auction.md
 mkdir -p defi/bridge
 git mv guides/bridge/README.md defi/bridge/README.md
 # TODO discuss whether these bridge pages should be moved into

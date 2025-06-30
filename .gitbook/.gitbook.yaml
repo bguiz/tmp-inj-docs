@@ -10,9 +10,9 @@ redirects:
   getting-started/wallet: defi/wallet/README.md
   getting-started/wallet/create-a-wallet: defi/wallet/create.md
   getting-started/wallet/accounts: defi/wallet/accounts.md
-  getting-started/wallet/staking: defi/wallet/staking.md
-  getting-started/wallet/governance: defi/wallet/governance.md
-  getting-started/wallet/auction: defi/wallet/auction.md
+  getting-started/wallet/staking: defi/staking.md
+  getting-started/wallet/governance: defi/governance.md
+  getting-started/wallet/auction: defi/auction.md
   guides/bridge: defi/bridge/README.md
   getting-started/token-standards: defi/tokens/README.md
   getting-started/token-standards/inj-coin: defi/tokens/inj-coin.md
