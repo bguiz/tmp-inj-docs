@@ -3,6 +3,7 @@
 # docs.* docs.ts.* and docs.trading.* subdomains
 
 git mv .gitbook/assets/start-ehro.png .gitbook/assets/start-hero.png
+git mv ".gitbook/assets/wallet-hero (1).png" .gitbook/assets/wallet-hero-2.png
 
 # git mv README.md README.md
 # TODO edit to add directory links
